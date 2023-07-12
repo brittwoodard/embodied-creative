@@ -408,9 +408,43 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.bg-yellow-400 {
+.bg-image-style {
   --tw-bg-opacity: 1;
-  background-color: rgb(250 204 21 / var(--tw-bg-opacity));
+  background-color: rgb(156 159 141 / var(--tw-bg-opacity));
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.grid {
+  display: grid;
+}
+.h-\[60vh\] {
+  height: 60vh;
+}
+.min-h-full {
+  min-height: 100%;
+}
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.grid-cols-3 {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.gap-4 {
+  gap: 1rem;
+}
+.border {
+  border-width: 1px;
+}
+.border-black {
+  --tw-border-opacity: 1;
+  border-color: rgb(39 39 39 / var(--tw-border-opacity));
+}
+.border-feature {
+  --tw-border-opacity: 1;
+  border-color: rgb(153 107 76 / var(--tw-border-opacity));
+}
+.lowercase {
+  text-transform: lowercase;
 }
 
 

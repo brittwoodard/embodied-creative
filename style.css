@@ -8,11 +8,13 @@
 
 @layer base {
 
-  }
+}
 
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 @layer components {
-
+    .bg-image-style {
+        @apply bg-dark bg-cover bg-no-repeat
+    }
 }
