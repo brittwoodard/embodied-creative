@@ -1,12 +1,19 @@
+---
+layout: default
+---
+
 <nav>
     <a href="/index.html" class="lowercase">Samkalpa.</a>
 </nav>
 
 <!-- Gallery -->
-<section class="grid col-span-3 gap-4">
-    {% for item in site.projects %}
-    <div class="bg-image-style">
-        <img src="{{page.gallery.image}}">
+{% include portfolio-gallery.html %}
+
+<!-- Approach -->
+<section>
+    <h2>Project Approach</h2>
+    <div>
+        <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem doloremque laudantium, totam rem aperiam, eaque ipsa quae nventore veritatis et quasi architecto beatae vitae dicta sunt. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut fugit, sed quia consequuntur magni dolores eos qui ratione sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum sit amet, consectetur, adipisci velit, sed quia non numquam eius </p>
     </div>
-    {% endfor %}
+    <a href="#">View the site live</a>
 </section>
