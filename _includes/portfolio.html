@@ -1,0 +1,9 @@
+<section>
+    <h2 class="lowercase">Portfolio.</h2>
+    <div class="grid grid-cols-4 gap-4">
+        {% for item in site.projects %}
+        <div class="bg-image-style h-[60vh] border border-black"
+            style="background-image: url('{{item.featured-image}}');"></div>
+        {% endfor %}
+    </div>
+</section>

@@ -14,65 +14,14 @@ seo:
   hide-from-google: true
 ---
 
-<!-- Header -->
-<header class="min-h-full">
-  <h1>{{page.header.heading}}</h1>
-  <p>{{page.header.description_html}}</p>
-</header>
+<!-- Hero Banner -->
+{% include hero-banner.html %}
 
 <!-- Portfolio -->
-<section>
-  <h2 class="lowercase">Portfolio.</h2>
-  <div class="grid grid-cols-4 gap-4">
-    {% for item in site.projects %}
-      <div class="bg-image-style h-[60vh] border border-black" style="background-image: url('{{item.featured-image}}');"></div>
-    {% endfor %}
-  </div>
-</section>
+{% include portfolio.html %}
 
 <!-- About -->
-<section>
-  <h2 class="lowercase">{{page.about-section.heading}}</h2>
-  <div class="border border-feature">{{page.about-section.description}}</div>
-  <div class="grid grid-cols-3">
-    {% for item in site.data.faq-settings.features %}
-		<div>
-			<h3>{{item.feature}}</h3>
-			<p>{{item.description}}</p>
-		</div>
-		{% endfor %}
-  </div>
-  <a href="#" class="button">Pricing</a>
-</section>
+{% include about.html %}
 
 <!-- FAQ Section -->
-<section class="p-10p">
-	<h2 class="lowercase border-b border-dark">FAQ's</h2>
-	<ul>
-		{% for item in site.data.faq-settings.faq %}
-		<li x-data="{ open: false }" class="border-b border-dark my-8">
-			<button @click="open = ! open" class="flex justify-between w-full">
-				<h3>{{item.question}}</h3>
-				
-				<span><svg x-show="!open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right"><polyline points="9 18 15 12 9 6"/></svg>
-				
-				<svg x-show="open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down"><polyline points="6 9 12 15 18 9"/></svg></span>
-			</button>
-			<div x-show="open" @click.outside="open = false">
-				<p class="mb-8">{{item.answer}}</p>
-			</div>
-		</li>
-		{% endfor %}
-	</ul>
-  <a href="#" class="button">Connect to Learn More</a>
-</section>
-
-<!-- Footer -->
-<footer>
-  <span>samkalpa.</span>
-  <nav>
-    <a href="#">Contact.</a>
-    <a href="#">Connect to get started.</a>
-    <a href="#">Privacy Policy.</a>
-  </nav>
-</footer>
+{% include faq.html %}

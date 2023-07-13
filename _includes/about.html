@@ -1,0 +1,13 @@
+<section>
+    <h2 class="lowercase">{{page.about-section.heading}}</h2>
+    <div class="border border-feature">{{page.about-section.description}}</div>
+    <div class="grid grid-cols-3">
+        {% for item in site.data.faq-settings.features %}
+        <div>
+            <h3>{{item.feature}}</h3>
+            <p>{{item.description}}</p>
+        </div>
+        {% endfor %}
+    </div>
+    <a href="#" class="button">Pricing</a>
+</section>
