@@ -5,3 +5,10 @@ features:
     description: Lorem ipsum
   - feature: Easy to Maintain
     description: Lorem ipsum
+faq: 
+  - question: What happens if the initial design proposal doesn’t align with my vision or effectively represent my brand?
+    answer: Answerd the question
+  - question: Can I make edits and updates to my website myself, or will I need to hire a web developer whenever I want to make changes to my site?
+    answer: What are the advantages of choosing a custom coded website over platforms like WordPress templates, Squarespace, or Wix?
+  - question: What is the process from start to finish?
+    answer: Answerd the question
