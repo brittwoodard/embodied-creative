@@ -473,6 +473,9 @@ video {
 .min-h-full {
   min-height: 100%;
 }
+.min-h-\[40vh\] {
+  min-height: 40vh;
+}
 .w-full {
   width: 100%;
 }
