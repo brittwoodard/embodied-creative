@@ -1,7 +1,7 @@
 ---
 layout: project
-slug: whole-body-wellness
-title: Whole Body Wellness
+slug: vedic-kitchen
+title: Vedic Kitchen
 description: 
 featured-image: /images/samkalpa-portfolio1.jpg
 gallery: 

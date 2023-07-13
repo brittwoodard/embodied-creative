@@ -1,0 +1,12 @@
+<nav>
+    <a href="/index.html" class="lowercase">Samkalpa.</a>
+</nav>
+
+<!-- Gallery -->
+<section class="grid col-span-3 gap-4">
+    {% for item in site.projects %}
+    <div class="bg-image-style">
+        <img src="{{page.gallery.image}}">
+    </div>
+    {% endfor %}
+</section>

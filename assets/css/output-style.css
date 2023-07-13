@@ -414,6 +414,9 @@ video {
   background-size: cover;
   background-repeat: no-repeat;
 }
+.col-span-3 {
+  grid-column: span 3 / span 3;
+}
 .my-8 {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -444,6 +447,9 @@ video {
 }
 .justify-between {
   justify-content: space-between;
+}
+.gap-4 {
+  gap: 1rem;
 }
 .border {
   border-width: 1px;
