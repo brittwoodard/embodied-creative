@@ -1,7 +1,7 @@
 <!-- Portfolio Loop -->
 <section>
     <h2>Portfolio.</h2>
-    <div class="grid grid-cols-4">
+    <div class="grid grid-cols-3 gap-4 overflow-x-auto">
         {% for item in site.projects %}
         <a href="{{item.url}}">
             <div class="bg-image-style min-h-[40vh]" style="background-image: url('{{item.featured-image}}');"></div>
