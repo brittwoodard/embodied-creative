@@ -29,6 +29,10 @@ footer span {
     @apply text-[20vw] font-heading text-h-light opacity-20
 }
 
+footer a {
+    @apply lowercase pb-2 border-b border-black
+}
+
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 @layer components {
