@@ -9,7 +9,7 @@ module.exports = {
     theme: {
       fontFamily: {
         sans: ['Montserrat', 'sans-serif'],
-        serif: ['Italiana', 'serif'],
+        heading: ['postureregular', 'sans-serif'],
       },
       extend: {
         spacing: {
@@ -33,6 +33,9 @@ module.exports = {
         colors: {
           'black': '#272727',
           'dark': '#9C9F8D',
+          'light': '#FDFDFD',
+          'medium': '#F5F3F1',
+          'h-light': '#DDDCDB',
           'feature': '#996B4C',
         }
       },

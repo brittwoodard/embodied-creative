@@ -408,11 +408,20 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.link {
+  border-bottom-width: 1px;
+  padding-bottom: 0.5rem;
+  font-family: postureregular, sans-serif;
+  text-transform: lowercase;
+}
 .bg-image-style {
   --tw-bg-opacity: 1;
   background-color: rgb(156 159 141 / var(--tw-bg-opacity));
   background-size: cover;
   background-repeat: no-repeat;
+}
+.relative {
+  position: relative;
 }
 .col-span-3 {
   grid-column: span 3 / span 3;
@@ -433,8 +442,8 @@ video {
 .min-h-\[40vh\] {
   min-height: 40vh;
 }
-.min-h-full {
-  min-height: 100%;
+.min-h-\[90vh\] {
+  min-height: 90vh;
 }
 .w-full {
   width: 100%;
@@ -444,6 +453,15 @@ video {
 }
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.items-center {
+  align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-center {
+  justify-content: center;
 }
 .justify-between {
   justify-content: space-between;
@@ -465,11 +483,41 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(153 107 76 / var(--tw-border-opacity));
 }
+.bg-dark {
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 159 141 / var(--tw-bg-opacity));
+}
 .p-10p {
   padding: 10%;
 }
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+.px-5p {
+  padding-left: 5%;
+  padding-right: 5%;
+}
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.py-5p {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.align-middle {
+  vertical-align: middle;
+}
+.text-\[1\.3rem\] {
+  font-size: 1.3rem;
+}
 .lowercase {
   text-transform: lowercase;
+}
+.text-h-light {
+  --tw-text-opacity: 1;
+  color: rgb(221 220 219 / var(--tw-text-opacity));
 }
 
 @font-face {
@@ -482,7 +530,16 @@ video {
 
 /* ----------- Default Styles to apply to the whole project  --------- */
 
-h1 {font-family: 'postureregular', 'serif';}
+h1, h2 {
+  font-family: postureregular, sans-serif;
+}
+
+h1 {
+  font-size: 20vw;
+  line-height: 1em;
+  --tw-text-opacity: 1;
+  color: rgb(221 220 219 / var(--tw-text-opacity));
+}
 
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */

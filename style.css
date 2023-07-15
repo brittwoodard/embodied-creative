@@ -17,12 +17,22 @@
 
 }
 
-h1 {font-family: 'postureregular', 'serif';}
+h1, h2 {
+    @apply font-heading
+}
+
+h1 {
+    @apply text-h-light text-[20vw] leading-[1em]
+}
 
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 @layer components {
+    .link {
+        @apply border-b font-heading pb-2 lowercase
+    }
+
     .bg-image-style {
         @apply bg-dark bg-cover bg-no-repeat
     }
