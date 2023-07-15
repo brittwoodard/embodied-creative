@@ -420,9 +420,6 @@ video {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.relative {
-  position: relative;
-}
 .col-span-3 {
   grid-column: span 3 / span 3;
 }
@@ -450,9 +447,6 @@ video {
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
-}
-.grid-cols-4 {
-  grid-template-columns: repeat(4, minmax(0, 1fr));
 }
 .items-center {
   align-items: center;
@@ -505,9 +499,8 @@ video {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.py-5p {
-  padding-top: 5%;
-  padding-bottom: 5%;
+.text-center {
+  text-align: center;
 }
 .align-middle {
   vertical-align: middle;
@@ -544,5 +537,12 @@ h1 {
   color: rgb(221 220 219 / var(--tw-text-opacity));
 }
 
+footer span {
+  font-family: postureregular, sans-serif;
+  font-size: 20vw;
+  --tw-text-opacity: 1;
+  color: rgb(221 220 219 / var(--tw-text-opacity));
+  opacity: 0.2;
+}
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */

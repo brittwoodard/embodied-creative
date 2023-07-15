@@ -25,6 +25,9 @@ h1 {
     @apply text-h-light text-[20vw] leading-[1em]
 }
 
+footer span {
+    @apply text-[20vw] font-heading text-h-light opacity-20
+}
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
