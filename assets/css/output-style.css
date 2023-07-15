@@ -472,8 +472,17 @@ video {
   text-transform: lowercase;
 }
 
+@font-face {
+    font-family: 'postureregular';
+    src: url('/posture-webfont.woff2') format('woff2'),
+         url('/posture-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 /* ----------- Default Styles to apply to the whole project  --------- */
+
+h1 {font-family: 'postureregular', 'serif';}
 
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
