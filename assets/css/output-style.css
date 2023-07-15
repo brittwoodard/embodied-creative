@@ -460,11 +460,17 @@ video {
 .min-h-\[90vh\] {
   min-height: 90vh;
 }
+.min-h-\[80vh\] {
+  min-height: 80vh;
+}
 .w-full {
   width: 100%;
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.content-center {
+  align-content: center;
 }
 .items-center {
   align-items: center;
