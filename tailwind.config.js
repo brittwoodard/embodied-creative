@@ -37,6 +37,7 @@ module.exports = {
           'medium': '#F5F3F1',
           'h-light': '#DDDCDB',
           'feature': '#996B4C',
+          'transparent': 'transparent',
         }
       },
     },

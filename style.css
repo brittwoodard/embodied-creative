@@ -67,4 +67,8 @@ footer a {
     .overflow-heading {
         @apply text-[18vw] text-clip overflow-hidden whitespace-nowrap text-center
     }
+
+    .transparent {
+        @apply text-transparent
+    }
 }

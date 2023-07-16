@@ -456,6 +456,9 @@ video {
   text-align: center;
   font-size: 18vw;
 }
+.transparent {
+  color: transparent;
+}
 .relative {
   position: relative;
 }
@@ -465,35 +468,11 @@ video {
 .left-\[-1\%\] {
   left: -1%;
 }
-.left-1 {
-  left: 0.25rem;
-}
-.top-36 {
-  top: 9rem;
+.left-\[-24rem\] {
+  left: -24rem;
 }
 .top-\[-15rem\] {
   top: -15rem;
-}
-.left-\[10rem\] {
-  left: 10rem;
-}
-.top-\[10rem\] {
-  top: 10rem;
-}
-.left-\[-20rem\] {
-  left: -20rem;
-}
-.top-\[-16rem\] {
-  top: -16rem;
-}
-.left-\[-00rem\] {
-  left: -00rem;
-}
-.left-\[-10rem\] {
-  left: -10rem;
-}
-.left-\[-24rem\] {
-  left: -24rem;
 }
 .z-0 {
   z-index: 0;
@@ -529,17 +508,12 @@ video {
 .w-full {
   width: 100%;
 }
-.rotate-180 {
-  --tw-rotate: 180deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
-.rotate-90 {
-  --tw-rotate: 90deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-}
 .-rotate-90 {
   --tw-rotate: -90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.list-none {
+  list-style-type: none;
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -591,9 +565,6 @@ video {
 .p-10p {
   padding: 10%;
 }
-.p-10 {
-  padding: 2.5rem;
-}
 .p-5p {
   padding: 5%;
 }
@@ -609,16 +580,16 @@ video {
   padding-top: 10%;
   padding-bottom: 10%;
 }
-.py-8 {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
 .py-5p {
   padding-top: 5%;
   padding-bottom: 5%;
 }
-.text-center {
-  text-align: center;
+.py-8 {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 .text-\[1\.3rem\] {
   font-size: 1.3rem;
@@ -677,15 +648,6 @@ footer a {
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 @media (min-width: 768px) {
-  .md\:ml-16 {
-    margin-left: 4rem;
-  }
-  .md\:ml-32 {
-    margin-left: 8rem;
-  }
-  .md\:ml-\[25\%\] {
-    margin-left: 25%;
-  }
   .md\:ml-\[20\%\] {
     margin-left: 20%;
   }
