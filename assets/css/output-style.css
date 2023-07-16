@@ -486,6 +486,15 @@ video {
 .top-\[-16rem\] {
   top: -16rem;
 }
+.left-\[-00rem\] {
+  left: -00rem;
+}
+.left-\[-10rem\] {
+  left: -10rem;
+}
+.left-\[-24rem\] {
+  left: -24rem;
+}
 .z-0 {
   z-index: 0;
 }
