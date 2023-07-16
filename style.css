@@ -25,6 +25,10 @@ h1 {
     @apply text-h-light text-[20vw] leading-[1em]
 }
 
+h2 {
+    @apply lowercase text-dark
+}
+
 footer span {
     @apply text-[20vw] font-heading text-h-light opacity-20
 }
@@ -36,11 +40,27 @@ footer a {
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 @layer components {
+    .heading-md {
+        @apply text-8xl
+    }
+
     .link {
         @apply border-b font-heading pb-2 lowercase
     }
 
+    .button {
+        @apply lowercase px-8 py-2 bg-feature inline-block text-light mt-8 tracking-wider font-heading
+    }
+
     .bg-image-style {
         @apply bg-dark bg-cover bg-no-repeat
+    }
+
+    .portfolio-gallery {
+        @apply overflow-x-scroll whitespace-nowrap
+    }
+
+    .gallery-items {
+        @apply min-h-60 border border-black
     }
 }
