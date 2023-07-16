@@ -449,6 +449,13 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(39 39 39 / var(--tw-border-opacity));
 }
+.overflow-heading {
+  overflow: hidden;
+  text-overflow: clip;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 18vw;
+}
 .relative {
   position: relative;
 }
@@ -458,6 +465,27 @@ video {
 .left-\[-1\%\] {
   left: -1%;
 }
+.left-1 {
+  left: 0.25rem;
+}
+.top-36 {
+  top: 9rem;
+}
+.top-\[-15rem\] {
+  top: -15rem;
+}
+.left-\[10rem\] {
+  left: 10rem;
+}
+.top-\[10rem\] {
+  top: 10rem;
+}
+.left-\[-20rem\] {
+  left: -20rem;
+}
+.top-\[-16rem\] {
+  top: -16rem;
+}
 .z-0 {
   z-index: 0;
 }
@@ -466,6 +494,9 @@ video {
 }
 .col-span-3 {
   grid-column: span 3 / span 3;
+}
+.m-10p {
+  margin: 10%;
 }
 .my-8 {
   margin-top: 2rem;
@@ -488,6 +519,18 @@ video {
 }
 .w-full {
   width: 100%;
+}
+.rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.rotate-90 {
+  --tw-rotate: 90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.-rotate-90 {
+  --tw-rotate: -90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -532,8 +575,18 @@ video {
   --tw-bg-opacity: 1;
   background-color: rgb(253 253 253 / var(--tw-bg-opacity));
 }
+.bg-medium {
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 243 241 / var(--tw-bg-opacity));
+}
 .p-10p {
   padding: 10%;
+}
+.p-10 {
+  padding: 2.5rem;
+}
+.p-5p {
+  padding: 5%;
 }
 .px-16 {
   padding-left: 4rem;
@@ -550,6 +603,13 @@ video {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.py-5p {
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.text-center {
+  text-align: center;
 }
 .text-\[1\.3rem\] {
   font-size: 1.3rem;
@@ -606,3 +666,18 @@ footer a {
 }
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
+
+@media (min-width: 768px) {
+  .md\:ml-16 {
+    margin-left: 4rem;
+  }
+  .md\:ml-32 {
+    margin-left: 8rem;
+  }
+  .md\:ml-\[25\%\] {
+    margin-left: 25%;
+  }
+  .md\:ml-\[20\%\] {
+    margin-left: 20%;
+  }
+}

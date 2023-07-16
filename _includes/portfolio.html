@@ -1,7 +1,7 @@
 <!-- Portfolio Loop -->
 <section class="bg-light py-10p">
-    <h2 class="heading-md">Portfolio.</h2>
-    <div class="grid grid-cols-3 gap-4 portfolio-gallery">
+    <div class="relative -rotate-90 left-[-20rem] top-[-16rem]"><h2 class="heading-md">Portfolio.</h2></div>
+    <div class="grid grid-cols-3 gap-4 portfolio-gallery md:ml-[20%]">
         {% for item in site.projects %}
         <a href="{{item.url}}">
             <div class="bg-image-style gallery-items" style="background-image: url('{{item.featured-image}}');"></div>

@@ -1,7 +1,7 @@
-<section>
-    <h2 class="lowercase">{{page.about-section.heading}}</h2>
-    <div class="border border-feature">{{page.about-section.description}}</div>
-    <div class="grid grid-cols-3">
+<section class="bg-medium py-5p">
+    <h2 class="overflow-heading z-0">{{page.about-section.heading}}</h2>
+    <div class="border border-feature p-5p m-10p z-10 bg-light relative top-[-15rem]">{{page.about-section.description}}</div>
+    <div class="grid grid-cols-3 justify-around">
         {% for item in site.data.faq-settings.features %}
         <div>
             <h3>{{item.feature}}</h3>
