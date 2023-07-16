@@ -1,5 +1,5 @@
 <section class="p-10p">
-    <h2 class="lowercase border-b border-dark">FAQ's</h2>
+    <h2 class="heading-md text-right border-b border-dark">FAQ's</h2>
     <ul>
         {% for item in site.data.faq-settings.faq %}
         <li x-data="{ open: false }" class="border-b border-dark my-8">
@@ -24,5 +24,7 @@
         </li>
         {% endfor %}
     </ul>
-    <a href="#" class="button">Connect to Learn More</a>
+    <div class="flex justify-center">
+        <a href="#" class="button">Connect to learn more.</a>
+    </div>
 </section>
