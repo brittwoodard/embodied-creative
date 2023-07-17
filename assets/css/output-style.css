@@ -511,6 +511,34 @@ footer .child {
   bottom: 50%;
   line-height: 0;
 }
+/* Form */
+input:focus-visible {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+}
+input[type="radio"] {
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(153 107 76 / var(--tw-border-opacity));
+}
+input[type="checkbox"] {
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(153 107 76 / var(--tw-border-opacity));
+}
+/* Additional styles for radio buttons' inner circle */
+input[type="radio"]::before {
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 107 76 / var(--tw-bg-opacity));
+}
+/* Additional styles for checkbox checked state */
+input[type="checkbox"]:checked {
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(153 107 76 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(153 107 76 / var(--tw-bg-opacity));
+}
 .relative {
   position: relative;
 }
@@ -552,11 +580,11 @@ footer .child {
 .mb-2 {
   margin-bottom: 0.5rem;
 }
-.mb-8 {
-  margin-bottom: 2rem;
-}
 .mb-4 {
   margin-bottom: 1rem;
+}
+.mb-8 {
+  margin-bottom: 2rem;
 }
 .block {
   display: block;
@@ -578,12 +606,6 @@ footer .child {
 }
 .w-full {
   width: 100%;
-}
-.w-1\/3 {
-  width: 33.333333%;
-}
-.w-2\/3 {
-  width: 66.666667%;
 }
 .min-w-full {
   min-width: 100%;

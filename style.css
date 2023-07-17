@@ -113,4 +113,27 @@ footer a {
     footer .child {
         @apply absolute left-[-1%] bottom-[50%] leading-[0]
     }
+
+    /* Form */
+    input:focus-visible {
+        @apply outline-none
+    }
+
+    input[type="radio"] {
+        @apply border border-feature
+    }
+
+    input[type="checkbox"] {
+        @apply border border-feature
+    }
+
+    /* Additional styles for radio buttons' inner circle */
+    input[type="radio"]::before {
+        @apply bg-feature
+    }
+
+    /* Additional styles for checkbox checked state */
+    input[type="checkbox"]:checked {
+        @apply bg-feature border border-feature
+    }
 }
