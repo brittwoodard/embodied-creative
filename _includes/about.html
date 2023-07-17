@@ -2,7 +2,7 @@
     <h2 class="overflow-heading z-0">{{page.about-section.heading}}</h2>
     <div class="border border-feature p-5p m-10p z-10 bg-light relative top-[-15rem]">{{page.about-section.description}}
     </div>
-    <div class="flex justify-around">
+    <div class="grid grid-cols-3 gap-32 px-10p">
         {% for item in site.data.faq-settings.features %}
         <li x-data="{ open: false }" class="border-b border-dark my-8 list-none">
             <button @click="open = !open" class="flex justify-between w-full">

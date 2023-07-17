@@ -30,7 +30,7 @@ h2 {
 }
 
 footer span {
-    @apply text-[20vw] font-heading text-h-light opacity-20
+    @apply text-[20vw] font-heading text-h-light opacity-20 z-0
 }
 
 footer a {
@@ -49,7 +49,7 @@ footer a {
     }
 
     .button {
-        @apply lowercase px-8 py-2 bg-feature inline-block text-light mt-8 tracking-wider font-heading
+        @apply lowercase px-8 py-2 bg-feature inline-block text-light mt-8 tracking-wider font-heading shadow-lg
     }
 
     .bg-image-style {
