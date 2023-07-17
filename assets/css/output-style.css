@@ -572,12 +572,6 @@ footer .child {
 .gap-4 {
   gap: 1rem;
 }
-.overflow-x-auto {
-  overflow-x: auto;
-}
-.whitespace-nowrap {
-  white-space: nowrap;
-}
 .border {
   border-width: 1px;
 }
@@ -632,6 +626,9 @@ footer .child {
 }
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+.text-left {
+  text-align: left;
 }
 .text-center {
   text-align: center;

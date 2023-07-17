@@ -4,7 +4,7 @@
         {% for item in site.data.faq-settings.faq %}
         <li x-data="{ open: false }" class="border-b border-dark my-8">
             <button @click="open = ! open" class="flex justify-between w-full">
-                <h3>{{item.question}}</h3>
+                <h3 class="text-left mb-8">{{item.question}}</h3>
 
                 <span><svg x-show="!open" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"
                         fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
