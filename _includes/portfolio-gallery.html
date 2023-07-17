@@ -1,0 +1,8 @@
+<section class="px-5p">
+    <div class="grid grid-cols-3 gap-8">
+        {% for item in site.projects limit:3 %}
+        <div class="bg-image-style aspect-portrait border border-black mb-8"
+            style="background-image: url('{{item.gallery.image}}');"></div>
+        {% endfor %}
+    </div>
+</section>

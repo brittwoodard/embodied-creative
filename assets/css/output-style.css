@@ -523,6 +523,15 @@ footer .child {
 .top-\[-15rem\] {
   top: -15rem;
 }
+.left-\[-37\%\] {
+  left: -37%;
+}
+.left-\[5\%\] {
+  left: 5%;
+}
+.top-\[-2rem\] {
+  top: -2rem;
+}
 .z-0 {
   z-index: 0;
 }
