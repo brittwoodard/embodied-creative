@@ -45,8 +45,9 @@ footer a {
     }
 
     .link {
-        @apply border-b font-heading pb-2 lowercase
-    }
+        @apply border-b font-heading pb-2 lowercase tracking-wide text-[1.1rem];
+        border-color: currentColor;
+    }    
 
     .button {
         @apply lowercase px-8 py-2 bg-feature inline-block text-light mt-8 tracking-wider font-heading shadow-lg
@@ -66,6 +67,10 @@ footer a {
 
     .overflow-heading {
         @apply text-[18vw] text-clip overflow-hidden whitespace-nowrap text-center
+    }
+
+    .overflow-heading-projects {
+        @apply text-[12.6vw] text-clip overflow-hidden whitespace-nowrap text-center
     }
 
     .transparent {
