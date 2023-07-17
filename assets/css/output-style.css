@@ -408,6 +408,34 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
+.container {
+  width: 100%;
+}
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+    max-width: 1280px;
+  }
+}
+@media (min-width: 1536px) {
+  .container {
+    max-width: 1536px;
+  }
+}
 .heading-md {
   font-size: 6rem;
   line-height: 1;
@@ -494,12 +522,12 @@ video {
         right: 0;
         background-color: rgba(175, 136, 107, 1);
         opacity: 0;
-        transition: opacity 0.3s ease; 
+        transition: opacity 0.3s ease;
     }
 .bg-overlay:hover::before {
-        opacity: 0.9; 
+        opacity: 0.9;
     }
-.bg-overlay > * {
+.bg-overlay>* {
         position: relative;
     }
 .parent {
@@ -512,7 +540,13 @@ footer .child {
   line-height: 0;
 }
 /* Form */
+form input {
+  background-color: transparent;
+}
 input:focus-visible {
+  border-bottom-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(153 107 76 / var(--tw-border-opacity));
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
@@ -521,24 +555,24 @@ input[type="radio"] {
   --tw-border-opacity: 1;
   border-color: rgb(153 107 76 / var(--tw-border-opacity));
 }
-input[type="checkbox"] {
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(153 107 76 / var(--tw-border-opacity));
-}
-/* Additional styles for radio buttons' inner circle */
-input[type="radio"]::before {
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 107 76 / var(--tw-bg-opacity));
-}
-/* Additional styles for checkbox checked state */
-input[type="checkbox"]:checked {
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(153 107 76 / var(--tw-border-opacity));
-  --tw-bg-opacity: 1;
-  background-color: rgb(153 107 76 / var(--tw-bg-opacity));
-}
+/* Popup Container */
+/* CSS file */
+.popup-container {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 9999;
+        display: none;
+    }
+.popup-container.show {
+        display: flex;
+    }
 .relative {
   position: relative;
 }
@@ -603,6 +637,9 @@ input[type="checkbox"]:checked {
 }
 .min-h-\[80vh\] {
   min-height: 80vh;
+}
+.w-\[80vw\] {
+  width: 80vw;
 }
 .w-full {
   width: 100%;
@@ -764,14 +801,15 @@ input[type="checkbox"]:checked {
 @font-face {
     font-family: 'postureregular';
     src: url('/posture-webfont.woff2') format('woff2'),
-         url('/posture-webfont.woff') format('woff');
+        url('/posture-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 
 /* ----------- Default Styles to apply to the whole project  --------- */
 
-h1, h2 {
+h1,
+h2 {
   font-family: postureregular, sans-serif;
 }
 
