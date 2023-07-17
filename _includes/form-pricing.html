@@ -1,0 +1,86 @@
+<section>
+    <form class="min-w-full p-10p leading-6">
+        <div class="mb-8 border-b border-black">
+            <label for="first-name" class="block">First Name:</label>
+            <input type="text" id="first-name" name="first-name" required class="w-full">
+        </div>
+
+        <div class="mb-8 border-b border-black">
+            <label for="last-name" class="block">Last Name:</label>
+            <input type="text" id="last-name" name="last-name" required class="w-full">
+        </div>
+
+        <div class="mb-8 border-b border-black">
+            <label for="email" class="block">Email:</label>
+            <input type="email" id="email" name="email" required class="w-full">
+        </div>
+
+        <div class="mb-8 border-b border-black">
+            <label for="business-name" class="block">Business Name:</label>
+            <input type="text" id="business-name" name="business-name" required class="w-full">
+        </div>
+
+        <fieldset class="mb-4">
+            <legend class="mb-4">Budget:</legend>
+            <div class="mb-2">
+                <input type="radio" id="budget-1" name="budget" value="<1,000€">
+                <label for="budget-1">&lt;1,000€</label>
+            </div>
+            <div class="mb-2">
+                <input type="radio" id="budget-2" name="budget" value="1,000 - 2,000€">
+                <label for="budget-2">1,000 - 2,000€</label>
+            </div>
+            <div class="mb-2">
+                <input type="radio" id="budget-3" name="budget" value="2,000 - 4,000€">
+                <label for="budget-3">2,000 - 4,000€</label>
+            </div>
+            <div class="mb-2">
+                <input type="radio" id="budget-4" name="budget" value="4,000 - 6,000€">
+                <label for="budget-4">4,000 - 6,000€</label>
+            </div>
+            <div class="mb-2">
+                <input type="radio" id="budget-5" name="budget" value="6,000€ +">
+                <label for="budget-5">6,000€ +</label>
+            </div>
+        </fieldset>
+
+        <div class="mb-4">
+            <label for="features" class="block mb-4">Features you're interested in:</label>
+            <div class="mb-2">
+                <input type="checkbox" id="membership-site" name="features[]" value="membership-site">
+                <label for="membership-site">Membership Site</label>
+            </div>
+            <div class="mb-2">
+                <input type="checkbox" id="blog" name="features[]" value="blog">
+                <label for="blog">Blog</label>
+            </div>
+            <div class="mb-2">
+                <input type="checkbox" id="scheduling-software" name="features[]" value="scheduling-software">
+                <label for="scheduling-software">Scheduling Software</label>
+            </div>
+            <div class="mb-2">
+                <input type="checkbox" id="crm" name="features[]" value="crm">
+                <label for="crm">CRM Setup</label>
+            </div>
+            <div class="mb-2">
+                <input type="checkbox" id="search-tool" name="features[]" value="search-tool">
+                <label for="search-tool">Search Tool</label>
+            </div>
+            <div class="mb-2">
+                <input type="checkbox" id="dark-mode" name="features[]" value="dark-mode">
+                <label for="dark-mode">Dark Mode</label>
+            </div>
+        </div>
+
+        <div>
+            <label for="additional-info" class="block">Additional Information:</label>
+            <textarea id="additional-info" name="additional-info" rows="4"
+                placeholder="Enter any additional information here..." class="w-full border-b border-black"></textarea>
+        </div>
+
+        <!-- Other fields here -->
+
+        <button type="submit"
+            class="button">Submit</button>
+    </form>
+</section>

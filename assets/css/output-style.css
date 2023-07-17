@@ -517,17 +517,17 @@ footer .child {
 .left-\[-32\%\] {
   left: -32%;
 }
-.top-\[-12rem\] {
-  top: -12rem;
-}
-.top-\[-15rem\] {
-  top: -15rem;
-}
 .left-\[-37\%\] {
   left: -37%;
 }
 .left-\[5\%\] {
   left: 5%;
+}
+.top-\[-12rem\] {
+  top: -12rem;
+}
+.top-\[-15rem\] {
+  top: -15rem;
 }
 .top-\[-2rem\] {
   top: -2rem;
@@ -549,14 +549,17 @@ footer .child {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.mb-5p {
-  margin-bottom: 5%;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 .mb-8 {
   margin-bottom: 2rem;
 }
-.mb-10p {
-  margin-bottom: 10%;
+.mb-4 {
+  margin-bottom: 1rem;
+}
+.block {
+  display: block;
 }
 .flex {
   display: flex;
@@ -567,23 +570,17 @@ footer .child {
 .aspect-portrait {
   aspect-ratio: 3 / 4;
 }
-.max-h-\[50vh\] {
-  max-height: 50vh;
-}
 .min-h-\[40vh\] {
   min-height: 40vh;
 }
 .min-h-\[80vh\] {
   min-height: 80vh;
 }
-.min-h-\[45vh\] {
-  min-height: 45vh;
-}
-.min-h-\[50vh\] {
-  min-height: 50vh;
-}
 .w-full {
   width: 100%;
+}
+.min-w-full {
+  min-width: 100%;
 }
 .-rotate-90 {
   --tw-rotate: -90deg;
@@ -685,11 +682,11 @@ footer .child {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
-.pb-2 {
-  padding-bottom: 0.5rem;
-}
 .pb-10p {
   padding-bottom: 10%;
+}
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 .text-left {
   text-align: left;
@@ -712,6 +709,9 @@ footer .child {
 }
 .lowercase {
   text-transform: lowercase;
+}
+.leading-6 {
+  line-height: 1.5rem;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
