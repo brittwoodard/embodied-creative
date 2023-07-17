@@ -2,6 +2,7 @@
 layout: project
 slug: whole-body-wellness
 title: Whole Body Wellness
+title_html: Whole<br>Body<br>Wellness
 description: 
 featured-image: /images/samkalpa-portfolio-4.jpg
 gallery: 

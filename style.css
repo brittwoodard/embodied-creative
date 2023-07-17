@@ -71,4 +71,41 @@ footer a {
     .transparent {
         @apply text-transparent
     }
+
+    .gallery-items h3 {
+        @apply text-medium font-sans font-medium text-5xl text-center lowercase
+    }
+
+    .bg-overlay {
+        position: relative;
+    }
+    
+    .bg-overlay::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background-color: rgba(175, 136, 107, 1);
+        opacity: 0;
+        transition: opacity 0.3s ease; 
+    }
+    
+    .bg-overlay:hover::before {
+        opacity: 0.9; 
+    }
+    
+    .bg-overlay > * {
+        position: relative;
+    }
+    
+
+    .parent {
+        @apply relative
+    }
+
+    footer .child {
+        @apply absolute left-[-1%] bottom-[50%] leading-[0]
+    }
 }

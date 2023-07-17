@@ -2,6 +2,7 @@
 layout: project
 slug: sage-studio
 title: Sage Studio
+title_html: Sage<br>Studio
 description: 
 featured-image: /images/samkalpa-portfolio-1.jpg
 gallery: 

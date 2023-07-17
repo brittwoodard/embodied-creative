@@ -2,6 +2,7 @@
 layout: project
 slug: samadhi-shala
 title: Samadhi Shala
+title_html: Samadhi<br>Shala
 description: 
 featured-image: /images/samkalpa-portfolio-2.jpg
 gallery: 
