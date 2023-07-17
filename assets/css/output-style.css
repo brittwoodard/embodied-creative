@@ -440,7 +440,7 @@ video {
   background-repeat: no-repeat;
 }
 .portfolio-gallery {
-  overflow-x: scroll;
+  overflow-x: auto;
   white-space: nowrap;
 }
 .gallery-items {
@@ -461,7 +461,7 @@ video {
 }
 .gallery-items h3 {
   text-align: center;
-  font-family: Montserrat, sans-serif;
+  font-family: postureregular, sans-serif;
   font-size: 3rem;
   line-height: 1;
   font-weight: 500;
@@ -571,6 +571,12 @@ footer .child {
 }
 .gap-4 {
   gap: 1rem;
+}
+.overflow-x-auto {
+  overflow-x: auto;
+}
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 .border {
   border-width: 1px;
