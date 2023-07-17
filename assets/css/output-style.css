@@ -578,6 +578,9 @@ footer .child {
 .gap-4 {
   gap: 1rem;
 }
+.gap-64 {
+  gap: 16rem;
+}
 .border {
   border-width: 1px;
 }
