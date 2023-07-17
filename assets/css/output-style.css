@@ -546,6 +546,9 @@ footer .child {
 .mb-8 {
   margin-bottom: 2rem;
 }
+.mb-10p {
+  margin-bottom: 10%;
+}
 .flex {
   display: flex;
 }
@@ -675,6 +678,9 @@ footer .child {
 }
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+.pb-10p {
+  padding-bottom: 10%;
 }
 .text-left {
   text-align: left;
