@@ -555,6 +555,28 @@ input[type="radio"] {
   --tw-border-opacity: 1;
   border-color: rgb(153 107 76 / var(--tw-border-opacity));
 }
+input[type="checkbox"] {
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(153 107 76 / var(--tw-border-opacity));
+}
+.box:focus-visible {
+  outline: 2px solid transparent;
+  outline-offset: 2px;
+  --tw-ring-offset-shadow: var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);
+  --tw-ring-shadow: var(--tw-ring-inset) 0 0 0 calc(1px + var(--tw-ring-offset-width)) var(--tw-ring-color);
+  box-shadow: var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000);
+  --tw-ring-opacity: 1;
+  --tw-ring-color: rgb(153 107 76 / var(--tw-ring-opacity));
+}
+.x {
+  position: absolute;
+  right: 2.5rem;
+  top: 2rem;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  font-weight: 300;
+}
 /* Popup Container */
 /* CSS file */
 .popup-container {
@@ -629,6 +651,9 @@ input[type="radio"] {
 .grid {
   display: grid;
 }
+.hidden {
+  display: none;
+}
 .aspect-portrait {
   aspect-ratio: 3 / 4;
 }
@@ -646,6 +671,9 @@ input[type="radio"] {
 }
 .min-w-full {
   min-width: 100%;
+}
+.min-w-\[25\%\] {
+  min-width: 25%;
 }
 .-rotate-90 {
   --tw-rotate: -90deg;
@@ -687,6 +715,9 @@ input[type="radio"] {
 .gap-8 {
   gap: 2rem;
 }
+.place-self-center {
+  place-self: center;
+}
 .border {
   border-width: 1px;
 }
@@ -716,6 +747,9 @@ input[type="radio"] {
 .bg-medium {
   --tw-bg-opacity: 1;
   background-color: rgb(245 243 241 / var(--tw-bg-opacity));
+}
+.bg-transparent {
+  background-color: transparent;
 }
 .p-10p {
   padding: 10%;

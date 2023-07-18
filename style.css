@@ -125,7 +125,19 @@ footer a {
 
     input[type="radio"] {
         @apply border border-feature
+    }
+
+    input[type="checkbox"] {
+        @apply border border-feature
+    }
+
+    .box:focus-visible {
+        @apply outline-none ring-1 ring-feature
       }
+
+    .x {
+        @apply absolute right-[2.5rem] top-[2rem] text-2xl font-light
+    }
 
     /* Popup Container */
     /* CSS file */
