@@ -104,9 +104,16 @@ footer a {
         position: relative;
     }
 
-
     .parent {
         @apply relative
+    }
+
+    .feature-container {
+        @apply bg-dark opacity-90 text-light border border-black p-5p text-center
+    }
+
+    .feature-container h3 {
+        @apply font-heading mb-4 text-xl
     }
 
     footer .child {

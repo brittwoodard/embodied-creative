@@ -408,34 +408,6 @@ video {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.container {
-  width: 100%;
-}
-@media (min-width: 640px) {
-  .container {
-    max-width: 640px;
-  }
-}
-@media (min-width: 768px) {
-  .container {
-    max-width: 768px;
-  }
-}
-@media (min-width: 1024px) {
-  .container {
-    max-width: 1024px;
-  }
-}
-@media (min-width: 1280px) {
-  .container {
-    max-width: 1280px;
-  }
-}
-@media (min-width: 1536px) {
-  .container {
-    max-width: 1536px;
-  }
-}
 .heading-md {
   font-size: 6rem;
   line-height: 1;
@@ -533,6 +505,24 @@ video {
 .parent {
   position: relative;
 }
+.feature-container {
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(39 39 39 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 159 141 / var(--tw-bg-opacity));
+  padding: 5%;
+  text-align: center;
+  --tw-text-opacity: 1;
+  color: rgb(253 253 253 / var(--tw-text-opacity));
+  opacity: 0.9;
+}
+.feature-container h3 {
+  margin-bottom: 1rem;
+  font-family: postureregular, sans-serif;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
 footer .child {
   position: absolute;
   left: -1%;
@@ -579,22 +569,6 @@ input[type="checkbox"] {
 }
 /* Popup Container */
 /* CSS file */
-.popup-container {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9999;
-        display: none;
-    }
-.popup-container.show {
-        display: flex;
-    }
 .relative {
   position: relative;
 }
@@ -651,9 +625,6 @@ input[type="checkbox"] {
 .grid {
   display: grid;
 }
-.hidden {
-  display: none;
-}
 .aspect-portrait {
   aspect-ratio: 3 / 4;
 }
@@ -669,11 +640,11 @@ input[type="checkbox"] {
 .w-full {
   width: 100%;
 }
-.min-w-full {
-  min-width: 100%;
-}
 .min-w-\[25\%\] {
   min-width: 25%;
+}
+.min-w-full {
+  min-width: 100%;
 }
 .-rotate-90 {
   --tw-rotate: -90deg;
@@ -714,9 +685,6 @@ input[type="checkbox"] {
 }
 .gap-8 {
   gap: 2rem;
-}
-.place-self-center {
-  place-self: center;
 }
 .border {
   border-width: 1px;

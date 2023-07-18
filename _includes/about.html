@@ -16,8 +16,16 @@
         </li>
         {% endfor %}
     </div>
-    <div class="flex justify-center">
-        <a href="#" class="button popup-trigger">Pricing.</a>
-        <div class="target-div p-10p bg-medium border border-black hidden">This will appear on hover</div>
-    </div>
+
+    <!-- Test -->
+    <div class="flex justify-around" x-data="{ showContainer: false }" x-cloak>
+        {% for item in site.data.faq-settings.features %}
+        <h3 @mouseover="showContainer = true" @mouseleave="showContainer = false">{{item.feature}}</h3>
+        <div x-show="showContainer" class="feature-container">
+          <h3>{{item.feature}}</h3>
+          <p>{{item.description}}</p>
+        </div>
+        {% endfor %}
+      </div>        
+
 </section>
