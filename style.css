@@ -57,7 +57,7 @@ footer a {
     }
 
     .portfolio-gallery {
-        @apply overflow-x-auto whitespace-nowrap
+        @apply overflow-x-auto flex-nowrap
     }
 
     .gallery-items {
@@ -146,25 +146,8 @@ footer a {
         @apply absolute right-[2.5rem] top-[2rem] text-2xl font-light
     }
 
-    /* Popup Container */
-    /* CSS file */
-
-    .popup-container {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background-color: rgba(0, 0, 0, 0.5);
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 9999;
-        display: none;
-    }
-
-    .popup-container.show {
-        display: flex;
+    .pricing-section.active {
+        @apply flex
     }
 
 }

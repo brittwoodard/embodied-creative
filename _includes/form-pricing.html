@@ -1,84 +1,87 @@
-<section class="bg-medium border border-feature w-[80vw] flex relative">
-    <span class="x">X</span>
-    <form class="min-w-full p-10p leading-6">
-        <div class="mb-4">
-            <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full">
-            <label for="first-name">First Name:</label>
-        </div>
+<section class="pricing-section fixed inset-0 hidden justify-center align-center">
+    <div class="bg-medium border border-feature w-[80vw]">
+        <span class="x pricing-button">X</span>
+        <form class="min-w-full p-10p leading-6">
+            <div class="mb-4">
+                <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full">
+                <label for="first-name">First Name:</label>
+            </div>
 
-        <div class="mb-4">
-            <input type="text" id="last-name" name="last-name" class="block border-b border-black w-full">
-            <label for="last-name">Last Name:</label>
-        </div>
+            <div class="mb-4">
+                <input type="text" id="last-name" name="last-name" class="block border-b border-black w-full">
+                <label for="last-name">Last Name:</label>
+            </div>
 
-        <div class="mb-4">
-            <input type="email" id="email" name="email" class="block border-b border-black w-full">
-            <label for="email">Email:</label>
-        </div>
+            <div class="mb-4">
+                <input type="email" id="email" name="email" class="block border-b border-black w-full">
+                <label for="email">Email:</label>
+            </div>
 
-        <div class="mb-4">
-            <input type="text" id="business-name" name="business-name" class="block border-b border-black w-full">
-            <label for="business-name">Business Name:</label>
-        </div>
+            <div class="mb-4">
+                <input type="text" id="business-name" name="business-name" class="block border-b border-black w-full">
+                <label for="business-name">Business Name:</label>
+            </div>
 
-        <fieldset class="mb-4">
-            <legend class="mb-4">Budget:</legend>
-            <div class="mb-2">
-                <input type="radio" id="budget-1" name="budget" value="<1,000€">
-                <label for="budget-1">&lt;&nbsp;2,000€</label>
-            </div>
-            <div class="mb-2">
-                <input type="radio" id="budget-2" name="budget" value="1,000 - 2,000€">
-                <label for="budget-2">2,000 - 3,000€</label>
-            </div>
-            <div class="mb-2">
-                <input type="radio" id="budget-3" name="budget" value="2,000 - 4,000€">
-                <label for="budget-3">4,000 - 5,000€</label>
-            </div>
-            <div class="mb-2">
-                <input type="radio" id="budget-4" name="budget" value="4,000 - 6,000€">
-                <label for="budget-4">5,000 - 7,000€</label>
-            </div>
-            <div class="mb-2">
-                <input type="radio" id="budget-5" name="budget" value="6,000€ +">
-                <label for="budget-5">7,000€ +</label>
-            </div>
-        </fieldset>
+            <fieldset class="mb-4">
+                <legend class="mb-4">Budget:</legend>
+                <div class="mb-2">
+                    <input type="radio" id="budget-1" name="budget" value="<1,000€">
+                    <label for="budget-1">&lt;&nbsp;2,000€</label>
+                </div>
+                <div class="mb-2">
+                    <input type="radio" id="budget-2" name="budget" value="1,000 - 2,000€">
+                    <label for="budget-2">2,000 - 3,000€</label>
+                </div>
+                <div class="mb-2">
+                    <input type="radio" id="budget-3" name="budget" value="2,000 - 4,000€">
+                    <label for="budget-3">4,000 - 5,000€</label>
+                </div>
+                <div class="mb-2">
+                    <input type="radio" id="budget-4" name="budget" value="4,000 - 6,000€">
+                    <label for="budget-4">5,000 - 7,000€</label>
+                </div>
+                <div class="mb-2">
+                    <input type="radio" id="budget-5" name="budget" value="6,000€ +">
+                    <label for="budget-5">7,000€ +</label>
+                </div>
+            </fieldset>
 
-        <div class="mb-4">
-            <label for="features" class="block mb-4">Features you're interested in:</label>
-            <div class="mb-2">
-                <input type="checkbox" id="membership-site" name="features[]" value="membership-site">
-                <label for="membership-site">Membership Site</label>
+            <div class="mb-4">
+                <label for="features" class="block mb-4">Features you're interested in:</label>
+                <div class="mb-2">
+                    <input type="checkbox" id="membership-site" name="features[]" value="membership-site">
+                    <label for="membership-site">Membership Site</label>
+                </div>
+                <div class="mb-2">
+                    <input type="checkbox" id="blog" name="features[]" value="blog">
+                    <label for="blog">Blog</label>
+                </div>
+                <div class="mb-2">
+                    <input type="checkbox" id="scheduling-software" name="features[]" value="scheduling-software">
+                    <label for="scheduling-software">Scheduling Software</label>
+                </div>
+                <div class="mb-2">
+                    <input type="checkbox" id="crm" name="features[]" value="crm">
+                    <label for="crm">CRM Setup</label>
+                </div>
+                <div class="mb-2">
+                    <input type="checkbox" id="search-tool" name="features[]" value="search-tool">
+                    <label for="search-tool">Search Tool</label>
+                </div>
+                <div class="mb-2">
+                    <input type="checkbox" id="dark-mode" name="features[]" value="dark-mode">
+                    <label for="dark-mode">Dark Mode</label>
+                </div>
             </div>
-            <div class="mb-2">
-                <input type="checkbox" id="blog" name="features[]" value="blog">
-                <label for="blog">Blog</label>
-            </div>
-            <div class="mb-2">
-                <input type="checkbox" id="scheduling-software" name="features[]" value="scheduling-software">
-                <label for="scheduling-software">Scheduling Software</label>
-            </div>
-            <div class="mb-2">
-                <input type="checkbox" id="crm" name="features[]" value="crm">
-                <label for="crm">CRM Setup</label>
-            </div>
-            <div class="mb-2">
-                <input type="checkbox" id="search-tool" name="features[]" value="search-tool">
-                <label for="search-tool">Search Tool</label>
-            </div>
-            <div class="mb-2">
-                <input type="checkbox" id="dark-mode" name="features[]" value="dark-mode">
-                <label for="dark-mode">Dark Mode</label>
-            </div>
-        </div>
 
-        <div>
-            <label for="additional-info" class="block">Additional Information:</label>
-            <textarea id="additional-info" name="additional-info" rows="4"
-                placeholder="Enter any additional information here..." class="w-full border border-black bg-transparent box"></textarea>
-        </div>
+            <div>
+                <label for="additional-info" class="block">Additional Information:</label>
+                <textarea id="additional-info" name="additional-info" rows="4"
+                    placeholder="Enter any additional information here..."
+                    class="w-full border border-black bg-transparent box"></textarea>
+            </div>
 
-        <button type="submit" class="button">Submit</button>
-    </form>
+            <button type="submit" class="button">Submit</button>
+        </form>
+    </div>
 </section>

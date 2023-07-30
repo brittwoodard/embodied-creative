@@ -446,8 +446,8 @@ video {
   background-repeat: no-repeat;
 }
 .portfolio-gallery {
+  flex-wrap: nowrap;
   overflow-x: auto;
-  white-space: nowrap;
 }
 .gallery-items {
   min-height: 60vh;
@@ -567,10 +567,17 @@ input[type="checkbox"] {
   line-height: 2rem;
   font-weight: 300;
 }
-/* Popup Container */
-/* CSS file */
+.pricing-section.active {
+  display: flex;
+}
+.fixed {
+  position: fixed;
+}
 .relative {
   position: relative;
+}
+.inset-0 {
+  inset: 0px;
 }
 .left-\[-32\%\] {
   left: -32%;
@@ -625,6 +632,9 @@ input[type="checkbox"] {
 .grid {
   display: grid;
 }
+.hidden {
+  display: none;
+}
 .aspect-portrait {
   aspect-ratio: 3 / 4;
 }
@@ -633,6 +643,9 @@ input[type="checkbox"] {
 }
 .min-h-\[80vh\] {
   min-height: 80vh;
+}
+.w-\[40\%\] {
+  width: 40%;
 }
 .w-\[80vw\] {
   width: 80vw;
