@@ -143,7 +143,7 @@ footer a {
       }
 
     .x {
-        @apply absolute right-[2.5rem] top-[2rem] text-2xl font-light
+        @apply absolute right-[13.5%] top-[2.5%] text-2xl font-light cursor-pointer
     }
 
     .pricing-section.active {
