@@ -18,10 +18,10 @@
     </div>
 
     <!-- Test -->
-    <div class="flex justify-around" x-data="{ showContainer: false }" x-cloak>
+    <div class="flex justify-around">
         {% for item in site.data.faq-settings.features %}
-        <h3 @mouseover="showContainer = true" @mouseleave="showContainer = false">{{item.feature}}</h3>
-        <div x-show="showContainer" class="feature-container">
+        <h3>{{item.feature}}</h3>
+        <div class="feature-container">
           <h3>{{item.feature}}</h3>
           <p>{{item.description}}</p>
         </div>
