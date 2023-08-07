@@ -529,6 +529,12 @@ footer .child {
   bottom: 50%;
   line-height: 0;
 }
+.list-decimal {
+  margin-left: 1rem;
+}
+.list-disc {
+  margin-left: 2rem;
+}
 /* Form */
 form input {
   background-color: transparent;
@@ -577,6 +583,9 @@ input[type="checkbox"] {
 .relative {
   position: relative;
 }
+.sticky {
+  position: sticky;
+}
 .inset-0 {
   inset: 0px;
 }
@@ -585,6 +594,9 @@ input[type="checkbox"] {
 }
 .left-\[-37\%\] {
   left: -37%;
+}
+.left-\[-41\.5\%\] {
+  left: -41.5%;
 }
 .left-\[5\%\] {
   left: 5%;
@@ -598,11 +610,20 @@ input[type="checkbox"] {
 .top-\[-2rem\] {
   top: -2rem;
 }
+.left-\[-14rem\] {
+  left: -14rem;
+}
+.top-\[19rem\] {
+  top: 19rem;
+}
 .z-0 {
   z-index: 0;
 }
 .z-10 {
   z-index: 10;
+}
+.z-20 {
+  z-index: 20;
 }
 .m-10p {
   margin: 10%;
@@ -663,6 +684,12 @@ input[type="checkbox"] {
 .-rotate-90 {
   --tw-rotate: -90deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.list-decimal {
+  list-style-type: decimal;
+}
+.list-disc {
+  list-style-type: disc;
 }
 .list-none {
   list-style-type: none;
@@ -726,12 +753,18 @@ input[type="checkbox"] {
   --tw-bg-opacity: 1;
   background-color: rgb(253 253 253 / var(--tw-bg-opacity));
 }
+.bg-light\/75 {
+  background-color: rgb(253 253 253 / 0.75);
+}
 .bg-medium {
   --tw-bg-opacity: 1;
   background-color: rgb(245 243 241 / var(--tw-bg-opacity));
 }
 .bg-transparent {
   background-color: transparent;
+}
+.bg-fixed {
+  background-attachment: fixed;
 }
 .p-10p {
   padding: 10%;
@@ -768,6 +801,9 @@ input[type="checkbox"] {
 }
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+.pt-8 {
+  padding-top: 2rem;
 }
 .text-left {
   text-align: left;
@@ -857,6 +893,10 @@ footer a {
   border-color: rgb(39 39 39 / var(--tw-border-opacity));
   padding-bottom: 0.5rem;
   text-transform: lowercase;
+}
+
+li {
+  margin-bottom: 1rem;
 }
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */

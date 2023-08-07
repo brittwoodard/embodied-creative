@@ -36,6 +36,10 @@ footer a {
     @apply lowercase pb-2 border-b border-black
 }
 
+li {
+    @apply mb-4
+}
+
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 @layer components {
@@ -120,6 +124,15 @@ footer a {
         @apply absolute left-[-1%] bottom-[50%] leading-[0]
     }
 
+    .list-decimal {
+        @apply ml-4 
+    }
+
+    .list-disc {
+        @apply ml-8 
+    }
+
+
     /* Form */
 
     form input {
@@ -140,7 +153,7 @@ footer a {
 
     .box:focus-visible {
         @apply outline-none ring-1 ring-feature
-      }
+    }
 
     .x {
         @apply absolute right-[13.5%] top-[2.5%] text-2xl font-light cursor-pointer
