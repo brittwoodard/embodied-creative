@@ -661,6 +661,10 @@ input[type="checkbox"] {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.my-5p {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
 .mb-2 {
   margin-bottom: 0.5rem;
 }
@@ -681,6 +685,9 @@ input[type="checkbox"] {
 }
 .mb-\[-20\%\] {
   margin-bottom: -20%;
+}
+.-mb-\[12\%\] {
+  margin-bottom: -12%;
 }
 .block {
   display: block;
