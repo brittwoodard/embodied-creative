@@ -570,7 +570,7 @@ input[type="checkbox"] {
 }
 .x {
   position: absolute;
-  right: 13.5%;
+  right: 3.5%;
   top: 2.5%;
   cursor: pointer;
   font-size: 1.5rem;
@@ -599,8 +599,8 @@ input[type="checkbox"] {
 .relative {
   position: relative;
 }
-.inset-0 {
-  inset: 0px;
+.left-10p {
+  left: 10%;
 }
 .left-\[-11\.5rem\] {
   left: -11.5rem;
@@ -613,6 +613,9 @@ input[type="checkbox"] {
 }
 .left-\[5\%\] {
   left: 5%;
+}
+.top-10p {
+  top: 10%;
 }
 .top-\[-12rem\] {
   top: -12rem;
@@ -634,6 +637,9 @@ input[type="checkbox"] {
 }
 .z-20 {
   z-index: 20;
+}
+.z-30 {
+  z-index: 30;
 }
 .col-span-11 {
   grid-column: span 11 / span 11;
@@ -660,6 +666,12 @@ input[type="checkbox"] {
 }
 .mb-8 {
   margin-bottom: 2rem;
+}
+.-mb-10p {
+  margin-bottom: -10%;
+}
+.mb-\[-19\%\] {
+  margin-bottom: -19%;
 }
 .block {
   display: block;
@@ -826,6 +838,12 @@ input[type="checkbox"] {
 }
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+.pt-5p {
+  padding-top: 5%;
+}
+.pt-10p {
+  padding-top: 10%;
 }
 .text-left {
   text-align: left;

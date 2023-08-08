@@ -160,7 +160,7 @@ li {
     }
 
     .x {
-        @apply absolute right-[13.5%] top-[2.5%] text-2xl font-light cursor-pointer
+        @apply absolute right-[3.5%] top-[2.5%] text-2xl font-light cursor-pointer
     }
 
     .pricing-section.active {
