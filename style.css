@@ -116,6 +116,10 @@ li {
         @apply relative
     }
 
+    .child {
+        @apply absolute
+    }
+
     .feature-container {
         @apply bg-dark opacity-90 text-light border border-black p-5p text-center
     }
