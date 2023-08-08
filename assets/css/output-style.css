@@ -629,6 +629,9 @@ input[type="checkbox"] {
 .top-\[19rem\] {
   top: 19rem;
 }
+.bottom-0 {
+  bottom: 0px;
+}
 .z-0 {
   z-index: 0;
 }
@@ -673,6 +676,12 @@ input[type="checkbox"] {
 .mb-\[-19\%\] {
   margin-bottom: -19%;
 }
+.mb-\[-30\%\] {
+  margin-bottom: -30%;
+}
+.mb-\[-20\%\] {
+  margin-bottom: -20%;
+}
 .block {
   display: block;
 }
@@ -687,6 +696,9 @@ input[type="checkbox"] {
 }
 .aspect-portrait {
   aspect-ratio: 3 / 4;
+}
+.h-\[40vh\] {
+  height: 40vh;
 }
 .min-h-\[40vh\] {
   min-height: 40vh;
@@ -877,6 +889,15 @@ input[type="checkbox"] {
 }
 .leading-6 {
   line-height: 1.5rem;
+}
+.leading-7 {
+  line-height: 1.75rem;
+}
+.leading-\[1em\] {
+  line-height: 1em;
+}
+.leading-\[0\.7em\] {
+  line-height: 0.7em;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
