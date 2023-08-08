@@ -455,6 +455,9 @@ video {
   --tw-border-opacity: 1;
   border-color: rgb(39 39 39 / var(--tw-border-opacity));
 }
+.vertical-text {
+        writing-mode: sideways-lr;
+    }
 .overflow-heading {
   overflow: hidden;
   text-overflow: clip;
@@ -600,9 +603,6 @@ input[type="checkbox"] {
 .left-\[-14rem\] {
   left: -14rem;
 }
-.left-\[-32\%\] {
-  left: -32%;
-}
 .left-\[-37\%\] {
   left: -37%;
 }
@@ -677,8 +677,8 @@ input[type="checkbox"] {
 .min-h-\[80vh\] {
   min-height: 80vh;
 }
-.w-\[40\%\] {
-  width: 40%;
+.w-\[33\%\] {
+  width: 33%;
 }
 .w-\[80vw\] {
   width: 80vw;
@@ -691,6 +691,9 @@ input[type="checkbox"] {
 }
 .min-w-full {
   min-width: 100%;
+}
+.shrink-0 {
+  flex-shrink: 0;
 }
 .-rotate-90 {
   --tw-rotate: -90deg;
@@ -780,14 +783,11 @@ input[type="checkbox"] {
   --tw-bg-opacity: 1;
   background-color: rgb(245 243 241 / var(--tw-bg-opacity));
 }
-.bg-transparent {
-  background-color: transparent;
-}
-.bg-medium\/75 {
-  background-color: rgb(245 243 241 / 0.75);
-}
 .bg-medium\/90 {
   background-color: rgb(245 243 241 / 0.9);
+}
+.bg-transparent {
+  background-color: transparent;
 }
 .p-10p {
   padding: 10%;
@@ -840,16 +840,16 @@ input[type="checkbox"] {
 .text-\[1\.3rem\] {
   font-size: 1.3rem;
 }
-.text-xl {
-  font-size: 1.25rem;
+.text-lg {
+  font-size: 1.125rem;
   line-height: 1.75rem;
 }
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
 }
-.text-lg {
-  font-size: 1.125rem;
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 .lowercase {
