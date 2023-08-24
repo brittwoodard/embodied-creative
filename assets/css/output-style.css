@@ -505,9 +505,6 @@ video {
 .bg-overlay>* {
         position: relative;
     }
-.parent {
-  position: relative;
-}
 .child {
   position: absolute;
 }
@@ -588,6 +585,7 @@ input[type="checkbox"] {
   min-width: 100%;
   overflow-y: scroll;
 }
+/* Cookie Banner */
 #cookie-notice {
   position: fixed;
   left: 0px;
@@ -611,20 +609,11 @@ input[type="checkbox"] {
 .left-\[-14rem\] {
   left: -14rem;
 }
-.left-\[5\%\] {
-  left: 5%;
-}
 .top-10p {
   top: 10%;
 }
 .top-\[19rem\] {
   top: 19rem;
-}
-.left-\[-32\%\] {
-  left: -32%;
-}
-.top-\[-12rem\] {
-  top: -12rem;
 }
 .z-10 {
   z-index: 10;
@@ -641,9 +630,6 @@ input[type="checkbox"] {
 .col-span-6 {
   grid-column: span 6 / span 6;
 }
-.m-10p {
-  margin: 10%;
-}
 .mx-10p {
   margin-left: 10%;
   margin-right: 10%;
@@ -656,15 +642,17 @@ input[type="checkbox"] {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
-.mx-5p {
-  margin-left: 5%;
-  margin-right: 5%;
-}
 .-mb-10p {
   margin-bottom: -10%;
 }
 .-mb-\[12\%\] {
   margin-bottom: -12%;
+}
+.-mr-\[1\.9rem\] {
+  margin-right: -1.9rem;
+}
+.mb-16 {
+  margin-bottom: 4rem;
 }
 .mb-2 {
   margin-bottom: 0.5rem;
@@ -677,30 +665,6 @@ input[type="checkbox"] {
 }
 .mb-\[-20\%\] {
   margin-bottom: -20%;
-}
-.-mt-\[20rem\] {
-  margin-top: -20rem;
-}
-.-mt-\[24rem\] {
-  margin-top: -24rem;
-}
-.-mb-\[10\%\] {
-  margin-bottom: -10%;
-}
-.mb-16 {
-  margin-bottom: 4rem;
-}
-.ml-\[15\%\] {
-  margin-left: 15%;
-}
-.ml-10p {
-  margin-left: 10%;
-}
-.mr-\[1\.9rem\] {
-  margin-right: 1.9rem;
-}
-.-mr-\[1\.9rem\] {
-  margin-right: -1.9rem;
 }
 .ml-5p {
   margin-left: 5%;
@@ -737,9 +701,6 @@ input[type="checkbox"] {
 }
 .min-w-\[25\%\] {
   min-width: 25%;
-}
-.flex-1 {
-  flex: 1 1 0%;
 }
 .flex-auto {
   flex: 1 1 auto;
@@ -869,9 +830,6 @@ input[type="checkbox"] {
 .pb-2 {
   padding-bottom: 0.5rem;
 }
-.pl-5p {
-  padding-left: 5%;
-}
 .pt-5p {
   padding-top: 5%;
 }
@@ -930,11 +888,11 @@ input[type="checkbox"] {
   --tw-text-opacity: 1;
   color: rgb(245 243 241 / var(--tw-text-opacity));
 }
-.opacity-90 {
-  opacity: 0.9;
-}
 .opacity-70 {
   opacity: 0.7;
+}
+.opacity-90 {
+  opacity: 0.9;
 }
 
 @font-face {
