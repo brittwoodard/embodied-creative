@@ -636,6 +636,9 @@ input[type="checkbox"] {
 .bottom-0 {
   bottom: 0px;
 }
+.left-0 {
+  left: 0px;
+}
 .z-10 {
   z-index: 10;
 }
@@ -962,6 +965,9 @@ input[type="checkbox"] {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+.text-\[23vw\] {
+  font-size: 23vw;
 }
 .uppercase {
   text-transform: uppercase;
