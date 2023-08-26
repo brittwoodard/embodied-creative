@@ -1001,4 +1001,10 @@ li {
   .md\:ml-\[20\%\] {
     margin-left: 20%;
   }
+  .md\:grid {
+    display: grid;
+  }
+  .md\:hidden {
+    display: none;
+  }
 }
