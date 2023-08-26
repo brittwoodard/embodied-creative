@@ -144,6 +144,10 @@ li {
         @apply text-2xl px-2
     }
 
+    .icon:hover {
+        @apply text-feature
+    }
+
 
     /* Form */
 

@@ -544,6 +544,10 @@ footer .child {
   font-size: 1.5rem;
   line-height: 2rem;
 }
+.icon:hover {
+  --tw-text-opacity: 1;
+  color: rgb(153 107 76 / var(--tw-text-opacity));
+}
 /* Form */
 form input {
   background-color: transparent;
