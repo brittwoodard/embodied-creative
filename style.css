@@ -140,6 +140,10 @@ li {
         @apply ml-8 
     }
 
+    .icon {
+        @apply text-2xl px-2
+    }
+
 
     /* Form */
 
