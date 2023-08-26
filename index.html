@@ -1,36 +1,64 @@
 ---
-layout: default 
-header:
-  heading: samkalpa.
-  description_html: Web Development for Conscious Brands<br>Built to Stand Out in an Over Saturated Market
-about-section:
-  heading: What we do.
-  description_html: At Samkalpa, we specialize in crafting custom websites with intention. We begin by understanding your brand's unique needs and then develop a tailored website strategy. Our goal is to help you stand out in a crowded market, believing that success doesn't solely rely on having a large following. We offer website design, web development, and CRM management to help you maximize profits. Our aim is to free up your time, allowing you to focus on what you love, while we take care of the administrative aspects. Let us guide you on a helpful and informative journey of building a custom site that truly reflects your brand and supports your success.
-seo: 
-  title: Samkalpa.
-  description: 
-  keywords: 
-  social_image: 
-  hide-from-google: true
+layout: blank
 ---
 
-<!-- Nav -->
-{% include site-header.html %}
+<!-- Mobile -->
+<!-- Hide for medium and larger screens -->
+<section class="bg-sand h-screen md:hidden">    
+    <h1 class="text-lg text-dark lowercase tracking-wide p-5p text-center">Samkalpa.</h1>
+    <div class="grid grid-cols-2">
+        <div class="bg-image-style h-[40vh] w-[70vw] z-10 border border-black"
+            style="background-image: url('/images/samkalpa-portfolio-5.jpg'); background-position: bottom;"></div>
+        <div class="bg-image-style h-[30vh] mt-[10rem] border border-black"
+            style="background-image: url('/images/samkalpa-portfolio-6.jpg'); background-position: center;"></div>
+    </div>
+    <div class="mx-5p">
+        <div class="capitalize text-xl text-black mb-8">
+            <p>Stay tuned</p>
+            <p>Our new website is<br class="mb-2"><span class="uppercase font-heading text-3xl">coming soon</span>
+            </p>
+        </div>
+        <div class="mb-8">
+            <h2 class="font-sans capitalize text-black">Web Development for Conscious Brands
+                <br>Built to Stand Out in an Over Saturated Market
+            </h2>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/samkalpacreative/"><i class="fa-brands fa-instagram icon"></i></a>
+            <a href="mailto:samkalpacreative@gmail.com"><i class="fa-regular fa-envelope icon"></i></a>
+        </div>
+    </div>
+</section>
 
-<!-- Hero Banner -->
-{% include hero-banner.html %}
+<!-- Desktop -->
+<!-- Show only for medium and larger screens -->    
+<section class="grid grid-cols-2 h-screen bg-medium hidden md:grid"> 
+    <div class="flex items-center justify-center text-center p-5">
+        <div>
+            <div class="capitalize text-xl text-black mb-8">
+                <p>Stay tuned</p>
+                <p>Our new website is<br class="mb-2"><span class="uppercase font-heading text-3xl">coming soon</span>
+                </p>
+            </div>
+            <div class="mb-8">
+                <h2 class="font-sans capitalize text-black">Web Development for Conscious Brands
+                    <br>Built to Stand Out in an Over Saturated Market
+                </h2>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/samkalpacreative/"><i class="fa-brands fa-instagram icon"></i></a>
+                <a href="mailto:samkalpacreative@gmail.com"><i class="fa-regular fa-envelope icon"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="bg-image-style h-screen border-l border-black" style="background-image: url('/images/samkalpa-portfolio-5.jpg')"></div>
+</section>
 
-<!-- Portfolio -->
-{% include portfolio.html %}
 
-<!-- About -->
-{% include about.html %}
+<!-- JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.0/ScrollTrigger.min.js"></script>
+<script src="/main.js"></script>
+</body>
 
-<!-- FAQ Section -->
-{% include faq.html %}
-
-<!-- Pricing Form -->
-{% include form-pricing.html %}
-
-<!-- Cookie Banner -->
-{% include cookie-banner.html %}
+</html>
