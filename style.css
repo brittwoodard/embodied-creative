@@ -141,7 +141,7 @@ li {
     }
 
     .icon {
-        @apply text-2xl px-2
+        @apply text-2xl
     }
 
     .icon:hover {
