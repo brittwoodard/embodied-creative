@@ -141,7 +141,7 @@ li {
     }
 
     .icon {
-        @apply text-2xl
+        @apply text-2xl inline-block mb-[1rem]
     }
 
     .icon:hover {
