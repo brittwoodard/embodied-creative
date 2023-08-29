@@ -1,5 +1,5 @@
 // Click to pop up
-
+// Pricing Button
 console.log("mainjsStart")
 
 const pricingButton = document.querySelectorAll(".pricing-button")
@@ -13,6 +13,21 @@ function togglePricingSection() {
 pricingButton.forEach(button => {
     button.addEventListener("click", togglePricingSection)
 })
+
+// Contact Button
+// console.log("mainjsStart")
+
+// const contactButton = document.querySelectorAll(".contact-button")
+
+// const contactSection = document.querySelector(".contact-section")
+
+// function togglePricingSection() {
+//     console.log("Dan was here.")
+//     contactSection.classList.toggle("active")
+// }
+// contactButton.forEach(button => {
+//     button.addEventListener("click", toggleContactSection)
+// })
 
 // Cookie Banner
 function createCookie(name, value, days) {
