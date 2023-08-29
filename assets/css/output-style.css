@@ -607,8 +607,20 @@ input[type="checkbox"] {
 .fixed {
   position: fixed;
 }
+.absolute {
+  position: absolute;
+}
 .relative {
   position: relative;
+}
+.-right-\[3rem\] {
+  right: -3rem;
+}
+.-top-16 {
+  top: -4rem;
+}
+.left-0 {
+  left: 0px;
 }
 .left-10p {
   left: 10%;
@@ -719,6 +731,9 @@ input[type="checkbox"] {
 .min-h-\[80vh\] {
   min-height: 80vh;
 }
+.w-\[25vw\] {
+  width: 25vw;
+}
 .w-\[33\%\] {
   width: 33%;
 }
@@ -765,6 +780,9 @@ input[type="checkbox"] {
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
+.grid-cols-7 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
 .flex-col {
   flex-direction: column;
 }
@@ -786,8 +804,14 @@ input[type="checkbox"] {
 .justify-around {
   justify-content: space-around;
 }
+.justify-items-center {
+  justify-items: center;
+}
 .gap-4 {
   gap: 1rem;
+}
+.gap-6 {
+  gap: 1.5rem;
 }
 .gap-64 {
   gap: 16rem;
@@ -878,6 +902,9 @@ input[type="checkbox"] {
 }
 .pb-2 {
   padding-bottom: 0.5rem;
+}
+.pb-4 {
+  padding-bottom: 1rem;
 }
 .pb-5p {
   padding-bottom: 5%;
@@ -1024,6 +1051,10 @@ li {
 }
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
+
+.group:hover .group-hover\:block {
+  display: block;
+}
 
 @media (min-width: 768px) {
   .md\:ml-\[20\%\] {

@@ -1,14 +1,16 @@
 <section class="bg-light py-10p">
-    <div class="flex gap-4 portfolio-gallery md:ml-[20%]">
-        <h2 class="heading-md relative vertical-text text-right z-10">Portfolio.</h2>
-        {% for item in site.projects %}
-        <a href="{{item.url}}" class="w-[33%] shrink-0">
-            <div x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false"
-                class="bg-image-style gallery-items bg-overlay bg-overlay-gradient flex flex-col justify-center"
-                style="background-image: url('{{item.featured-image}}');">
-                <h3 x-show="hover" class="text-medium font-heading text-center">{{item.title_html}}.</h3>
-            </div>
-        </a>
-        {% endfor %}
+    <div class="grid grid-cols-7 md:ml-[20%]">
+        <h2 class="heading-md relative vertical-text text-right -right-[3rem] z-10">Portfolio.</h2>
+        <div class="flex gap-4 portfolio-gallery col-span-6">
+            {% for item in site.projects %}
+            <a href="{{item.url}}" class="w-[33%] shrink-0">
+                <div x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false"
+                    class="bg-image-style gallery-items bg-overlay bg-overlay-gradient flex flex-col justify-center"
+                    style="background-image: url('{{item.featured-image}}');">
+                    <h3 x-show="hover" class="text-medium font-heading text-center">{{item.title_html}}.</h3>
+                </div>
+            </a>
+            {% endfor %}
+        </div>
     </div>
 </section>

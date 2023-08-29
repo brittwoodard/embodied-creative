@@ -2,6 +2,31 @@
     <h2 class="overflow-heading -mb-10p">{{page.about-section.heading}}</h2>
     <div class="border border-feature p-5p mx-10p bg-light relative opacity-90">{{page.about-section.description_html}}
     </div>
+
+    <div class="grid grid-cols-3 justify-items-center p-10p ">
+        {% for item in site.data.faq-settings.features %}
+        <div class="py-10p group relative">
+            <h3 class="pb-4 border-b border-black text-center">{{item.feature}}&nbsp;&nbsp;→</h3>
+            <div class="hidden group-hover:block absolute -top-16 left-0 w-[25vw] feature-container">
+                <h3>{{item.feature}}</h3>
+                <p>{{item.description}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    <div class="grid grid-cols-3 gap-6 p-10p ">
+        {% for item in site.data.faq-settings.features %}
+        <div class="py-10p group relative">
+            <h3 class="pb-4 border-b border-black text-center">{{item.feature}}&nbsp;&nbsp;→</h3>
+            <div class="hidden group-hover:block absolute -top-16 left-0 feature-container">
+                <h3>{{item.feature}}</h3>
+                <p>{{item.description}}</p>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
     <div class="grid grid-cols-3 gap-64 p-10p">
         {% for item in site.data.faq-settings.features %}
         <li x-data="{ open: false }" class="border-b border-dark my-8 list-none">
@@ -17,7 +42,7 @@
         {% endfor %}
     </div>
 
-    <!-- Test
+    Test
     <div class="flex justify-around">
         {% for item in site.data.faq-settings.features %}
         <h3>{{item.feature}}</h3>
@@ -26,6 +51,6 @@
           <p>{{item.description}}</p>
         </div>
         {% endfor %}
-      </div>         -->
+      </div>        
 
 </section>
