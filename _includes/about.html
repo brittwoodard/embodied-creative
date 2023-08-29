@@ -1,9 +1,9 @@
-<section class="bg-medium pt-5p">
+<section class="bg-medium pt-5p pb-10p">
     <h2 class="overflow-heading -mb-10p">{{page.about-section.heading}}</h2>
-    <div class="border border-feature p-5p mx-10p bg-light relative opacity-90">{{page.about-section.description_html}}
+    <div class="border border-feature p-5p mx-10p bg-light relative opacity-90 mb-12">{{page.about-section.description_html}}
     </div>
 
-    <div class="grid grid-cols-3 justify-items-center p-10p ">
+    <div class="grid grid-cols-3 justify-items-center px-10p ">
         {% for item in site.data.faq-settings.features %}
         <div class="py-10p group relative">
             <h3 class="pb-4 border-b border-black text-center">{{item.feature}}&nbsp;&nbsp;→</h3>

@@ -1,9 +1,9 @@
 <section class="bg-light py-10p">
     <div class="grid grid-cols-7 md:ml-[10%]">
-        <h2 class="heading-md relative vertical-text text-right -right-[65%] z-10">Portfolio.</h2>
-        <div class="flex gap-4 portfolio-gallery col-span-6">
+        <h2 class="heading-md relative vertical-text text-right -right-[65%]">Portfolio.</h2>
+        <div class="flex gap-4 portfolio-gallery col-span-6 z-10">
             {% for item in site.projects %}
-            <a href="{{item.url}}" class="w-[33%] shrink-0">
+            <a href="{{item.url}}" class="w-[33%] shrink-0 opacity-80">
                 <div x-data="{ hover: false }" @mouseenter="hover = true" @mouseleave="hover = false"
                     class="bg-image-style gallery-items bg-overlay bg-overlay-gradient flex flex-col justify-center"
                     style="background-image: url('{{item.featured-image}}');">
