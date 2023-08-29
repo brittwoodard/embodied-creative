@@ -509,6 +509,7 @@ video {
   position: absolute;
 }
 .feature-container {
+  z-index: 10;
   cursor: pointer;
   border-width: 1px;
   --tw-border-opacity: 1;
@@ -613,14 +614,14 @@ input[type="checkbox"] {
 .relative {
   position: relative;
 }
-.-right-\[3rem\] {
-  right: -3rem;
+.-left-\[50\%\] {
+  left: -50%;
 }
-.-top-16 {
-  top: -4rem;
+.-right-\[65\%\] {
+  right: -65%;
 }
-.left-0 {
-  left: 0px;
+.-top-\[70\%\] {
+  top: -70%;
 }
 .left-10p {
   left: 10%;
@@ -636,18 +637,6 @@ input[type="checkbox"] {
 }
 .top-\[19rem\] {
   top: 19rem;
-}
-.-left-16 {
-  left: -4rem;
-}
-.-left-\[50\%\] {
-  left: -50%;
-}
-.-top-\[50\%\] {
-  top: -50%;
-}
-.-top-\[60\%\] {
-  top: -60%;
 }
 .z-10 {
   z-index: 10;
@@ -780,9 +769,6 @@ input[type="checkbox"] {
 .list-disc {
   list-style-type: disc;
 }
-.list-none {
-  list-style-type: none;
-}
 .grid-cols-12 {
   grid-template-columns: repeat(12, minmax(0, 1fr));
 }
@@ -821,12 +807,6 @@ input[type="checkbox"] {
 }
 .gap-4 {
   gap: 1rem;
-}
-.gap-6 {
-  gap: 1.5rem;
-}
-.gap-64 {
-  gap: 16rem;
 }
 .gap-8 {
   gap: 2rem;
@@ -911,9 +891,6 @@ input[type="checkbox"] {
 }
 .pb-10p {
   padding-bottom: 10%;
-}
-.pb-2 {
-  padding-bottom: 0.5rem;
 }
 .pb-4 {
   padding-bottom: 1rem;
@@ -1069,8 +1046,8 @@ li {
 }
 
 @media (min-width: 768px) {
-  .md\:ml-\[20\%\] {
-    margin-left: 20%;
+  .md\:ml-\[10\%\] {
+    margin-left: 10%;
   }
   .md\:grid {
     display: grid;

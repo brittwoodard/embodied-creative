@@ -121,7 +121,7 @@ li {
     }
 
     .feature-container {
-        @apply bg-dark text-light border border-black p-10p text-center cursor-pointer
+        @apply bg-dark text-light border border-black p-10p text-center cursor-pointer z-10
     }
 
     .feature-container h3 {
