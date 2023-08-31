@@ -721,6 +721,27 @@ input[type="checkbox"] {
 .mt-\[75\%\] {
   margin-top: 75%;
 }
+.ml-\[100\%\] {
+  margin-left: 100%;
+}
+.ml-\[120\%\] {
+  margin-left: 120%;
+}
+.mt-\[110\%\] {
+  margin-top: 110%;
+}
+.mt-\[120\%\] {
+  margin-top: 120%;
+}
+.mt-\[130\%\] {
+  margin-top: 130%;
+}
+.mt-\[150\%\] {
+  margin-top: 150%;
+}
+.ml-\[110\%\] {
+  margin-left: 110%;
+}
 .block {
   display: block;
 }
