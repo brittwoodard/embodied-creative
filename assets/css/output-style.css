@@ -456,8 +456,10 @@ video {
   border-color: rgb(39 39 39 / var(--tw-border-opacity));
 }
 .vertical-text {
-        writing-mode: sideways-lr;
-    }
+  position: relative;
+  --tw-rotate: -90deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
 .overflow-heading {
   overflow: hidden;
   text-overflow: clip;
@@ -638,9 +640,6 @@ input[type="checkbox"] {
 .top-\[19rem\] {
   top: 19rem;
 }
-.right-8 {
-  right: 2rem;
-}
 .z-10 {
   z-index: 10;
 }
@@ -650,20 +649,14 @@ input[type="checkbox"] {
 .z-30 {
   z-index: 30;
 }
+.col-span-1 {
+  grid-column: span 1 / span 1;
+}
 .col-span-11 {
   grid-column: span 11 / span 11;
 }
 .col-span-6 {
   grid-column: span 6 / span 6;
-}
-.col-span-9 {
-  grid-column: span 9 / span 9;
-}
-.col-span-1 {
-  grid-column: span 1 / span 1;
-}
-.col-span-12 {
-  grid-column: span 12 / span 12;
 }
 .mx-10p {
   margin-left: 10%;
@@ -687,8 +680,8 @@ input[type="checkbox"] {
 .-mb-\[12\%\] {
   margin-bottom: -12%;
 }
-.-mr-\[1\.9rem\] {
-  margin-right: -1.9rem;
+.-mr-8 {
+  margin-right: -2rem;
 }
 .mb-12 {
   margin-bottom: 3rem;
@@ -708,23 +701,20 @@ input[type="checkbox"] {
 .mb-\[-20\%\] {
   margin-bottom: -20%;
 }
-.ml-5p {
-  margin-left: 5%;
-}
 .mt-\[14rem\] {
   margin-top: 14rem;
 }
 .mt-\[1rem\] {
   margin-top: 1rem;
 }
-.-mr-4 {
-  margin-right: -1rem;
+.ml-\[10rem\] {
+  margin-left: 10rem;
 }
-.-mr-8 {
-  margin-right: -2rem;
+.mt-\[13rem\] {
+  margin-top: 13rem;
 }
-.-mr-16 {
-  margin-right: -4rem;
+.ml-\[13rem\] {
+  margin-left: 13rem;
 }
 .block {
   display: block;
@@ -805,14 +795,8 @@ input[type="checkbox"] {
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
-.grid-cols-10 {
-  grid-template-columns: repeat(10, minmax(0, 1fr));
-}
 .flex-col {
   flex-direction: column;
-}
-.content-end {
-  align-content: flex-end;
 }
 .items-center {
   align-items: center;
@@ -843,12 +827,6 @@ input[type="checkbox"] {
 }
 .gap-8 {
   gap: 2rem;
-}
-.justify-self-start {
-  justify-self: start;
-}
-.justify-self-end {
-  justify-self: end;
 }
 .border {
   border-width: 1px;
