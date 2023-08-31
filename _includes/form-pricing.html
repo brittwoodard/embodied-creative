@@ -1,7 +1,9 @@
 <section class="pricing-section fixed top-10p left-10p bottom-10p z-30 hidden justify-center align-center">
     <div class="bg-medium border border-feature w-[80vw]">
         <span class="x pricing-button">X</span>
-        <form class="popup-form px-10p leading-6 top-10p bottom-10p absolute" netlify>
+        <form class="popup-form px-10p leading-6 top-10p bottom-10p absolute" form name="pricing" method="POST" data-netlify="true" data-netlify-honeypot=“bot-field”>
+
+        <input class=“d-none” name=”bot-field”>
             <div class="mb-4">
                 <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full">
                 <label for="first-name">First Name:</label>
