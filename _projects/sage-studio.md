@@ -12,4 +12,6 @@ gallery:
     alt-text: a short description
   - image: https://source.unsplash.com/mwINQsW2KJs
     alt-text: a short description
+seo: 
+  hide-from-google: true
 ---
