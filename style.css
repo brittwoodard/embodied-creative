@@ -69,7 +69,7 @@ li {
     }
 
     .vertical-text {
-        writing-mode: sideways-lr;
+        @apply relative -rotate-90
     }
 
     .overflow-heading {
