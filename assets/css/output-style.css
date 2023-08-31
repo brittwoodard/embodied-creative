@@ -697,50 +697,23 @@ input[type="checkbox"] {
 .mb-\[-20\%\] {
   margin-bottom: -20%;
 }
-.ml-\[13rem\] {
-  margin-left: 13rem;
-}
-.mt-\[13rem\] {
-  margin-top: 13rem;
-}
-.mt-\[14rem\] {
-  margin-top: 14rem;
-}
-.mt-\[1rem\] {
-  margin-top: 1rem;
+.ml-\[110\%\] {
+  margin-left: 110%;
 }
 .ml-\[80\%\] {
   margin-left: 80%;
 }
-.mt-\[100\%\] {
-  margin-top: 100%;
-}
-.mt-\[80\%\] {
-  margin-top: 80%;
-}
-.mt-\[75\%\] {
-  margin-top: 75%;
-}
-.ml-\[100\%\] {
-  margin-left: 100%;
-}
-.ml-\[120\%\] {
-  margin-left: 120%;
-}
-.mt-\[110\%\] {
-  margin-top: 110%;
-}
-.mt-\[120\%\] {
-  margin-top: 120%;
-}
-.mt-\[130\%\] {
-  margin-top: 130%;
+.mt-\[14rem\] {
+  margin-top: 14rem;
 }
 .mt-\[150\%\] {
   margin-top: 150%;
 }
-.ml-\[110\%\] {
-  margin-left: 110%;
+.mt-\[1rem\] {
+  margin-top: 1rem;
+}
+.mt-\[75\%\] {
+  margin-top: 75%;
 }
 .block {
   display: block;
