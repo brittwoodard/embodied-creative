@@ -715,6 +715,12 @@ input[type="checkbox"] {
 .mt-\[75\%\] {
   margin-top: 75%;
 }
+.-mt-\[1rem\] {
+  margin-top: -1rem;
+}
+.mt-\[5rem\] {
+  margin-top: 5rem;
+}
 .block {
   display: block;
 }
@@ -738,6 +744,9 @@ input[type="checkbox"] {
 }
 .h-screen {
   height: 100vh;
+}
+.h-\[23vh\] {
+  height: 23vh;
 }
 .min-h-\[40vh\] {
   min-height: 40vh;
