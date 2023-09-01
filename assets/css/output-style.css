@@ -769,6 +769,9 @@ input[type="checkbox"] {
 .w-full {
   width: 100%;
 }
+.w-\[66vw\] {
+  width: 66vw;
+}
 .min-w-\[25\%\] {
   min-width: 25%;
 }
