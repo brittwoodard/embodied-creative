@@ -722,6 +722,9 @@ input[type="checkbox"] {
 .-mb-\[50\%\] {
   margin-bottom: -50%;
 }
+.mt-\[0\.5em\] {
+  margin-top: 0.5em;
+}
 .block {
   display: block;
 }
@@ -969,6 +972,9 @@ input[type="checkbox"] {
   font-size: 1.25rem;
   line-height: 1.75rem;
 }
+.text-\[1rem\] {
+  font-size: 1rem;
+}
 .uppercase {
   text-transform: uppercase;
 }
@@ -1079,6 +1085,9 @@ li {
   .sm\:-mb-\[30\%\] {
     margin-bottom: -30%;
   }
+  .sm\:justify-end {
+    justify-content: flex-end;
+  }
 }
 
 @media (min-width: 768px) {
@@ -1100,6 +1109,9 @@ li {
   }
   .md\:-mb-\[20\%\] {
     margin-bottom: -20%;
+  }
+  .md\:mt-0 {
+    margin-top: 0px;
   }
   .md\:flex {
     display: flex;
@@ -1124,6 +1136,9 @@ li {
   }
   .md\:flex-row {
     flex-direction: row;
+  }
+  .md\:text-\[1\.3rem\] {
+    font-size: 1.3rem;
   }
 }
 
