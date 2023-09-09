@@ -670,6 +670,10 @@ input[type="checkbox"] {
   margin-top: 2rem;
   margin-bottom: 2rem;
 }
+.my-10p {
+  margin-top: 10%;
+  margin-bottom: 10%;
+}
 .-mb-10p {
   margin-bottom: -10%;
 }
