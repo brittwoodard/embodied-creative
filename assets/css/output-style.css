@@ -1075,6 +1075,10 @@ li {
   .md\:-left-\[50\%\] {
     left: -50%;
   }
+  .md\:my-0 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
   .md\:ml-\[10\%\] {
     margin-left: 10%;
   }
@@ -1083,6 +1087,9 @@ li {
   }
   .md\:mt-\[255\%\] {
     margin-top: 255%;
+  }
+  .md\:flex {
+    display: flex;
   }
   .md\:grid {
     display: grid;
@@ -1096,8 +1103,14 @@ li {
   .md\:w-\[58\%\] {
     width: 58%;
   }
+  .md\:w-full {
+    width: 100%;
+  }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+  .md\:flex-row {
+    flex-direction: row;
   }
 }
 
