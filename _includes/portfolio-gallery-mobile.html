@@ -1,0 +1,8 @@
+<section class="px-5p">
+    <div class="slider-container">
+        {% for item in page.gallery limit:3 %}
+        <div class="slider-item bg-image-style aspect-portrait border border-black mb-8"
+            style="background-image: url('{{item.image}}');"></div>
+        {% endfor %}
+    </div>
+</section>
