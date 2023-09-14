@@ -171,6 +171,10 @@ li {
         @apply flex
     }
 
+    .contact-section.active {
+        @apply flex
+    }
+
     .popup-form {
         @apply overflow-y-scroll max-h-[100vh] min-w-full
     }
