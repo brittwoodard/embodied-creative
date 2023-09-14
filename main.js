@@ -71,7 +71,7 @@ document.querySelector("#close-cookie-banner").addEventListener("click", (e) => 
 // Slick
 $('.slider-container').slick({
 	autoplay: true, 
-	autoplaySpeed: 2000, 
+	autoplaySpeed: 900, 
 	speed: 500, 
 	arrows: false, 
 	accessibility: true, 
