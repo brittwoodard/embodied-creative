@@ -12,6 +12,7 @@ gallery:
     alt-text: a short description
   - image: https://source.unsplash.com/mwINQsW2KJs
     alt-text: a short description
+domain: https://wholebodywellness.samkalpacreative.com
 seo: 
   hide-from-google: true
 ---
