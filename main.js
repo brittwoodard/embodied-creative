@@ -15,19 +15,19 @@ pricingButton.forEach(button => {
 })
 
 // Contact Button
-// console.log("mainjsStart")
+console.log("mainjsStart")
 
-// const contactButton = document.querySelectorAll(".contact-button")
+const contactButton = document.querySelectorAll(".contact-button")
 
-// const contactSection = document.querySelector(".contact-section")
+const contactSection = document.querySelector(".contact-section")
 
-// function togglePricingSection() {
-//     console.log("Dan was here.")
-//     contactSection.classList.toggle("active")
-// }
-// contactButton.forEach(button => {
-//     button.addEventListener("click", toggleContactSection)
-// })
+function toggleContactSection() {
+    console.log("Dan was here.")
+    contactSection.classList.toggle("active")
+}
+contactButton.forEach(button => {
+    button.addEventListener("click", toggleContactSection)
+})
 
 // Cookie Banner
 function createCookie(name, value, days) {
@@ -73,9 +73,9 @@ $('.slider-container').slick({
 	autoplay: true, // Do we want it to autoplay? true or false
 	autoplaySpeed: 2000, // How long between each slide when auto-playing
 	speed: 500, // How fast is the transition in milliseconds
-	arrows: false, // Do you want to show arrows to trigger each slide
+	arrows: true, // Do you want to show arrows to trigger each slide
 	accessibility: true, // Enables keyboard tabbing and arrow key navigation
-	dots: false, // Enables the dots below to show how many slides
+	dots: true, // Enables the dots below to show how many slides
 	fade: false, // Changes the animate from slide to fade if true
 	infinite: false, // When true, means that it will scroll in a circle
 	pauseOnHover: false, // When true means the autoplay pauses when hovering
