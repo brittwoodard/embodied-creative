@@ -558,16 +558,6 @@ input:focus-visible {
   outline: 2px solid transparent;
   outline-offset: 2px;
 }
-input[type="radio"] {
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(153 107 76 / var(--tw-border-opacity));
-}
-input[type="checkbox"] {
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(153 107 76 / var(--tw-border-opacity));
-}
 .box:focus-visible {
   outline: 2px solid transparent;
   outline-offset: 2px;
@@ -607,7 +597,7 @@ input[type="radio"] {
           appearance: none;
   place-content: center;
   border-radius: 9999px;
-  border-width: 1px;
+  border-width: 1.6px;
   border-color: currentColor;
   --tw-bg-opacity: 1;
   background-color: rgb(245 243 241 / var(--tw-bg-opacity));
@@ -639,7 +629,7 @@ input[type="checkbox"] {
      -moz-appearance: none;
           appearance: none;
   place-content: center;
-  border-width: 1px;
+  border-width: 1.6px;
   border-color: currentColor;
   --tw-bg-opacity: 1;
   background-color: rgb(245 243 241 / var(--tw-bg-opacity));

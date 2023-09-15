@@ -151,14 +151,6 @@ li {
         @apply outline-none border-b border-feature
     }
 
-    input[type="radio"] {
-        @apply border border-feature
-    }
-
-    input[type="checkbox"] {
-        @apply border border-feature
-    }
-
     .box:focus-visible {
         @apply outline-none ring-1 ring-feature
     }
@@ -180,7 +172,7 @@ li {
     } 
 
     input[type="radio"] {
-        @apply appearance-none bg-medium m-0 text-current w-[0.85em] h-[0.85em] border border-current rounded-full inline-grid place-content-center
+        @apply appearance-none bg-medium m-0 text-current w-[0.85em] h-[0.85em] border-[1.6px] border-current rounded-full inline-grid place-content-center
       }
       
       input[type="radio"]::before {
@@ -203,7 +195,7 @@ li {
 
       /* Checkbox */
       input[type="checkbox"] {
-        @apply appearance-none bg-medium m-0 text-current w-[0.85em] h-[0.85em] border border-current inline-grid place-content-center relative
+        @apply appearance-none bg-medium m-0 text-current w-[0.85em] h-[0.85em] border-[1.6px] border-current inline-grid place-content-center relative
       }
       
       input[type="checkbox"]::before {
