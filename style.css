@@ -40,6 +40,10 @@ li {
     @apply mb-4
 }
 
+ul {
+    @apply list-disc ml-4
+}
+
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 @layer components {

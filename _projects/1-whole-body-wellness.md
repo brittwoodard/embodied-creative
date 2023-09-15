@@ -3,13 +3,13 @@ layout: project-alt
 slug: whole-body-wellness
 title: Whole Body Wellness
 title_html: Whole<br>Body<br>Wellness
-description_html: Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur? 
+description_html: Our journey with this group of passionate Ayurveda educators began with a clear vision in mind, to create a versatile digital sanctuary. They needed a space to sell and host live and prerecorded courses, downloadable ebooks, and insightful blog posts, all united under one virtual roof.<br><br>To translate this vision into reality, we designed distinct spaces on their website:<br><br><ul><li>Shop for their digital products, allowing visitors to explore and invest in their offerings.</li><li>Secure, password-protected member's area for exclusive course access, fostering a sense of community and belonging.</li><li>Engaging blog space designed to attract and educate their audience, complemented by a powerful archive and search tool.<br><br>This deliberate structure served as the blueprint for their website, strategically aligning with their brand strategy of feminine, modern, easy to apply, and informative. 
 featured-image: /images/portfolio-projects/whole-body-wellness/wbw-featured-image.jpg
 gallery: 
-  - image: /images/portfolio-projects/whole-body-wellness/wbw-laptop.png
-    alt-text: Laptop View of the Whole Body Wellness Website
   - image: /images/portfolio-projects/whole-body-wellness/wbw-mobile.jpg
     alt-text: Mobile View of the Whole Body Wellness Website
+  - image: /images/portfolio-projects/whole-body-wellness/wbw-laptop.png
+    alt-text: Laptop View of the Whole Body Wellness Website
   - image: /images/samkalpa-portfolio-10.jpg
     alt-text: Stylish Desk Space 
 domain: https://wholebodywellness.samkalpacreative.com

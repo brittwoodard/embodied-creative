@@ -1142,6 +1142,11 @@ li {
   margin-bottom: 1rem;
 }
 
+ul {
+  margin-left: 1rem;
+  list-style-type: disc;
+}
+
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 .group:hover .group-hover\:block {
