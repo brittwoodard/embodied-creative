@@ -179,6 +179,52 @@ li {
         @apply overflow-y-scroll max-h-[100vh] min-w-full
     } 
 
+    input[type="radio"] {
+        @apply appearance-none bg-medium m-0 text-current w-[0.85em] h-[0.85em] border border-current rounded-full inline-grid place-content-center
+      }
+      
+      input[type="radio"]::before {
+        content: "";
+        width: 0.35em;
+        height: 0.35em;
+        border-radius: 50%;
+        transform: scale(0);
+        transition: 250ms transform ease-in-out;  
+        box-shadow: inset 1em 1em #996b4c;
+      }
+            
+      input[type="radio"]:checked {
+        border-color: #996b4c;
+      }
+      
+      input[type="radio"]:checked::before {
+        transform: scale(1);
+      }
+
+      /* Checkbox */
+      input[type="checkbox"] {
+        @apply appearance-none bg-medium m-0 text-current w-[0.85em] h-[0.85em] border border-current inline-grid place-content-center relative
+      }
+      
+      input[type="checkbox"]::before {
+        content: "✓";
+        transform: scale(0);
+        font-size:1.4rem;
+        position:absolute;
+        bottom:-1.2rem;
+        transition: 145ms all ease-in-out;  
+        color: #996b4c;
+      }
+      
+      input[type="checkbox"]:checked {
+        border-color: #272727;
+      }
+      
+      input[type="checkbox"]:checked::before {
+        transform: scale(1);
+        bottom:-.2rem;        
+      }
+
     /* Cookie Banner */
 
     #cookie-notice {
