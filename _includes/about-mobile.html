@@ -4,10 +4,12 @@
         {{page.about-section.description_html}}
     </div>
 
-    <div class="py-5p px-10p md:hidden">
+    <div class="hidden p10p">
         {% for item in site.data.faq-settings.features %}
-        <h3 class="font-heading text-xl tracking-wider text-dark">{{item.feature}}</h3>
-        <p class="mb-8">{{item.description}}</p>
+        <div class="feature-container m-10p">
+            <h3>{{item.feature}}</h3>
+            <p>{{item.description}}</p>
+        </div>
         {% endfor %}
     </div>
 

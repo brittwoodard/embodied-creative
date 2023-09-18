@@ -714,6 +714,12 @@ input[type="checkbox"]:checked::before {
 .col-span-6 {
   grid-column: span 6 / span 6;
 }
+.m-5p {
+  margin: 5%;
+}
+.m-10p {
+  margin: 10%;
+}
 .mx-10p {
   margin-left: 10%;
   margin-right: 10%;
@@ -788,6 +794,9 @@ input[type="checkbox"]:checked::before {
 }
 .mt-\[75\%\] {
   margin-top: 75%;
+}
+.mb-5p {
+  margin-bottom: 5%;
 }
 .block {
   display: block;
