@@ -958,6 +958,9 @@ input[type="checkbox"]:checked::before {
 .p-5p {
   padding: 5%;
 }
+.p-10 {
+  padding: 2.5rem;
+}
 .px-10p {
   padding-left: 10%;
   padding-right: 10%;
@@ -999,6 +1002,9 @@ input[type="checkbox"]:checked::before {
 }
 .pt-5p {
   padding-top: 5%;
+}
+.pt-10p {
+  padding-top: 10%;
 }
 .text-left {
   text-align: left;

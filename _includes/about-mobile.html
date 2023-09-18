@@ -1,17 +1,26 @@
 <section class="pt-5p pb-10p md:hidden">
     <h2 class="overflow-heading -mb-10p">{{page.about-section.heading}}</h2>
-    <div class="border border-feature p-5p mx-10p bg-light relative opacity-90 mb-12">{{page.about-section.description_html}}
+    <div class="border border-feature p-5p mx-10p bg-light relative opacity-90 mb-12">
+        {{page.about-section.description_html}}
     </div>
 
-    <div class="grid md:grid-cols-3 justify-items-center px-10p ">
+    <div class="py-5p px-10p md:hidden">
+        {% for item in site.data.faq-settings.features %}
+        <h3 class="font-heading text-xl tracking-wider text-dark">{{item.feature}}</h3>
+        <p class="mb-8">{{item.description}}</p>
+        {% endfor %}
+    </div>
+
+    <!-- <div class="hidden md:grid grid-cols-3 justify-items-center px-10p ">
         {% for item in site.data.faq-settings.features %}
         <div class="py-10p group relative">
             <h3 class="pb-4 border-b border-black text-center">{{item.feature}}&nbsp;&nbsp;→</h3>
-            <div class="hidden group-hover:block absolute top-[1rem] md:-top-[70%] -left-[35%] md:-left-[50%] w-[70vw] md:w-[25vw] feature-container">
+            <div
+                class="hidden group-hover:block absolute top-[1rem] md:-top-[70%] -left-[35%] md:-left-[50%] w-[70vw] md:w-[25vw] feature-container">
                 <h3>{{item.feature}}</h3>
                 <p>{{item.description}}</p>
             </div>
         </div>
         {% endfor %}
-    </div>
+    </div> -->
 </section>
