@@ -507,7 +507,7 @@ video {
         position: relative;
     }
 .feature-container {
-  z-index: 10;
+  z-index: 30;
   cursor: pointer;
   border-width: 1px;
   --tw-border-opacity: 1;
