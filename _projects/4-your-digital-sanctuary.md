@@ -8,7 +8,7 @@ featured-image: /images/portfolio-projects/your-digital-sanctuary/your-digital-s
 gallery: 
   - image: /images/portfolio-projects/your-digital-sanctuary/your-digital-sanctuary-mobile.jpg
     alt-text: Mobile View of Your Digital Sanctuary's Website
-  - image: images/portfolio-projects/your-digital-sanctuary/your-digital-sanctuary-laptop.jpg
+  - image: /images/portfolio-projects/your-digital-sanctuary/your-digital-sanctuary-laptop.jpg
     alt-text: Laptop View of Your Digital Sanctuary's Website
   - image: /images/samkalpa-portfolio-10.jpg
     alt-text: Stylish Desk Space 
