@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: promo
 slug: your-digital-sanctuary
 title: Your Digital Sanctuary
 title_html: Your<br>Digital<br>Sanctuary
