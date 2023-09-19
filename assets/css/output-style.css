@@ -717,6 +717,15 @@ input[type="checkbox"]:checked::before {
 .col-span-6 {
   grid-column: span 6 / span 6;
 }
+.col-span-8 {
+  grid-column: span 8 / span 8;
+}
+.col-span-9 {
+  grid-column: span 9 / span 9;
+}
+.col-span-5 {
+  grid-column: span 5 / span 5;
+}
 .mx-10p {
   margin-left: 10%;
   margin-right: 10%;
@@ -885,6 +894,9 @@ input[type="checkbox"]:checked::before {
 }
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+.grid-cols-10 {
+  grid-template-columns: repeat(10, minmax(0, 1fr));
 }
 .flex-col {
   flex-direction: column;
