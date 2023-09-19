@@ -809,17 +809,17 @@ input[type="checkbox"]:checked::before {
 .h-screen {
   height: 100vh;
 }
-.min-h-\[40vh\] {
-  min-height: 40vh;
-}
-.min-h-\[80vh\] {
-  min-height: 80vh;
-}
 .min-h-\[21rem\] {
   min-height: 21rem;
 }
+.min-h-\[40vh\] {
+  min-height: 40vh;
+}
 .min-h-\[60vh\] {
   min-height: 60vh;
+}
+.min-h-\[80vh\] {
+  min-height: 80vh;
 }
 .w-\[66vw\] {
   width: 66vw;
@@ -1172,12 +1172,6 @@ ul {
   .sm\:-mb-\[30\%\] {
     margin-bottom: -30%;
   }
-  .sm\:ml-\[200\%\] {
-    margin-left: 200%;
-  }
-  .sm\:mt-\[200\%\] {
-    margin-top: 200%;
-  }
   .sm\:ml-\[305\%\] {
     margin-left: 305%;
   }
@@ -1221,12 +1215,6 @@ ul {
   }
   .md\:hidden {
     display: none;
-  }
-  .md\:min-h-60 {
-    min-height: 60vh;
-  }
-  .md\:min-h-\[60vh\] {
-    min-height: 60vh;
   }
   .md\:w-\[25vw\] {
     width: 25vw;
