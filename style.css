@@ -69,7 +69,7 @@ ul {
     }
 
     .gallery-items {
-        @apply min-h-60 border border-black
+        @apply border border-black
     }
 
     .vertical-text {

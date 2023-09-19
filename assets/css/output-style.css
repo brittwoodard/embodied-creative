@@ -450,7 +450,6 @@ video {
   overflow-x: auto;
 }
 .gallery-items {
-  min-height: 60vh;
   border-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(39 39 39 / var(--tw-border-opacity));
@@ -693,9 +692,6 @@ input[type="checkbox"]:checked::before {
 .top-\[19rem\] {
   top: 19rem;
 }
-.top-\[1rem\] {
-  top: 1rem;
-}
 .z-10 {
   z-index: 10;
 }
@@ -713,12 +709,6 @@ input[type="checkbox"]:checked::before {
 }
 .col-span-6 {
   grid-column: span 6 / span 6;
-}
-.m-5p {
-  margin: 5%;
-}
-.m-10p {
-  margin: 10%;
 }
 .mx-10p {
   margin-left: 10%;
@@ -774,11 +764,14 @@ input[type="checkbox"]:checked::before {
 .mb-8 {
   margin-bottom: 2rem;
 }
-.ml-\[275\%\] {
-  margin-left: 275%;
+.ml-\[50\%\] {
+  margin-left: 50%;
 }
 .ml-\[80\%\] {
   margin-left: 80%;
+}
+.mt-8 {
+  margin-top: 2rem;
 }
 .mt-\[0\.5em\] {
   margin-top: 0.5em;
@@ -786,17 +779,14 @@ input[type="checkbox"]:checked::before {
 .mt-\[255\%\] {
   margin-top: 255%;
 }
-.mt-\[400\%\] {
-  margin-top: 400%;
+.mt-\[505\%\] {
+  margin-top: 505%;
 }
 .mt-\[5rem\] {
   margin-top: 5rem;
 }
 .mt-\[75\%\] {
   margin-top: 75%;
-}
-.mb-5p {
-  margin-bottom: 5%;
 }
 .block {
   display: block;
@@ -824,6 +814,12 @@ input[type="checkbox"]:checked::before {
 }
 .min-h-\[80vh\] {
   min-height: 80vh;
+}
+.min-h-\[21rem\] {
+  min-height: 21rem;
+}
+.min-h-\[60vh\] {
+  min-height: 60vh;
 }
 .w-\[66vw\] {
   width: 66vw;
@@ -967,8 +963,9 @@ input[type="checkbox"]:checked::before {
 .p-5p {
   padding: 5%;
 }
-.p-10 {
-  padding: 2.5rem;
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
 }
 .px-10p {
   padding-left: 10%;
@@ -1011,9 +1008,6 @@ input[type="checkbox"]:checked::before {
 }
 .pt-5p {
   padding-top: 5%;
-}
-.pt-10p {
-  padding-top: 10%;
 }
 .text-left {
   text-align: left;
@@ -1184,6 +1178,15 @@ ul {
   .sm\:mt-\[200\%\] {
     margin-top: 200%;
   }
+  .sm\:ml-\[305\%\] {
+    margin-left: 305%;
+  }
+  .sm\:mt-\[110\%\] {
+    margin-top: 110%;
+  }
+  .sm\:min-h-\[36rem\] {
+    min-height: 36rem;
+  }
   .sm\:text-7xl {
     font-size: 4.5rem;
     line-height: 1;
@@ -1193,9 +1196,6 @@ ul {
 @media (min-width: 768px) {
   .md\:-left-\[50\%\] {
     left: -50%;
-  }
-  .md\:-top-\[70\%\] {
-    top: -70%;
   }
   .md\:my-0 {
     margin-top: 0px;
@@ -1221,6 +1221,12 @@ ul {
   }
   .md\:hidden {
     display: none;
+  }
+  .md\:min-h-60 {
+    min-height: 60vh;
+  }
+  .md\:min-h-\[60vh\] {
+    min-height: 60vh;
   }
   .md\:w-\[25vw\] {
     width: 25vw;
