@@ -28,10 +28,6 @@ h2 {
     @apply lowercase text-dark
 }
 
-footer span {
-    @apply text-[20vw] font-heading text-h-light opacity-20 z-0
-}
-
 footer a {
     @apply lowercase pb-2 border-b border-black
 }
@@ -54,6 +50,14 @@ ul {
     .link {
         @apply border-b font-heading pb-2 lowercase tracking-wide text-[1.1rem];
         border-color: currentColor;
+    }
+
+   .link-nav {
+        @apply lowercase pb-2 border-b border-black
+    }
+
+    .footer-span {
+        @apply text-[20vw] font-heading text-h-light opacity-20 z-0
     }
 
     .button {
