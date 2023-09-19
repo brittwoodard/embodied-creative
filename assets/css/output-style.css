@@ -806,6 +806,12 @@ input[type="checkbox"]:checked::before {
 .mt-\[75\%\] {
   margin-top: 75%;
 }
+.-mt-8 {
+  margin-top: -2rem;
+}
+.ml-\[2\%\] {
+  margin-left: 2%;
+}
 .block {
   display: block;
 }
@@ -1053,6 +1059,9 @@ input[type="checkbox"]:checked::before {
 }
 .pt-5p {
   padding-top: 5%;
+}
+.pt-\[20\%\] {
+  padding-top: 20%;
 }
 .text-left {
   text-align: left;
