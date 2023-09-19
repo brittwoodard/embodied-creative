@@ -683,6 +683,9 @@ input[type="checkbox"]:checked::before {
 .relative {
   position: relative;
 }
+.inset-0 {
+  inset: 0px;
+}
 .-left-\[11rem\] {
   left: -11rem;
 }
@@ -824,6 +827,9 @@ input[type="checkbox"]:checked::before {
 .h-screen {
   height: 100vh;
 }
+.h-full {
+  height: 100%;
+}
 .min-h-\[21rem\] {
   min-height: 21rem;
 }
@@ -835,6 +841,9 @@ input[type="checkbox"]:checked::before {
 }
 .min-h-\[80vh\] {
   min-height: 80vh;
+}
+.min-h-60 {
+  min-height: 60vh;
 }
 .w-\[66vw\] {
   width: 66vw;
@@ -969,6 +978,21 @@ input[type="checkbox"]:checked::before {
 .bg-transparent {
   background-color: transparent;
 }
+.bg-contain {
+  background-size: contain;
+}
+.bg-auto {
+  background-size: auto;
+}
+.bg-cover {
+  background-size: cover;
+}
+.bg-center {
+  background-position: center;
+}
+.bg-no-repeat {
+  background-repeat: no-repeat;
+}
 .p-10p {
   padding: 10%;
 }
@@ -977,6 +1001,12 @@ input[type="checkbox"]:checked::before {
 }
 .p-5p {
   padding: 5%;
+}
+.p-10 {
+  padding: 2.5rem;
+}
+.p-\[50\%\] {
+  padding: 50%;
 }
 .px-10 {
   padding-left: 2.5rem;
@@ -1032,6 +1062,9 @@ input[type="checkbox"]:checked::before {
 }
 .text-right {
   text-align: right;
+}
+.align-middle {
+  vertical-align: middle;
 }
 .font-heading {
   font-family: postureregular, sans-serif;
