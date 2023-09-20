@@ -933,15 +933,6 @@ input[type="checkbox"]:checked::before {
 .gap-8 {
   gap: 2rem;
 }
-.overflow-hidden {
-  overflow: hidden;
-}
-.text-clip {
-  text-overflow: clip;
-}
-.whitespace-nowrap {
-  white-space: nowrap;
-}
 .border {
   border-width: 1px;
 }
@@ -1083,6 +1074,9 @@ input[type="checkbox"]:checked::before {
 .text-\[1\.2rem\] {
   font-size: 1.2rem;
 }
+.text-\[16\.8vw\] {
+  font-size: 16.8vw;
+}
 .text-\[4rem\] {
   font-size: 4rem;
 }
@@ -1097,9 +1091,6 @@ input[type="checkbox"]:checked::before {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-.text-\[16\.8vw\] {
-  font-size: 16.8vw;
 }
 .uppercase {
   text-transform: uppercase;
