@@ -416,7 +416,7 @@ video {
   border-bottom-width: 1px;
   padding-bottom: 0.5rem;
   font-family: postureregular, sans-serif;
-  font-size: 1.1rem;
+  font-size: 1.3rem;
   text-transform: lowercase;
   letter-spacing: 0.025em;
         border-color: currentColor;
@@ -478,6 +478,7 @@ video {
   white-space: nowrap;
   text-align: center;
   font-size: 12.6vw;
+  text-transform: lowercase;
 }
 .transparent {
   color: transparent;
@@ -751,6 +752,9 @@ input[type="checkbox"]:checked::before {
 .-mb-\[12\%\] {
   margin-bottom: -12%;
 }
+.-mb-\[14\.5\%\] {
+  margin-bottom: -14.5%;
+}
 .-mr-8 {
   margin-right: -2rem;
 }
@@ -787,6 +791,9 @@ input[type="checkbox"]:checked::before {
 .ml-\[80\%\] {
   margin-left: 80%;
 }
+.mr-8 {
+  margin-right: 2rem;
+}
 .mt-4 {
   margin-top: 1rem;
 }
@@ -807,12 +814,6 @@ input[type="checkbox"]:checked::before {
 }
 .mt-\[75\%\] {
   margin-top: 75%;
-}
-.ml-8 {
-  margin-left: 2rem;
-}
-.mr-8 {
-  margin-right: 2rem;
 }
 .block {
   display: block;
@@ -931,6 +932,15 @@ input[type="checkbox"]:checked::before {
 }
 .gap-8 {
   gap: 2rem;
+}
+.overflow-hidden {
+  overflow: hidden;
+}
+.text-clip {
+  text-overflow: clip;
+}
+.whitespace-nowrap {
+  white-space: nowrap;
 }
 .border {
   border-width: 1px;
@@ -1070,8 +1080,8 @@ input[type="checkbox"]:checked::before {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
-.text-\[1rem\] {
-  font-size: 1rem;
+.text-\[1\.2rem\] {
+  font-size: 1.2rem;
 }
 .text-\[4rem\] {
   font-size: 4rem;
@@ -1084,13 +1094,12 @@ input[type="checkbox"]:checked::before {
   font-size: 1.125rem;
   line-height: 1.75rem;
 }
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-\[16\.8vw\] {
+  font-size: 16.8vw;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1155,6 +1164,7 @@ input[type="checkbox"]:checked::before {
 
 body {
   font-family: europa, sans-serif;
+  font-size: 1.3rem;
   font-weight: 300;
   letter-spacing: 0.025em;
 }
@@ -1259,8 +1269,8 @@ ul {
     font-size: 6rem;
     line-height: 1;
   }
-  .md\:text-\[1\.3rem\] {
-    font-size: 1.3rem;
+  .md\:text-\[1\.5rem\] {
+    font-size: 1.5rem;
   }
 }
 

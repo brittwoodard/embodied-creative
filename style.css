@@ -16,7 +16,7 @@
 @layer base {}
 
 body {
-    @apply font-sans font-light tracking-wide
+    @apply font-sans font-light tracking-wide text-[1.3rem]
 }
 
 h1,
@@ -52,7 +52,7 @@ ul {
     }
 
     .link {
-        @apply border-b font-heading pb-2 lowercase tracking-wide text-[1.1rem];
+        @apply border-b font-heading pb-2 lowercase tracking-wide text-[1.3rem];
         border-color: currentColor;
     }
 
@@ -89,7 +89,7 @@ ul {
     }
 
     .overflow-heading-projects {
-        @apply text-[12.6vw] text-clip overflow-hidden whitespace-nowrap text-center
+        @apply text-[12.6vw] text-clip overflow-hidden whitespace-nowrap text-center lowercase
     }
 
     .transparent {
