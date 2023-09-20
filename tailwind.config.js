@@ -8,7 +8,7 @@ module.exports = {
     ],
     theme: {
       fontFamily: {
-        sans: ['Montserrat', 'sans-serif'],
+        sans: ['europa', 'sans-serif'],
         heading: ['postureregular', 'sans-serif'],
       },
       extend: {
@@ -31,7 +31,7 @@ module.exports = {
           '50': '50vh',
         },
         colors: {
-          'black': '#272727',
+          'black': '#3D3D3D',
           'dark': '#9C9F8D',
           'light': '#FDFDFD',
           'medium': '#F5F3F1',

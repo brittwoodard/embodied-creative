@@ -7,12 +7,12 @@ features:
     description: With our intuitive platform, managing and updating your website becomes incredibly easy, even for those with limited technical expertise. Your website will be hosted on a user-friendly content management system, ensuring a seamless experience for effortlessly managing and updating your site. Stay in control of your online presence with simplicity and ease. 
   - feature: Conversion Rate Optimization
     description: We analyze user behavior and tailor strategies to enhance the conversion journey. By optimizing elements such as calls to action, forms, and user flows, we ensure that your website not only attracts but also converts visitors into customers.
-  - feature: SEO Optimized
+  - feature: SEO Optimization
     description: Achieve better visibility in search engines with our SEO-focused approach. We optimize your website's structure and content to improve its ranking, helping you attract more organic traffic and reach your target audience effectively.
   - feature: CRM Setup
     description: We're here to simplify your customer relationships. Our CRM setup helps you organize and manage customer interactions effortlessly. Easily track communications, enhance client satisfaction, and foster lasting connections, all while focusing on what you love.
 faq: 
-  - question: What happens if the initial design proposal doesn’t align with my vision or effectively represent my brand?
+  - question: What happens if the initial design proposal doesn’t align with my vision?
     answer_html: We won't move forward with building your website unless the design perfectly aligns with your vision and effectively represents your unique brand.
   - question: Can I make edits and updates to my website myself, or will I need to hire a web developer whenever I want to make changes to my site?
     answer_html: Absolutely! Your website will be hosted on a user-friendly content management system that makes it incredibly easy to manage and update, even for those with limited technical expertise.
