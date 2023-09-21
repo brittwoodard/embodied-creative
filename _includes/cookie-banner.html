@@ -14,12 +14,15 @@
     </div>
 </div>
 
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-T61NLYG0GE"></script>
+
 <script>
-    function createCookie(name,value,days) {
+    function createCookie(name, value, days) {
         var expires = "";
         if (days) {
             var date = new Date();
-            date.setTime(date.getTime() + (days*24*60*60*1000));
+            date.setTime(date.getTime() + (days * 24 * 60 * 60 * 1000));
             expires = "; expires=" + date.toUTCString();
         }
         document.cookie = name + "=" + value + expires + "; path=/";
@@ -27,40 +30,45 @@
     function readCookie(name) {
         var nameEQ = name + "=";
         var ca = document.cookie.split(';');
-        for(var i=0;i < ca.length;i++) {
+        for (var i = 0; i < ca.length; i++) {
             var c = ca[i];
-            while (c.charAt(0)==' ') c = c.substring(1,c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+            while (c.charAt(0) == ' ') c = c.substring(1, c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length, c.length);
         }
         return null;
     }
     function eraseCookie(name) {
-        createCookie(name,"",-1);
+        createCookie(name, "", -1);
     }
-  
+
     function runCookiedCodes() {
-              // Add tracking scripts here 
-              console.log("cookies ran")
+        // Add tracking scripts here 
+        console.log("cookies ran")
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-T61NLYG0GE');
         // End tracking scripts 
     }
-  
-    if(readCookie('cookie-notice-accepted')=='true') {
-  
+
+    if (readCookie('cookie-notice-accepted') == 'true') {
+
         runCookiedCodes()
         //removes cookies while testing 
         //eraseCookie('cookie-notice-accepted')
     } else {
         document.getElementById('cookie-notice').style.display = 'block';
     }
-    document.getElementById('cookie-notice-accept').addEventListener("click",function() {
-        createCookie('cookie-notice-accepted','true',31);
+    document.getElementById('cookie-notice-accept').addEventListener("click", function () {
+        createCookie('cookie-notice-accepted', 'true', 31);
         document.getElementById('cookie-notice').style.display = 'none';
         runCookiedCodes()
     });
-  
+
     document.querySelector("#close-cookie-banner").addEventListener("click", (e) => {
-        
+
         document.querySelector("#cookie-notice").style.display = 'none';
     });
-  
-  </script>
+
+</script>
