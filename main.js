@@ -29,6 +29,21 @@ contactButton.forEach(button => {
     button.addEventListener("click", toggleContactSection)
 })
 
+// Collab Button
+console.log("mainjsStart")
+
+const collabButton = document.querySelectorAll(".collab-button")
+
+const collabSection = document.querySelector(".collab-section")
+
+function toggleCollabSection() {
+    console.log("Dan was here.")
+    collabSection.classList.toggle("active")
+}
+collabButton.forEach(button => {
+    button.addEventListener("click", toggleCollabSection)
+})
+
 // Slick
 $('.slider-container').slick({
 	autoplay: true, 

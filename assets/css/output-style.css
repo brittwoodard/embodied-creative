@@ -589,6 +589,9 @@ input:focus-visible {
 .contact-section.active {
   display: flex;
 }
+.collab-section.active {
+  display: flex;
+}
 .popup-form {
   max-height: 100vh;
   min-width: 100%;
