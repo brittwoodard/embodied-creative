@@ -14,5 +14,9 @@ gallery:
     alt-text: Stylish Desk Space 
 domain: https://wholebodywellness.samkalpacreative.com
 seo: 
+  title: Wellness Website
+  description: Discover our approach to this Ayurvedic website project, featuring a seamless e-commerce shop, secure member's area, and engaging blog space, perfectly aligned with a feminine, modern, and informative brand strategy.
+  keywords: Wellness Blog Design, Ayurveda Blog Design, Web Development for Wellness Brands, Membership Website Develeopment, Web Development for Online Course, Custom E-Comerce Shop
+  social_image: /images/portfolio-projects/whole-body-wellness/wbw-laptop.png
   hide-from-google: true
 ---
