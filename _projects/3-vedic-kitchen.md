@@ -18,5 +18,5 @@ seo:
   description: Discover our approach to this Personal Chef website project, featuring a one-page website, calls-to-actions to connect with the client, and an image gallery to showcase their work.
   keywords: Personal Chef Website Design, Personal Chef Website Development, One Page Website, Splash Page Website Design
   social_image: /images/portfolio-projects/vedic-kitchen/vedic-kitchen-laptop.jpg
-  hide-from-google: true
+  hide-from-google: false
 ---

@@ -17,5 +17,5 @@ seo:
   description: Explore collaboration opportunities with Samkalpa Creative, dedicated to supporting conscious brands by co-creating dynamic, sustainable, and standout websites. Join our mission for wellness, sustainability, and creativity. Limited slots available.
   keywords: Conscious Brand Collaboration, Website Collaboration, Sustainable Website Design, Wellness Brand Collaboration, Creative Website Partnership, Discounted Website Development, Samkalpa Creative Collaborations, Portfolio Building Partnerships
   social_image: /images/portfolio-projects/your-digital-sanctuary/your-digital-sanctuary-mobile.jpg
-  hide-from-google: true
+  hide-from-google: false
 ---

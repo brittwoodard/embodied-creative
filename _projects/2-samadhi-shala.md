@@ -19,5 +19,5 @@ seo:
   description: Discover our approach to this Yoga Studio website project, featuring a branded online booking system, strategic website design, and a robust SEO strategy, perfectly aligned with their feminine, minimalistic brand strategy.
   keywords: Yoga Studio Website Design, Yoga Studio Website Development, Branded Online Booking System
   social_image: /images/portfolio-projects/samadhi-shala/samadhi-shala-mobile.jpg
-  hide-from-google: true
+  hide-from-google: false
 ---
