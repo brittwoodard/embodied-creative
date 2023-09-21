@@ -665,6 +665,7 @@ input[type="checkbox"]:checked::before {
   right: 0px;
   bottom: 0px;
   z-index: 30;
+  display: none;
   width: 100%;
 }
 .fixed {
