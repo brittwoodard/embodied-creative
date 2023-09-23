@@ -11,7 +11,7 @@ gallery:
     alt-text: Mobile View of Samadhi Studio's Website
   - image: /images/portfolio-projects/samadhi-shala/samadhi-shala-laptop.jpg
     alt-text: Laptop View of Samadhi Studio's Website
-  - image: /images/portfolio-projects/samadhi-shala/samadhi-shala-tablet.jpg
+  - image: /images/portfolio-projects/samadhi-shala/samadhi-shala-tablet-alt.jpg
     alt-text: Stylish Desk Space 
 domain: https://samadhishala.samkalpacreative.com
 seo: 

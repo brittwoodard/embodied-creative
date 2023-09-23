@@ -10,7 +10,7 @@ gallery:
     alt-text: Mobile View of the Whole Body Wellness Website
   - image: /images/portfolio-projects/whole-body-wellness/wbw-laptop.png
     alt-text: Laptop View of the Whole Body Wellness Website
-  - image: /images/portfolio-projects/whole-body-wellness/wbw-tablet.jpg
+  - image: /images/portfolio-projects/whole-body-wellness/wbw-tablet-alt.jpg
     alt-text: Stylish Desk Space 
 domain: https://wholebodywellness.samkalpacreative.com
 seo: 
