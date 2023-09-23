@@ -10,7 +10,7 @@ gallery:
     alt-text: Mobile View of Vedic Kitchen's Site
   - image: /images/portfolio-projects/vedic-kitchen/vedic-kitchen-laptop.jpg
     alt-text: Laptop View of Vedic Kitchen's Site
-  - image: /images/samkalpa-portfolio-10.jpg
+  - image: /images/portfolio-projects/vedic-kitchen/vedic-kitchen-tablet.jpg
     alt-text: Stylish Desk Space
 domain: https://vedickitchen.samkalpacreative.com
 seo: 
