@@ -1,0 +1,31 @@
+<section class="lead-section fixed top-10p left-10p z-30 hidden justify-center align-center">
+    <div class="bg-light border border-feature w-[80vw]">
+        <span class="x lead-button">X</span>
+        <form 
+            name="lead" 
+            method="post" 
+            data-netlify="true" 
+            action="/index.html" 
+            onSubmit="submit" 
+            data-netlify-honeypot="pot-field" class="min-w-[25%] p-10p leading-6">
+
+            <input class="d-none" name="bot-field">
+            <div class="mb-4">
+                <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full">
+                <label for="first-name">First Name:</label>
+            </div>
+
+            <div class="mb-4">
+                <input type="text" id="last-name" name="last-name" class="block border-b border-black w-full">
+                <label for="last-name">Last Name:</label>
+            </div>
+
+            <div class="mb-4">
+                <input type="email" id="email" name="email" class="block border-b border-black w-full">
+                <label for="email">Email:</label>
+            </div>
+
+            <button type="submit" class="button">Enroll.</button>
+        </form>
+    </div>
+</section>

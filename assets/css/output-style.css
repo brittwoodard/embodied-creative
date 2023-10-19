@@ -994,6 +994,9 @@ input[type="checkbox"]:checked::before {
 .bg-no-repeat {
   background-repeat: no-repeat;
 }
+.p-10 {
+  padding: 2.5rem;
+}
 .p-10p {
   padding: 10%;
 }

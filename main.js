@@ -44,6 +44,21 @@ collabButton.forEach(button => {
     button.addEventListener("click", toggleCollabSection)
 })
 
+// Lead Button
+console.log("mainjsStart")
+
+const leadButton = document.querySelectorAll(".lead-button")
+
+const leadSection = document.querySelector(".lead-section")
+
+function toggleLeadSection() {
+    console.log("Dan was here.")
+    leadSection.classList.toggle("active")
+}
+leadButton.forEach(button => {
+    button.addEventListener("click", toggleLeadSection)
+})
+
 // Slick
 $('.slider-container').slick({
 	autoplay: true, 
