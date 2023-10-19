@@ -780,8 +780,14 @@ input[type="checkbox"]:checked::before {
 .mb-4 {
   margin-bottom: 1rem;
 }
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
 .mb-8 {
   margin-bottom: 2rem;
+}
+.mb-\[0\.25em\] {
+  margin-bottom: 0.25em;
 }
 .ml-4 {
   margin-left: 1rem;
@@ -818,12 +824,6 @@ input[type="checkbox"]:checked::before {
 }
 .mt-\[75\%\] {
   margin-top: 75%;
-}
-.mb-6 {
-  margin-bottom: 1.5rem;
-}
-.mb-\[0\.25em\] {
-  margin-bottom: 0.25em;
 }
 .block {
   display: block;
@@ -945,11 +945,6 @@ input[type="checkbox"]:checked::before {
 }
 .gap-8 {
   gap: 2rem;
-}
-.divide-x-2 > :not([hidden]) ~ :not([hidden]) {
-  --tw-divide-x-reverse: 0;
-  border-right-width: calc(2px * var(--tw-divide-x-reverse));
-  border-left-width: calc(2px * calc(1 - var(--tw-divide-x-reverse)));
 }
 .divide-x-\[1px\] > :not([hidden]) ~ :not([hidden]) {
   --tw-divide-x-reverse: 0;
@@ -1105,6 +1100,10 @@ input[type="checkbox"]:checked::before {
   font-size: 1.875rem;
   line-height: 2.25rem;
 }
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
 .text-\[1\.2rem\] {
   font-size: 1.2rem;
 }
@@ -1125,10 +1124,6 @@ input[type="checkbox"]:checked::before {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 .uppercase {
   text-transform: uppercase;
@@ -1193,7 +1188,7 @@ input[type="checkbox"]:checked::before {
 
 body {
   font-family: europa, sans-serif;
-  font-size: 1.3rem;
+  font-size: 1.1rem;
   font-weight: 300;
   letter-spacing: 0.025em;
 }

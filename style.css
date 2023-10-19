@@ -16,7 +16,7 @@
 @layer base {}
 
 body {
-    @apply font-sans font-light tracking-wide text-[1.3rem]
+    @apply font-sans font-light tracking-wide text-[1.1rem]
 }
 
 h1,
