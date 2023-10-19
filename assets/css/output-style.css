@@ -819,6 +819,12 @@ input[type="checkbox"]:checked::before {
 .mt-\[75\%\] {
   margin-top: 75%;
 }
+.mb-6 {
+  margin-bottom: 1.5rem;
+}
+.mb-\[0\.25em\] {
+  margin-bottom: 0.25em;
+}
 .block {
   display: block;
 }
@@ -940,8 +946,26 @@ input[type="checkbox"]:checked::before {
 .gap-8 {
   gap: 2rem;
 }
+.divide-x-2 > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-x-reverse: 0;
+  border-right-width: calc(2px * var(--tw-divide-x-reverse));
+  border-left-width: calc(2px * calc(1 - var(--tw-divide-x-reverse)));
+}
+.divide-x-\[1px\] > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-x-reverse: 0;
+  border-right-width: calc(1px * var(--tw-divide-x-reverse));
+  border-left-width: calc(1px * calc(1 - var(--tw-divide-x-reverse)));
+}
+.divide-black > :not([hidden]) ~ :not([hidden]) {
+  --tw-divide-opacity: 1;
+  border-color: rgb(61 61 61 / var(--tw-divide-opacity));
+}
 .border {
   border-width: 1px;
+}
+.border-y {
+  border-top-width: 1px;
+  border-bottom-width: 1px;
 }
 .border-b {
   border-bottom-width: 1px;
@@ -1101,6 +1125,10 @@ input[type="checkbox"]:checked::before {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 .uppercase {
   text-transform: uppercase;
