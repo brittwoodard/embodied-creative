@@ -825,6 +825,12 @@ input[type="checkbox"]:checked::before {
 .mt-\[75\%\] {
   margin-top: 75%;
 }
+.mb-\[1em\] {
+  margin-bottom: 1em;
+}
+.mt-\[1em\] {
+  margin-top: 1em;
+}
 .block {
   display: block;
 }
@@ -1220,11 +1226,11 @@ footer a {
 }
 
 li {
-  margin-bottom: 1rem;
+  margin-bottom: 0.5em;
 }
 
 ul {
-  margin-left: 1rem;
+  margin-left: 1.5rem;
   list-style-type: disc;
 }
 

@@ -37,11 +37,11 @@ footer a {
 }
 
 li {
-    @apply mb-4
+    @apply mb-[0.5em]
 }
 
 ul {
-    @apply list-disc ml-4
+    @apply list-disc ml-6
 }
 
 /* ----------- ADDITIONAL COMPONENTS  --------- */
