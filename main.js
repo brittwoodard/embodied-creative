@@ -8,7 +8,7 @@ const pricingSection = document.querySelector(".pricing-section")
 
 const pricingForm = document.querySelector("#pricing-form")
 function submitedForm(){
-    pricingForm.innerHTML = `<div style="text-align: center;"><h2>Thank You for Connecting with Us.</h2><p>We've got your message, and we're on it! At Samkalpa Creative Agency, we understand that every project is unique, and we're excited to dig into the details you've shared.</p><p>What's next? Here's what you can expect:</p><ol><li> Our team is diving into the specifics you provided to ensure we grasp your needs fully.</li><li>You can anticipate hearing from us within 2 business days. We'll keep it simple and straightforward when we get back to you.</li></ol><p>If you have any immediate questions or other thoughts, feel free to send us an email at connect@samkalpacreative.com</p></div>`
+    pricingForm.innerHTML = `<h2>Thank You for Connecting with Us.</h2><p>We've got your message, and we're on it! At Samkalpa Creative Agency, we understand that every project is unique, and we're excited to dig into the details you've shared.</p><p>What's next? Here's what you can expect:</p><ol><li> Our team is diving into the specifics you provided to ensure we grasp your needs fully.</li><li>You can anticipate hearing from us within 2 business days. We'll keep it simple and straightforward when we get back to you.</li></ol><p>If you have any immediate questions or other thoughts, feel free to send us an email at connect@samkalpacreative.com</p>`
 }
 pricingForm.addEventListener("submit",submitedForm)
 
