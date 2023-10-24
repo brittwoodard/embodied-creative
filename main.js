@@ -6,12 +6,19 @@ const pricingButton = document.querySelectorAll(".pricing-button")
 
 const pricingSection = document.querySelector(".pricing-section")
 
+const pricingForm = document.querySelector("#pricing-form")
+function submitedForm(){
+    pricingForm.innerHTML = `<h2>Thank You For Your Submission.</h2>`
+}
+pricingForm.addEventListener("submit",submitedForm)
+
 function togglePricingSection() {
     console.log("Dan was here.")
     pricingSection.classList.toggle("active")
 }
 pricingButton.forEach(button => {
     button.addEventListener("click", togglePricingSection)
+    
 })
 
 // Contact Button
