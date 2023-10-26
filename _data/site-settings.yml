@@ -12,5 +12,5 @@ navigation:
     title: "Home"
   - url: "/index.html#portfolio"
     title: "Portfolio"
-  - url: "/index.html#contact"
+  - url: "/contact.html"
     title: "Contact"
