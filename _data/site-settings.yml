@@ -1,0 +1,16 @@
+seo:
+  site_name: Samkalpa Creative Agency
+  title: Samkalpa Creative Agency in Bordeaux, France
+  description: Web Development for conscious brands, built to stand out in a crowded market. We offer web design, web development, conversation rate optimization, and workflow automation and integration. Our websites are built with intention that align with your vision.
+  keywords: web design, web development, conversation rate optimization, workflow automation and integration, websites for yoga teachers, websites for yoga retreat centers
+  social_image: 
+  author: Brittany Woodard
+social:
+  instagram_username: samkalpacreative
+navigation:
+  - url: "/index.html"
+    title: "Home"
+  - url: "/index.html#portfolio"
+    title: "Portfolio"
+  - url: "/index.html#contact"
+    title: "Contact"

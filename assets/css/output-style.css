@@ -554,6 +554,103 @@ footer .child {
   --tw-text-opacity: 1;
   color: rgb(153 107 76 / var(--tw-text-opacity));
 }
+/* Mobile Menu */
+.mobile-button {
+  position: fixed;
+  top: 5%;
+  right: 5%;
+  z-index: 50;
+  padding: 0.5rem;
+}
+.mobile-button span {
+  display: block;
+  width: 2rem;
+  border-radius: 22px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(253 253 253 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 253 253 / var(--tw-bg-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
+.mobile-button.active span {
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(153 107 76 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 253 253 / var(--tw-bg-opacity));
+}
+.mobile-top,
+.mobile-bottom {
+  position: absolute;
+}
+.mobile-top {
+  top: -02px;
+}
+.mobile-bottom {
+  bottom: -2px;
+}
+/* make sure this has the same top as the burger button has padding*/
+.mobile-button.active .mobile-top {
+  position: absolute;
+  top: 0.5rem;
+  transform-origin: center;
+  --tw-rotate: 45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.mobile-button.active .mobile-middle {
+    /*   transform: rotateZ(270deg); */
+    opacity: 0}
+.mobile-button.active .mobile-bottom {
+  position: absolute;
+  bottom: 0.5rem;
+  transform-origin: center;
+  --tw-rotate: -45deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+.mobile-menu {
+  position: fixed;
+  top: 0px;
+  left: 100vw;
+  right: -100vw;
+  bottom: 0px;
+  z-index: 40;
+  --tw-bg-opacity: 1;
+  background-color: rgb(245 243 241 / var(--tw-bg-opacity));
+  padding: 1.25rem;
+  opacity: 0.95;
+  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-duration: 150ms;
+  transition-duration: 1s;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.mobile-menu.active {
+  left: 60vw;
+  right: 0px;
+}
+.mobile-menu a {
+  display: block;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 10vh;
+  text-align: center;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  text-transform: uppercase;
+}
+.mobile-menu a:hover {
+  --tw-text-opacity: 1;
+  color: rgb(153 107 76 / var(--tw-text-opacity));
+}
 /* Form */
 form input {
   background-color: transparent;
@@ -961,6 +1058,9 @@ input[type="checkbox"]:checked::before {
   --tw-divide-opacity: 1;
   border-color: rgb(61 61 61 / var(--tw-divide-opacity));
 }
+.whitespace-nowrap {
+  white-space: nowrap;
+}
 .border {
   border-width: 1px;
 }
@@ -1024,6 +1124,9 @@ input[type="checkbox"]:checked::before {
 }
 .p-10p {
   padding: 10%;
+}
+.p-4 {
+  padding: 1rem;
 }
 .p-5 {
   padding: 1.25rem;
