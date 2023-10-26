@@ -157,6 +157,10 @@ ul {
     @apply fixed top-5p right-5p z-50 p-2
 }
 
+.mobile-button-dark {
+    @apply fixed top-5p right-5p z-50 p-2
+}
+
 .mobile-button-dark span {
     @apply w-[2rem] border border-dark bg-dark block rounded-[22px] transition duration-200
 }
