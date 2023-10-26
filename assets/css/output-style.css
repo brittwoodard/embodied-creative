@@ -562,6 +562,21 @@ footer .child {
   z-index: 50;
   padding: 0.5rem;
 }
+.mobile-button-dark span {
+  display: block;
+  width: 2rem;
+  border-radius: 22px;
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(156 159 141 / var(--tw-border-opacity));
+  --tw-bg-opacity: 1;
+  background-color: rgb(156 159 141 / var(--tw-bg-opacity));
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 200ms;
+}
 .mobile-button span {
   display: block;
   width: 2rem;
@@ -786,6 +801,9 @@ input[type="checkbox"]:checked::before {
 .-left-\[35\%\] {
   left: -35%;
 }
+.-left-\[5rem\] {
+  left: -5rem;
+}
 .-top-\[70\%\] {
   top: -70%;
 }
@@ -797,6 +815,9 @@ input[type="checkbox"]:checked::before {
 }
 .top-10p {
   top: 10%;
+}
+.top-\[10rem\] {
+  top: 10rem;
 }
 .top-\[19rem\] {
   top: 19rem;
@@ -1370,6 +1391,12 @@ ul {
   .md\:-left-\[50\%\] {
     left: -50%;
   }
+  .md\:-left-\[6rem\] {
+    left: -6rem;
+  }
+  .md\:top-\[12rem\] {
+    top: 12rem;
+  }
   .md\:col-span-4 {
     grid-column: span 4 / span 4;
   }
@@ -1424,6 +1451,9 @@ ul {
 }
 
 @media (min-width: 1024px) {
+  .lg\:-left-\[2rem\] {
+    left: -2rem;
+  }
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }

@@ -1,0 +1,39 @@
+---
+layout: default
+seo:
+hide-from-google: true
+---
+<section class="bg-medium py-10p">
+    {% include site-header-dark.html %}
+    
+    <h1 class="text-[4rem] sm:text-7xl md:text-8xl -rotate-90 -left-[5rem] top-[10rem] md:-left-[6rem] lg:-left-[2rem] md:top-[12rem] text-dark fixed">contact.</h1>
+    <div class="border border-feature p-5p mx-10p z-10 bg-light/75 relative">
+        <form name="contact" method="post" data-netlify="true" action="/index.html" onSubmit="submit"
+            data-netlify-honeypot="pot-field" class="min-w-[25%] p-10p leading-6">
+
+            <input class="d-none" name="bot-field">
+            <div class="mb-4">
+                <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full">
+                <label for="first-name">First Name:</label>
+            </div>
+
+            <div class="mb-4">
+                <input type="text" id="last-name" name="last-name" class="block border-b border-black w-full">
+                <label for="last-name">Last Name:</label>
+            </div>
+
+            <div class="mb-4">
+                <input type="email" id="email" name="email" class="block border-b border-black w-full">
+                <label for="email">Email:</label>
+            </div>
+
+            <div>
+                <label for="message" class="block">Message</label>
+                <textarea id="message" name="message" rows="4" placeholder="Type your message here..."
+                    class="w-full border border-black bg-transparent box"></textarea>
+            </div>
+
+            <button type="submit" class="button">Send</button>
+        </form>
+    </div>
+</section>
