@@ -10,8 +10,6 @@ social:
 navigation:
   - url: "/index.html"
     title: "Home"
-  - url: "/index.html#portfolio"
-    title: "Portfolio"
   - url: "/pricing.html"
     title: "Pricing"
   - url: "/contact.html"

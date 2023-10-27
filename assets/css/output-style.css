@@ -874,9 +874,6 @@ input[type="checkbox"]:checked::before {
 .-mb-\[14\.5\%\] {
   margin-bottom: -14.5%;
 }
-.-ml-\[9rem\] {
-  margin-left: -9rem;
-}
 .-mr-8 {
   margin-right: -2rem;
 }
@@ -945,9 +942,6 @@ input[type="checkbox"]:checked::before {
 }
 .mt-\[5rem\] {
   margin-top: 5rem;
-}
-.mt-\[6rem\] {
-  margin-top: 6rem;
 }
 .mt-\[75\%\] {
   margin-top: 75%;
@@ -1410,9 +1404,6 @@ ul {
     margin-top: 0px;
     margin-bottom: 0px;
   }
-  .md\:-ml-\[7rem\] {
-    margin-left: -7rem;
-  }
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1468,9 +1459,6 @@ ul {
   }
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
-  }
-  .lg\:-ml-\[4rem\] {
-    margin-left: -4rem;
   }
   .lg\:ml-\[110\%\] {
     margin-left: 110%;
