@@ -25,7 +25,7 @@ h2 {
 }
 
 h1 {
-    @apply text-h-light text-[20vw] leading-[1em]
+    @apply text-light text-[20vw] leading-[1em]
 }
 
 h2 {

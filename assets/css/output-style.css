@@ -884,6 +884,9 @@ input[type="checkbox"]:checked::before {
 .-mb-\[14\.5\%\] {
   margin-bottom: -14.5%;
 }
+.-ml-\[9rem\] {
+  margin-left: -9rem;
+}
 .-mr-8 {
   margin-right: -2rem;
 }
@@ -923,9 +926,6 @@ input[type="checkbox"]:checked::before {
 .ml-\[2\%\] {
   margin-left: 2%;
 }
-.ml-\[25\%\] {
-  margin-left: 25%;
-}
 .ml-\[50\%\] {
   margin-left: 50%;
 }
@@ -944,9 +944,6 @@ input[type="checkbox"]:checked::before {
 .mt-\[0\.5em\] {
   margin-top: 0.5em;
 }
-.mt-\[175\%\] {
-  margin-top: 175%;
-}
 .mt-\[1em\] {
   margin-top: 1em;
 }
@@ -959,20 +956,11 @@ input[type="checkbox"]:checked::before {
 .mt-\[5rem\] {
   margin-top: 5rem;
 }
-.mt-\[75\%\] {
-  margin-top: 75%;
-}
-.-ml-\[30\%\] {
-  margin-left: -30%;
-}
-.mt-\[350\%\] {
-  margin-top: 350%;
-}
-.-ml-\[9rem\] {
-  margin-left: -9rem;
-}
 .mt-\[6rem\] {
   margin-top: 6rem;
+}
+.mt-\[75\%\] {
+  margin-top: 75%;
 }
 .block {
   display: block;
@@ -1370,7 +1358,7 @@ h1 {
   font-size: 20vw;
   line-height: 1em;
   --tw-text-opacity: 1;
-  color: rgb(221 220 219 / var(--tw-text-opacity));
+  color: rgb(253 253 253 / var(--tw-text-opacity));
 }
 
 h2 {
@@ -1435,6 +1423,9 @@ ul {
     margin-top: 0px;
     margin-bottom: 0px;
   }
+  .md\:-ml-\[7rem\] {
+    margin-left: -7rem;
+  }
   .md\:mb-0 {
     margin-bottom: 0px;
   }
@@ -1446,21 +1437,6 @@ ul {
   }
   .md\:mt-0 {
     margin-top: 0px;
-  }
-  .md\:mt-\[200\%\] {
-    margin-top: 200%;
-  }
-  .md\:-ml-\[3rem\] {
-    margin-left: -3rem;
-  }
-  .md\:-ml-\[5rem\] {
-    margin-left: -5rem;
-  }
-  .md\:-ml-\[6rem\] {
-    margin-left: -6rem;
-  }
-  .md\:-ml-\[7rem\] {
-    margin-left: -7rem;
   }
   .md\:block {
     display: block;
@@ -1506,23 +1482,14 @@ ul {
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
   }
+  .lg\:-ml-\[4rem\] {
+    margin-left: -4rem;
+  }
   .lg\:ml-\[110\%\] {
     margin-left: 110%;
   }
   .lg\:mt-\[190\%\] {
     margin-top: 190%;
-  }
-  .lg\:ml-\[25\%\] {
-    margin-left: 25%;
-  }
-  .lg\:mt-\[175\%\] {
-    margin-top: 175%;
-  }
-  .lg\:-ml-\[3rem\] {
-    margin-left: -3rem;
-  }
-  .lg\:-ml-\[4rem\] {
-    margin-left: -4rem;
   }
   .lg\:w-\[43\%\] {
     width: 43%;
