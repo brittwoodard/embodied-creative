@@ -12,5 +12,7 @@ navigation:
     title: "Home"
   - url: "/index.html#portfolio"
     title: "Portfolio"
+  - url: "/pricing.html"
+    title: "Pricing"
   - url: "/contact.html"
     title: "Contact"

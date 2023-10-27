@@ -1,0 +1,97 @@
+---
+layout: default
+seo: 
+---
+
+<section class="py-10p bg-medium">
+    <div class="grid grid-cols-12 px-5p mb-16">
+        <div class="col-span-1 -mr-8">
+            <h1 class="heading-md vertical-text fixed mt-[6rem] -ml-[9rem] sm:-ml[8rem] md:-ml-[7rem] lg:-ml-[4rem] text-dark lowercase">Pricing.</h1>
+        </div>
+        <div class="col-span-11 border border-feature bg-light p-5p z-10 opacity-75">
+            <form id="pricing-form" class="px-10p leading-6" name="pricing"
+                method="POST" data-netlify="true" action="/contact-thank-you.html" onSubmit="submit"
+                data-netlify-honeypot=“bot-field”>
+
+                <input class=“d-none” name=”bot-field”>
+                <div class="mb-4">
+                    <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full">
+                    <label for="first-name">First Name:</label>
+                </div>
+
+                <div class="mb-4">
+                    <input type="text" id="last-name" name="last-name" class="block border-b border-black w-full">
+                    <label for="last-name">Last Name:</label>
+                </div>
+
+                <div class="mb-4">
+                    <input type="email" id="email" name="email" class="block border-b border-black w-full">
+                    <label for="email">Email:</label>
+                </div>
+
+                <div class="mb-4">
+                    <input type="text" id="business-name" name="business-name"
+                        class="block border-b border-black w-full">
+                    <label for="business-name">Business Name:</label>
+                </div>
+
+                <fieldset class="mb-4">
+                    <legend class="mb-4">Budget:</legend>
+                    <div class="mb-2">
+                        <input type="radio" id="budget-1" name="budget" value="<1,000€">
+                        <label for="budget-1">&lt;&nbsp;1,500€</label>
+                    </div>
+                    <div class="mb-2">
+                        <input type="radio" id="budget-2" name="budget" value="1,000 - 2,000€">
+                        <label for="budget-2">1,500 - 3,000€</label>
+                    </div>
+                    <div class="mb-2">
+                        <input type="radio" id="budget-3" name="budget" value="2,000 - 4,000€">
+                        <label for="budget-3">3,000 - 5,500€</label>
+                    </div>
+                    <div class="mb-2">
+                        <input type="radio" id="budget-5" name="budget" value="6,000€ +">
+                        <label for="budget-5">5,500€ +</label>
+                    </div>
+                </fieldset>
+
+                <div class="mb-4">
+                    <label for="features" class="block mb-4">Features you're interested in:</label>
+                    <div class="mb-2">
+                        <input type="checkbox" id="membership-site" name="features[]" value="membership-site">
+                        <label for="membership-site">Membership Site</label>
+                    </div>
+                    <div class="mb-2">
+                        <input type="checkbox" id="blog" name="features[]" value="blog">
+                        <label for="blog">Blog</label>
+                    </div>
+                    <div class="mb-2">
+                        <input type="checkbox" id="scheduling-software" name="features[]" value="scheduling-software">
+                        <label for="scheduling-software">Scheduling Software</label>
+                    </div>
+                    <div class="mb-2">
+                        <input type="checkbox" id="crm" name="features[]" value="crm">
+                        <label for="crm">CRM Setup</label>
+                    </div>
+                    <div class="mb-2">
+                        <input type="checkbox" id="search-tool" name="features[]" value="search-tool">
+                        <label for="search-tool">Search Tool</label>
+                    </div>
+                    <div class="mb-2">
+                        <input type="checkbox" id="dark-mode" name="features[]" value="dark-mode">
+                        <label for="dark-mode">Dark Mode</label>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="additional-info" class="block">Additional Information:</label>
+                    <textarea id="additional-info" name="additional-info" rows="4"
+                        placeholder="Enter any additional information here..."
+                        class="w-full border border-black bg-transparent box"></textarea>
+                </div>
+
+                <button type="submit" class="button">Submit</button>
+            </form>
+        </div>
+    </div>
+</section>
