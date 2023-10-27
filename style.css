@@ -153,11 +153,7 @@ ul {
     }
 
     /* Mobile Menu */
-.mobile-button {
-    @apply fixed top-5p right-5p z-50 p-2
-}
-
-.mobile-button-dark {
+.mobile-button, .mobile-button-dark {
     @apply fixed top-5p right-5p z-50 p-2
 }
 
@@ -169,7 +165,7 @@ ul {
     @apply w-[2rem] border border-light bg-light block rounded-[22px] transition duration-200
 }
 
-.mobile-button.active span {
+.mobile-button.active span, .mobile-button-dark.active span {
     @apply border border-feature bg-light
 }
 
@@ -187,21 +183,21 @@ ul {
 }
 
 /* make sure this has the same top as the burger button has padding*/
-.mobile-button.active .mobile-top {
+.mobile-button.active .mobile-top, .mobile-button-dark.active .mobile-top {
     @apply absolute top-2 origin-center rotate-45
 }
 
-.mobile-button.active .mobile-middle {
+.mobile-button.active .mobile-middle, .mobile-button-dark.active .mobile-middle {
     /*   transform: rotateZ(270deg); */
     @apply opacity-0
 }
 
-.mobile-button.active .mobile-bottom {
+.mobile-button.active .mobile-bottom, .mobile-button-dark.active .mobile-bottom {
     @apply absolute bottom-2 origin-center -rotate-45
 }
 
 .mobile-menu {
-    @apply fixed top-0 left-[100vw] -right-[100vw] bottom-0 bg-medium p-5 z-40 transition duration-[1s] ease-in-out shadow-lg opacity-95
+    @apply fixed top-0 left-[100vw] -right-[100vw] bottom-0 bg-medium p-5 z-40 transition duration-[700] ease-in-out shadow-lg opacity-95
 }
 
 .mobile-menu.active {

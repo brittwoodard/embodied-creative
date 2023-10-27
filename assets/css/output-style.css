@@ -555,14 +555,7 @@ footer .child {
   color: rgb(153 107 76 / var(--tw-text-opacity));
 }
 /* Mobile Menu */
-.mobile-button {
-  position: fixed;
-  top: 5%;
-  right: 5%;
-  z-index: 50;
-  padding: 0.5rem;
-}
-.mobile-button-dark {
+.mobile-button, .mobile-button-dark {
   position: fixed;
   top: 5%;
   right: 5%;
@@ -599,7 +592,7 @@ footer .child {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   transition-duration: 200ms;
 }
-.mobile-button.active span {
+.mobile-button.active span, .mobile-button-dark.active span {
   border-width: 1px;
   --tw-border-opacity: 1;
   border-color: rgb(153 107 76 / var(--tw-border-opacity));
@@ -617,17 +610,17 @@ footer .child {
   bottom: -2px;
 }
 /* make sure this has the same top as the burger button has padding*/
-.mobile-button.active .mobile-top {
+.mobile-button.active .mobile-top, .mobile-button-dark.active .mobile-top {
   position: absolute;
   top: 0.5rem;
   transform-origin: center;
   --tw-rotate: 45deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
-.mobile-button.active .mobile-middle {
+.mobile-button.active .mobile-middle, .mobile-button-dark.active .mobile-middle {
     /*   transform: rotateZ(270deg); */
     opacity: 0}
-.mobile-button.active .mobile-bottom {
+.mobile-button.active .mobile-bottom, .mobile-button-dark.active .mobile-bottom {
   position: absolute;
   bottom: 0.5rem;
   transform-origin: center;
@@ -652,7 +645,7 @@ footer .child {
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
   transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
   transition-duration: 150ms;
-  transition-duration: 1s;
+  transition-duration: 700;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 .mobile-menu.active {
@@ -1321,9 +1314,6 @@ input[type="checkbox"]:checked::before {
 }
 .opacity-70 {
   opacity: 0.7;
-}
-.opacity-75 {
-  opacity: 0.75;
 }
 .opacity-80 {
   opacity: 0.8;
