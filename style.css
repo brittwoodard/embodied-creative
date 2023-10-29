@@ -11,6 +11,27 @@
     font-style: normal;
 }
 
+/* ----------- Animations --------- */
+@keyframes fade-in {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fade-out {
+    0% {
+        opacity: 1;
+    }
+
+    100% {
+        opacity: 0;
+    }
+}
+
 /* ----------- Default Styles to apply to the whole project  --------- */
 
 @layer base {}
@@ -56,7 +77,7 @@ ul {
         border-color: currentColor;
     }
 
-   .link-nav {
+    .link-nav {
         @apply lowercase pb-2 border-b border-black
     }
 
@@ -137,11 +158,11 @@ ul {
     }
 
     .list-decimal {
-        @apply ml-4 
+        @apply ml-4
     }
 
     .list-disc {
-        @apply ml-8 
+        @apply ml-8
     }
 
     .icon {
@@ -153,150 +174,158 @@ ul {
     }
 
     /* Mobile Menu */
-.mobile-button, .mobile-button-dark {
-    @apply fixed top-5p right-5p z-50 p-2
-}
-
-.mobile-button-dark span {
-    @apply w-[2rem] border border-dark bg-dark block rounded-[22px] transition duration-200
-}
-
-.mobile-button span {
-    @apply w-[2rem] border border-light bg-light block rounded-[22px] transition duration-200
-}
-
-.mobile-button.active span, .mobile-button-dark.active span {
-    @apply border border-feature bg-light
-}
-
-.mobile-top,
-.mobile-bottom {
-    @apply absolute
-}
-
-.mobile-top {
-    @apply -top-[02px]
-}
-
-.mobile-bottom {
-    @apply -bottom-[2px]
-}
-
-/* make sure this has the same top as the burger button has padding*/
-.mobile-button.active .mobile-top, .mobile-button-dark.active .mobile-top {
-    @apply absolute top-2 origin-center rotate-45
-}
-
-.mobile-button.active .mobile-middle, .mobile-button-dark.active .mobile-middle {
-    /*   transform: rotateZ(270deg); */
-    @apply opacity-0
-}
-
-.mobile-button.active .mobile-bottom, .mobile-button-dark.active .mobile-bottom {
-    @apply absolute bottom-2 origin-center -rotate-45
-}
-
-.mobile-menu {
-    @apply fixed top-0 left-[100vw] -right-[100vw] bottom-0 bg-medium p-5 z-40 transition-transform duration-1000 ease-in-out shadow-lg opacity-95
-}
-
-.mobile-menu.active {
-    @apply left-[60vw] right-0
-}
-
-.mobile-menu a {
-    @apply uppercase text-xl text-center block pt-[10vh] px-5p
-}
-
-.mobile-menu a:hover {
-    @apply text-feature
-}
-
-
-    /* Form */
-
-    form input {
-        @apply bg-transparent
+    .mobile-button, .mobile-button-dark {
+        @apply fixed top-5p right-5p z-50 p-2
     }
 
-    input:focus-visible {
-        @apply outline-none border-b border-feature
+    .mobile-button-dark span {
+        @apply w-[2rem] border border-dark bg-dark block rounded-[22px] transition duration-200
     }
 
-    .box:focus-visible {
-        @apply outline-none ring-1 ring-feature
+    .mobile-button span {
+        @apply w-[2rem] border border-light bg-light block rounded-[22px] transition duration-200
     }
 
-    .x {
-        @apply absolute right-[3.5%] top-[2.5%] text-2xl font-light cursor-pointer
+    .mobile-button.active span, .mobile-button-dark.active span {
+        @apply border border-feature bg-light
     }
 
-    .pricing-section.active {
-        @apply flex
+    .mobile-top,
+    .mobile-bottom {
+        @apply absolute
     }
 
-    .contact-section.active {
-        @apply flex
+    .mobile-top {
+        @apply -top-[02px]
     }
 
-    .collab-section.active {
-        @apply flex
+    .mobile-bottom {
+        @apply -bottom-[2px]
     }
 
-    .popup-form {
-        @apply overflow-y-scroll max-h-[100vh] min-w-full
-    } 
+    /* make sure this has the same top as the burger button has padding*/
+    .mobile-button.active .mobile-top, .mobile-button-dark.active .mobile-top {
+        @apply absolute top-2 origin-center rotate-45
+    }
 
-    input[type="radio"] {
-        @apply appearance-none bg-medium m-0 text-current w-[0.85em] h-[0.85em] border-[1.6px] border-current rounded-full inline-grid place-content-center
-      }
-      
-      input[type="radio"]::before {
-        content: "";
-        width: 0.35em;
-        height: 0.35em;
-        border-radius: 50%;
-        transform: scale(0);
-        transition: 250ms transform ease-in-out;  
-        box-shadow: inset 1em 1em #996b4c;
-      }
-            
-      input[type="radio"]:checked {
-        border-color: #996b4c;
-      }
-      
-      input[type="radio"]:checked::before {
-        transform: scale(1);
-      }
+    .mobile-button.active .mobile-middle, .mobile-button-dark.active .mobile-middle {
+        /*   transform: rotateZ(270deg); */
+        @apply opacity-0
+    }
 
-      /* Checkbox */
-      input[type="checkbox"] {
-        @apply appearance-none bg-medium m-0 text-current w-[0.85em] h-[0.85em] border-[1.6px] border-current inline-grid place-content-center relative
-      }
-      
-      input[type="checkbox"]::before {
-        content: "✓";
-        transform: scale(0);
-        font-size:1.4rem;
-        position:absolute;
-        bottom:-1.2rem;
-        transition: 145ms all ease-in-out;  
-        color: #996b4c;
-      }
-      
-      input[type="checkbox"]:checked {
-        border-color: #272727;
-      }
-      
-      input[type="checkbox"]:checked::before {
-        transform: scale(1);
-        bottom:-.2rem;        
-      }
+    .mobile-button.active .mobile-bottom, .mobile-button-dark.active .mobile-bottom {
+        @apply absolute bottom-2 origin-center -rotate-45
+    }
 
-    /* Cookie Banner */
+    .mobile-menu {
+        @apply fixed top-0 left-[100vw] -right-[100vw] bottom-0 bg-medium p-5 z-40 transition-transform duration-1000 ease-in-out shadow-lg opacity-95
+    }
 
-    #cookie-notice {
-        @apply fixed left-0 right-0 bottom-0 w-full z-30 hidden
-      }
+    .mobile-menu.active {
+        @apply left-[60vw] right-0
+    }
 
+    .mobile-menu a {
+        @apply uppercase text-xl text-center block pt-[10vh] px-5p
+    }
+
+    .mobile-menu a:hover {
+        @apply text-feature
+    }
+
+    /* Additional animation classes */
+    .fade-in {
+        animation: fade-in 1s ease-in forwards;
+    }
+
+    .fade-out {
+        animation: fade-out 2s ease-in forwards;
+    }
+}
+
+
+/* Form */
+
+form input {
+    @apply bg-transparent
+}
+
+input:focus-visible {
+    @apply outline-none border-b border-feature
+}
+
+.box:focus-visible {
+    @apply outline-none ring-1 ring-feature
+}
+
+.x {
+    @apply absolute right-[3.5%] top-[2.5%] text-2xl font-light cursor-pointer
+}
+
+.pricing-section.active {
+    @apply flex
+}
+
+.contact-section.active {
+    @apply flex
+}
+
+.collab-section.active {
+    @apply flex
+}
+
+.popup-form {
+    @apply overflow-y-scroll max-h-[100vh] min-w-full
+}
+
+input[type="radio"] {
+    @apply appearance-none bg-medium m-0 text-current w-[0.85em] h-[0.85em] border-[1.6px] border-current rounded-full inline-grid place-content-center
+}
+
+input[type="radio"]::before {
+    content: "";
+    width: 0.35em;
+    height: 0.35em;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 250ms transform ease-in-out;
+    box-shadow: inset 1em 1em #996b4c;
+}
+
+input[type="radio"]:checked {
+    border-color: #996b4c;
+}
+
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
+
+/* Checkbox */
+input[type="checkbox"] {
+    @apply appearance-none bg-medium m-0 text-current w-[0.85em] h-[0.85em] border-[1.6px] border-current inline-grid place-content-center relative
+}
+
+input[type="checkbox"]::before {
+    content: "✓";
+    transform: scale(0);
+    font-size: 1.4rem;
+    position: absolute;
+    bottom: -1.2rem;
+    transition: 145ms all ease-in-out;
+    color: #996b4c;
+}
+
+input[type="checkbox"]:checked {
+    border-color: #272727;
+}
+
+input[type="checkbox"]:checked::before {
+    transform: scale(1);
+    bottom: -.2rem;
+}
+
+/* Cookie Banner */
+
+#cookie-notice {
+    @apply fixed left-0 right-0 bottom-0 w-full z-30 hidden
 }
