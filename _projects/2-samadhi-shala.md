@@ -1,5 +1,5 @@
 ---
-layout: project-alt
+layout: project
 slug: samadhi-shala
 title: Samadhi Shala
 title_html: Samadhi<br>Shala

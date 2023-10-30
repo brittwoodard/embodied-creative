@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: project-alt
 slug: vedic-kitchen
 title: Vedic Kitchen
 title_html: Vedic<br>Kitchen
