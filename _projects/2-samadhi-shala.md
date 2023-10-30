@@ -13,7 +13,7 @@ gallery:
     alt-text: Laptop View of Samadhi Studio's Website
   - image: /images/portfolio-projects/samadhi-shala/samadhi-shala-tablet-alt.jpg
     alt-text: Stylish Desk Space 
-domain: https://samadhishala.samkalpacreative.com
+domain: https://samadhishala.embodiedcreativeagency.com
 seo: 
   title: Yoga Studio Website
   description: Discover our approach to this Yoga Studio website project, featuring a branded online booking system, strategic website design, and a robust SEO strategy, perfectly aligned with their feminine, minimalistic brand strategy.

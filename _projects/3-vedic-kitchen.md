@@ -12,7 +12,7 @@ gallery:
     alt-text: Laptop View of Vedic Kitchen's Site
   - image: /images/portfolio-projects/vedic-kitchen/vedic-kitchen-tablet-alt.jpg
     alt-text: Stylish Desk Space
-domain: https://vedickitchen.samkalpacreative.com
+domain: https://vedickitchen.embodiedcreativeagency.com
 seo: 
   title: Personal Chef Website
   description: Discover our approach to this Personal Chef website project, featuring a one-page website, calls-to-actions to connect with the client, and an image gallery to showcase their work.

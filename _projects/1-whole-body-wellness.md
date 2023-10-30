@@ -12,7 +12,7 @@ gallery:
     alt-text: Laptop View of the Whole Body Wellness Website
   - image: /images/portfolio-projects/whole-body-wellness/wbw-tablet-alt.jpg
     alt-text: Stylish Desk Space 
-domain: https://wholebodywellness.samkalpacreative.com
+domain: https://wholebodywellness.embodiedcreativeagency.com
 seo: 
   title: Wellness Website
   description: Discover our approach to this Ayurvedic website project, featuring a seamless e-commerce shop, secure member's area, and engaging blog space, perfectly aligned with a feminine, modern, and informative brand strategy.
