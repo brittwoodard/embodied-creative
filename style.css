@@ -45,10 +45,6 @@ h2 {
     @apply font-heading
 }
 
-h1 {
-    @apply text-light text-[20vw] leading-[1em]
-}
-
 h2 {
     @apply lowercase text-dark
 }
@@ -68,6 +64,13 @@ ul {
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 @layer components {
+    .page-title {
+        @apply text-light text-[11vw] leading-[1em] text-center lowercase
+    }
+
+    .page-subtitle {
+        @apply text-[1.2rem] mt-[0.5em] md:mt-0 md:text-[1.5rem] text-medium text-center lowercase
+    }
     .heading-md {
         @apply text-8xl
     }
