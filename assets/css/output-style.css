@@ -1034,6 +1034,15 @@ footer .child {
 .bg-transparent {
   background-color: transparent;
 }
+.bg-\[url\(\'\/images\/embodied-creative-2\.jpeg\'\)\;\] {
+  background-image: url('/images/embodied-creative-2.jpeg');;
+}
+.bg-\[url\(\'\/images\/embodied-creative-1\.jpeg\'\)\;\] {
+  background-image: url('/images/embodied-creative-1.jpeg');;
+}
+.bg-\[url\(\'\/images\/embodied-creative-1\.jpg\'\)\;\] {
+  background-image: url('/images/embodied-creative-1.jpg');;
+}
 .bg-contain {
   background-size: contain;
 }
@@ -1519,6 +1528,12 @@ input[type="checkbox"]:checked::before {
   }
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .lg\:bg-\[url\(\'\/images\/embodied-creative-2\.jpeg\'\)\;\] {
+    background-image: url('/images/embodied-creative-2.jpeg');;
+  }
+  .lg\:bg-\[url\(\'\/images\/embodied-creative-2\.jpg\'\)\;\] {
+    background-image: url('/images/embodied-creative-2.jpg');;
   }
 }
 
