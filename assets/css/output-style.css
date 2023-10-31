@@ -584,6 +584,9 @@ footer .child {
   z-index: 50;
   padding: 0.5rem;
 }
+.mobile-button span, .mobile-button-dark span {
+        transition: 1s;
+    }
 .mobile-button-dark span {
   display: block;
   width: 2rem;
@@ -593,11 +596,6 @@ footer .child {
   border-color: rgb(156 159 141 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(156 159 141 / var(--tw-bg-opacity));
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
 }
 .mobile-button span {
   display: block;
@@ -608,11 +606,6 @@ footer .child {
   border-color: rgb(253 253 253 / var(--tw-border-opacity));
   --tw-bg-opacity: 1;
   background-color: rgb(253 253 253 / var(--tw-bg-opacity));
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
-  transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-backdrop-filter;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-duration: 200ms;
 }
 .mobile-button.active span, .mobile-button-dark.active span {
   border-width: 1px;
@@ -650,23 +643,18 @@ footer .child {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 .mobile-menu {
-  position: fixed;
-  top: 0px;
-  left: 100vw;
-  right: -100vw;
-  bottom: 0px;
-  z-index: 40;
-  --tw-bg-opacity: 1;
-  background-color: rgb(245 243 241 / var(--tw-bg-opacity));
-  padding: 1.25rem;
-  opacity: 0.95;
-  --tw-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-  --tw-shadow-colored: 0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);
-  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
-  transition-property: transform;
-  transition-duration: 1000ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+        position: fixed;
+        top: 0;
+        left: 100vw;
+        right: -100vw;
+        bottom: 0;
+        background-color: #F5F3F1; 
+        padding: 1.25rem; /* You may need to adjust this value */
+        z-index: 40;
+        transition-duration: 1s; 
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        opacity: 0.95;
+    }
 .mobile-menu.active {
   left: 60vw;
   right: 0px;
@@ -686,11 +674,11 @@ footer .child {
   color: rgb(153 107 76 / var(--tw-text-opacity));
 }
 /* Additional animation classes */
+.fade-in-1 {
+        animation: fade-in 1s ease-in forwards;
+    }
 .fade-in-2 {
         animation: fade-in 2s ease-in forwards;
-    }
-.fade-in-3 {
-        animation: fade-in 3s ease-in forwards;
     }
 .fixed {
   position: fixed;

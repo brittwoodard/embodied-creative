@@ -181,12 +181,16 @@ ul {
         @apply fixed top-5p right-5p z-50 p-2
     }
 
+    .mobile-button span, .mobile-button-dark span {
+        transition: 1s;
+    }
+
     .mobile-button-dark span {
-        @apply w-[2rem] border border-dark bg-dark block rounded-[22px] transition duration-200
+        @apply w-[2rem] border border-dark bg-dark block rounded-[22px]
     }
 
     .mobile-button span {
-        @apply w-[2rem] border border-light bg-light block rounded-[22px] transition duration-200
+        @apply w-[2rem] border border-light bg-light block rounded-[22px]
     }
 
     .mobile-button.active span, .mobile-button-dark.active span {
@@ -221,7 +225,17 @@ ul {
     }
 
     .mobile-menu {
-        @apply fixed top-0 left-[100vw] -right-[100vw] bottom-0 bg-medium p-5 z-40 transition-transform duration-1000 ease-in-out shadow-lg opacity-95
+        position: fixed;
+        top: 0;
+        left: 100vw;
+        right: -100vw;
+        bottom: 0;
+        background-color: #F5F3F1; 
+        padding: 1.25rem; /* You may need to adjust this value */
+        z-index: 40;
+        transition-duration: 1s; 
+        box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+        opacity: 0.95;
     }
 
     .mobile-menu.active {
@@ -237,12 +251,12 @@ ul {
     }
 
     /* Additional animation classes */
-    .fade-in-2 {
-        animation: fade-in 2s ease-in forwards;
+    .fade-in-1 {
+        animation: fade-in 1s ease-in forwards;
     }
 
-    .fade-in-3 {
-        animation: fade-in 3s ease-in forwards;
+    .fade-in-2 {
+        animation: fade-in 2s ease-in forwards;
     }
 
     .fade-out {
