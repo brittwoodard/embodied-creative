@@ -1,7 +1,3 @@
-<!-- <nav class="flex justify-end bg-dark">
-    <a href="#" class="px-5p py-8"><span class="link text-h-light pricing-button">Connect to learn more.</span></a>
-</nav> -->
-
 <header class="flex justify-end">
     <div class="mobile-button">
           <span class="mobile-top"></span>
@@ -10,7 +6,7 @@
     </div>
 </header>
 
-<nav class="mobile-menu">
+<nav class="mobile-menu fade-in">
     {% for item in site.data.site-settings.navigation %}
     <a href="{{item.url}}" class="p-4 uppercase whitespace-nowrap hover:text-accent">{{item.title}}</a>
     {% endfor %}

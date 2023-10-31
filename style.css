@@ -36,12 +36,8 @@
 
 @layer base {}
 
-html {
-    @apply max-w-[100vw]
-}
-
 body {
-    @apply font-sans font-light tracking-wide text-[1.1rem] max-w-[100vw]
+    @apply font-sans font-light tracking-wide text-[1.1rem] max-w-[100vw] overflow-x-hidden
 }
 
 h1,
