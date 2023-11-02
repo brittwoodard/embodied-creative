@@ -36,6 +36,10 @@
 
 @layer base {}
 
+html {
+    @apply max-w-[100vw] overflow-x-hidden
+}
+
 body {
     @apply font-sans font-light tracking-wide text-[1.1rem] max-w-[100vw] overflow-x-hidden
 }
@@ -231,7 +235,7 @@ ul {
         right: -100vw;
         bottom: 0;
         background-color: #F5F3F1; 
-        padding: 1.25rem; /* You may need to adjust this value */
+        padding: 1.25rem; 
         z-index: 40;
         transition-duration: 1s; 
         box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
