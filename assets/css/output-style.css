@@ -410,7 +410,7 @@ video {
 }
 .page-title {
   text-align: center;
-  font-size: 11vw;
+  font-size: 10vw;
   text-transform: lowercase;
   line-height: 1em;
   --tw-text-opacity: 1;
@@ -435,7 +435,7 @@ video {
   line-height: 1;
 }
 .menu-heading {
-  margin-top: -15%;
+  margin-top: -13%;
   text-align: center;
   font-family: postureregular, sans-serif;
   font-size: 3.2rem;
@@ -1137,14 +1137,14 @@ footer .child {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
-.text-\[10vw\] {
-  font-size: 10vw;
-}
 .text-\[16\.8vw\] {
   font-size: 16.8vw;
 }
 .text-\[4rem\] {
   font-size: 4rem;
+}
+.text-\[9vw\] {
+  font-size: 9vw;
 }
 .text-base {
   font-size: 1rem;
@@ -1157,6 +1157,12 @@ footer .child {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-\[2rem\] {
+  font-size: 2rem;
+}
+.text-\[2\.5rem\] {
+  font-size: 2.5rem;
 }
 .font-bold {
   font-weight: 700;
@@ -1175,6 +1181,9 @@ footer .child {
 }
 .leading-6 {
   line-height: 1.5rem;
+}
+.leading-\[1\.1em\] {
+  line-height: 1.1em;
 }
 .tracking-wide {
   letter-spacing: 0.025em;
@@ -1201,6 +1210,10 @@ footer .child {
 .text-red-700 {
   --tw-text-opacity: 1;
   color: rgb(185 28 28 / var(--tw-text-opacity));
+}
+.text-light {
+  --tw-text-opacity: 1;
+  color: rgb(253 253 253 / var(--tw-text-opacity));
 }
 .opacity-70 {
   opacity: 0.7;
