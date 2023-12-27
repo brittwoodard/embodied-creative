@@ -79,6 +79,10 @@ ul {
         @apply text-8xl
     }
 
+    .menu-heading {
+        @apply font-heading text-feature text-center text-[3.2rem] lowercase -mt-[15%] tracking-wider
+    }
+
     .link {
         @apply border-b font-heading pb-2 lowercase tracking-wide text-[1.3rem];
         border-color: currentColor;

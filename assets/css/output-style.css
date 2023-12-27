@@ -434,6 +434,16 @@ video {
   font-size: 6rem;
   line-height: 1;
 }
+.menu-heading {
+  margin-top: -15%;
+  text-align: center;
+  font-family: postureregular, sans-serif;
+  font-size: 3.2rem;
+  text-transform: lowercase;
+  letter-spacing: 0.05em;
+  --tw-text-opacity: 1;
+  color: rgb(153 107 76 / var(--tw-text-opacity));
+}
 .link {
   border-bottom-width: 1px;
   padding-bottom: 0.5rem;
@@ -1088,6 +1098,9 @@ footer .child {
 .pl-2 {
   padding-left: 0.5rem;
 }
+.pl-5p {
+  padding-left: 5%;
+}
 .pr-2 {
   padding-right: 0.5rem;
 }
@@ -1123,6 +1136,9 @@ footer .child {
 .text-4xl {
   font-size: 2.25rem;
   line-height: 2.5rem;
+}
+.text-\[10vw\] {
+  font-size: 10vw;
 }
 .text-\[16\.8vw\] {
   font-size: 16.8vw;
