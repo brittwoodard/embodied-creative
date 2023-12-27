@@ -80,7 +80,7 @@ ul {
     }
 
     .menu-heading {
-        @apply font-heading text-feature text-center text-[3.2rem] lowercase -mt-[13%] tracking-wider
+        @apply font-heading text-feature text-center text-[3.2rem] lowercase tracking-wider relative -top-[6%]
     }
 
     .link {
