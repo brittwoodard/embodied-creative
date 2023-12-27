@@ -2,8 +2,53 @@
 layout: default
 hide-from-google: true
 ---
-<p class="p-10 text-center font-bold"><span class="text-red-700">Daniel</span>, this is the section that I'm having trouble with ↓</p>
-<section class="grid grid-cols-2 bg-medium border-y border-black divide-x-[1px] divide-black">
+<!-- Mobile -->
+<section class="lg:hidden bg-light">
+    <div class="bg-image-style min-h-[60vh]"
+        style="background-image: url('/images/samkalpa-portfolio-2.jpg');background-position: 50% 70%;"></div>
+    <div>
+        <div class="py-10p px-5p bg-medium border-y border-black">
+            <h2 class="text-4xl mb-[0.25em]">Anatomy Of A Website</h2>
+            <p class="uppercase mb-[1em]">Uplevel Your Site In 5 Days</p>
+            <ul>
+                <li>Map out a web design tailored to your brand’s unique needs.</li>
+                <li>Create a brand strategy that resonates with your audience.</li>
+                <li>Write content for your website that optimises conversion rates.</li>
+                <li>Strategically guide your visitors through your website.</li>
+                <li>Prepare your website for mobile devices.</li>
+            </ul>
+            <p class="mt-[1em]">Anatomy of a Website is a 5-day email series. Each day, you'll receive a new interactive
+                PDF lesson and practical exercises. By the fifth day, you'll have actionable steps that you can take to
+                take your website to the next level.</p>
+            <div>
+                <form name="lead" method="post" data-netlify="true" action="/index.html" onSubmit="submit"
+                    data-netlify-honeypot="pot-field" class="leading-6">
+
+                    <input class="d-none" name="bot-field">
+                    <div class="mb-4">
+                        <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full">
+                        <label for="first-name">First Name:</label>
+                    </div>
+
+                    <div class="mb-4">
+                        <input type="text" id="last-name" name="last-name" class="block border-b border-black w-full">
+                        <label for="last-name">Last Name:</label>
+                    </div>
+
+                    <div class="mb-4">
+                        <input type="email" id="email" name="email" class="block border-b border-black w-full">
+                        <label for="email">Email:</label>
+                    </div>
+
+                    <button type="submit" class="button">Enroll for free.</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Desktop -->
+<section class="hidden lg:grid grid-cols-2 bg-medium border-y border-black divide-x-[1px] divide-black">
     <div class="p-10">
         <div class="p-10 bg-light border border-black">
             <h2 class="text-4xl mb-[0.25em]">Anatomy Of A Website</h2>
@@ -15,9 +60,31 @@ hide-from-google: true
                 <li>Strategically guide your visitors through your website.</li>
                 <li>Prepare your website for mobile devices.</li>
             </ul>
-            <p class="mt-[1em]">Anatomy of a Website is a 5-day email series. Each day, you'll receive a new interactive PDF lesson and practical exercises. By the fifth day, you'll have actionable steps that you can take to take your website to the next level.</p>
+            <p class="mt-[1em]">Anatomy of a Website is a 5-day email series. Each day, you'll receive a new interactive
+                PDF lesson and practical exercises. By the fifth day, you'll have actionable steps that you can take to
+                take your website to the next level.</p>
             <div>
-                <span href="#" class="button lead-button cursor-pointer">Enroll for free .</span>
+                <form name="lead" method="post" data-netlify="true" action="/index.html" onSubmit="submit"
+                    data-netlify-honeypot="pot-field" class="leading-6">
+
+                    <input class="d-none" name="bot-field">
+                    <div class="mb-4">
+                        <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full">
+                        <label for="first-name">First Name:</label>
+                    </div>
+
+                    <div class="mb-4">
+                        <input type="text" id="last-name" name="last-name" class="block border-b border-black w-full">
+                        <label for="last-name">Last Name:</label>
+                    </div>
+
+                    <div class="mb-4">
+                        <input type="email" id="email" name="email" class="block border-b border-black w-full">
+                        <label for="email">Email:</label>
+                    </div>
+
+                    <button type="submit" class="button">Enroll for free.</button>
+                </form>
             </div>
         </div>
     </div>

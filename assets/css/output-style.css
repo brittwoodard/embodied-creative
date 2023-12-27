@@ -1086,6 +1086,10 @@ footer .child {
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
 .pb-10p {
   padding-bottom: 10%;
 }
@@ -1520,6 +1524,12 @@ input[type="checkbox"]:checked::before {
   }
   .lg\:mt-\[190\%\] {
     margin-top: 190%;
+  }
+  .lg\:grid {
+    display: grid;
+  }
+  .lg\:hidden {
+    display: none;
   }
   .lg\:w-\[43\%\] {
     width: 43%;
