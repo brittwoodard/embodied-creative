@@ -185,6 +185,11 @@ ul {
     }
 
     /* Instagram */
+    .lightwidget-widget {
+        width:100%;
+        border:0;
+        overflow:hidden;
+    }
     .lightwidget-widget:focus-visible {
         outline: none;
       }      
