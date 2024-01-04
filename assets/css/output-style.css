@@ -587,6 +587,10 @@ footer .child {
   --tw-text-opacity: 1;
   color: rgb(153 107 76 / var(--tw-text-opacity));
 }
+/* Instagram */
+.lightwidget-widget:focus-visible {
+        outline: none;
+      }
 /* Mobile Menu */
 .mobile-button, .mobile-button-dark {
   position: fixed;
@@ -1053,6 +1057,9 @@ footer .child {
 }
 .p-10p {
   padding: 10%;
+}
+.p-2 {
+  padding: 0.5rem;
 }
 .p-4 {
   padding: 1rem;
