@@ -193,11 +193,7 @@ ul {
 
     .lightwidget-widget:focus-visible {
         outline: none;
-      }   
-      
-    .lightwidget__tile:first-child {
-        padding-left: 0;
-    }
+      }     
 
     /* Mobile Menu */
     .mobile-button, .mobile-button-dark {
