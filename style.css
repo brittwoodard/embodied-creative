@@ -65,6 +65,14 @@ ul {
     @apply list-disc ml-6
 }
 
+p {
+    margin-bottom: 1rem;
+}
+
+p:last-child {
+    margin-bottom: 0;
+}
+
 /* ----------- ADDITIONAL COMPONENTS  --------- */
 
 @layer components {
