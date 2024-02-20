@@ -1115,6 +1115,9 @@ footer .child {
 .pb-5p {
   padding-bottom: 5%;
 }
+.pb-8 {
+  padding-bottom: 2rem;
+}
 .pl-2 {
   padding-left: 0.5rem;
 }
@@ -1129,9 +1132,6 @@ footer .child {
 }
 .pt-\[20\%\] {
   padding-top: 20%;
-}
-.pb-8 {
-  padding-bottom: 2rem;
 }
 .text-left {
   text-align: left;
