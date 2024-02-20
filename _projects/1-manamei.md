@@ -8,15 +8,15 @@ featured-image: /images/portfolio-projects/manamei/manamei-featured-image.jpg
 gallery: 
   - image: /images/portfolio-projects/manamei/manamei-mobile.jpg
     alt-text: Mobile View of the Whole Body Wellness Website
-  - image: /images/portfolio-projects/manamei/manamei-laptop-alt.png
+  - image: /images/portfolio-projects/manamei/manamei-laptop-alt.jpg
     alt-text: Laptop View of the Whole Body Wellness Website
   - image: /images/portfolio-projects/manamei/manamei-tablet.jpg
     alt-text: Stylish Desk Space 
 domain: https://manamei.com
 seo: 
   title: Mana Mei
-  description: Discover our approach to this Ayurvedic website project, featuring a seamless e-commerce shop, secure member's area, and engaging blog space, perfectly aligned with a feminine, modern, and informative brand strategy.
-  keywords: Wellness Blog Design, Ayurveda Blog Design, Web Development for Wellness Brands, Membership Website Develeopment, Web Development for Online Course, Custom E-Comerce Shop
-  social_image: /images/portfolio-projects/manamei/manamei-laptop-alt.png
+  description: DDiscover how we transformed Mana Mei's fragmented online presence into a seamless, user-friendly website, consolidating three separate sites and Teachable pages into one unified platform. Our tailored approach enhanced user experience, streamlined course enrollment, and significantly cut down costs by optimizing program landing pages and eliminating unnecessary subscriptions. Dive into our comprehensive strategy that not only boosted conversion rates but also solidified the client's brand identity, making it easier for followers to navigate and select the perfect program. Experience a cohesive digital space where every element is designed to resonate with the audience and facilitate effortless navigation through diverse offerings.
+  keywords: Website consolidation services, Unified digital platform development, Online course enrollment optimization, Teachable page integration, User experience enhancement for websites, Conversion rate optimization for education, Streamlined website navigation design, Cost reduction web solutions, Brand identity web design, Digital space optimization for courses, Website maintenance cost saving, Efficient website design for educators, Seamless course selection platform, Unified brand image web design, FAQ integration to reduce inquiries
+  social_image: /images/portfolio-projects/manamei/manamei-laptop-alt.jpg
   hide-from-google: true
 ---
