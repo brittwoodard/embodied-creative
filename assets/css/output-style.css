@@ -863,6 +863,9 @@ footer .child {
 .mt-\[75\%\] {
   margin-top: 75%;
 }
+.mb-5p {
+  margin-bottom: 5%;
+}
 .block {
   display: block;
 }
@@ -1075,6 +1078,12 @@ footer .child {
 .p-8 {
   padding: 2rem;
 }
+.p-\[20\%\] {
+  padding: 20%;
+}
+.p-2 {
+  padding: 0.5rem;
+}
 .px-10p {
   padding-left: 10%;
   padding-right: 10%;
@@ -1102,6 +1111,10 @@ footer .child {
 .py-8 {
   padding-top: 2rem;
   padding-bottom: 2rem;
+}
+.px-\[20\%\] {
+  padding-left: 20%;
+  padding-right: 20%;
 }
 .pb-10 {
   padding-bottom: 2.5rem;
