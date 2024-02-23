@@ -1,15 +1,10 @@
 <section class="collab-section fixed top-10p left-10p bottom-10p z-30 hidden justify-center align-center">
     <div class="bg-medium border border-feature w-[80vw]">
         <span class="x collab-button">X</span>
-        <form class="popup-form px-10p leading-6 top-10p bottom-10p absolute" 
-            name="collab-applications" 
-            method="post"
-            data-netlify="true" 
-            action="/contact-thank-you.html" 
-            onSubmit="submit"
-            data-netlify-honeypot=“bot-field”>
+        <form class="popup-form px-10p leading-6 top-10p bottom-10p absolute" name="collab-applications" method="post"
+            data-netlify="true" action="/contact-thank-you.html" onSubmit="submit" data-netlify-honeypot=“bot-field”>
 
-        <input class=“d-none” name=”bot-field”>
+            <input class="hidden" name="bot-field">
             <div class="mb-4">
                 <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full">
                 <label for="first-name">First Name:</label>
@@ -32,15 +27,13 @@
 
             <div>
                 <label for="brand" class="block mt-4">Briefly describe your business or brand:</label>
-                <textarea id="brand" name="brand" rows="4"
-                    placeholder="Describe your brand here..."
+                <textarea id="brand" name="brand" rows="4" placeholder="Describe your brand here..."
                     class="w-full border border-black bg-transparent box"></textarea>
             </div>
 
             <div>
                 <label for="values" class="block mt-4">What are the core values and mission of your brand?:</label>
-                <textarea id="values" name="values" rows="4"
-                    placeholder="Describe your values and mission here..."
+                <textarea id="values" name="values" rows="4" placeholder="Describe your values and mission here..."
                     class="w-full border border-black bg-transparent box"></textarea>
             </div>
 
@@ -57,21 +50,25 @@
             </fieldset>
 
             <div>
-                <label for="brand-strategy-description" class="block">If yes, please provide a brief overview. If not yet, are you open to developing one during this collaboration?:</label>
+                <label for="brand-strategy-description" class="block">If yes, please provide a brief overview. If not
+                    yet, are you open to developing one during this collaboration?:</label>
                 <textarea id="brand-strategy-description" name="brand-strategy-description" rows="4"
                     placeholder="Type your answer here..."
                     class="w-full border border-black bg-transparent box"></textarea>
             </div>
 
             <div>
-                <label for="features" class="block mt-4">What specific features and functionalities are you looking for on your website? (e.g., membership system, booking system, video library, e-commerce capabilities) Are there any specific integrations or technologies you'd like to include?:</label>
+                <label for="features" class="block mt-4">What specific features and functionalities are you looking for
+                    on your website? (e.g., membership system, booking system, video library, e-commerce capabilities)
+                    Are there any specific integrations or technologies you'd like to include?:</label>
                 <textarea id="features" name="features" rows="4"
                     placeholder="List the features and/or integrations here..."
                     class="w-full border border-black bg-transparent box"></textarea>
             </div>
 
             <fieldset class="mb-4">
-                <legend class="mb-4 mt-4">Do you have access to a collection of professional, high-quality images that you own the rights to or have secured written permission to use on the website?:</legend>
+                <legend class="mb-4 mt-4">Do you have access to a collection of professional, high-quality images that
+                    you own the rights to or have secured written permission to use on the website?:</legend>
                 <div class="mb-2">
                     <input type="radio" id="images-yes" name="images" value="yes">
                     <label for="images-yes">Yes</label>
@@ -83,7 +80,8 @@
             </fieldset>
 
             <div>
-                <label for="social-media" class="block">Please share your social media handles or links to your social media profiles.:</label>
+                <label for="social-media" class="block">Please share your social media handles or links to your social
+                    media profiles.:</label>
                 <textarea id="social-media" name="social-media" rows="4"
                     placeholder="List your social media handles here..."
                     class="w-full border border-black bg-transparent box"></textarea>

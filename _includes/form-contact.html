@@ -1,15 +1,10 @@
 <section id="contact" class="contact-section fixed top-10p left-10p z-30 hidden justify-center align-center">
     <div class="bg-light border border-feature w-[80vw]">
         <span class="x contact-button">X</span>
-        <form 
-            name="contact" 
-            method="post" 
-            data-netlify="true" 
-            action="/index.html" 
-            onSubmit="submit" 
-            data-netlify-honeypot="pot-field" class="min-w-[25%] p-10p leading-6">
+        <form name="contact" method="post" data-netlify="true" action="/index.html" onSubmit="submit"
+            data-netlify-honeypot="bot-field" class="min-w-[25%] p-10p leading-6">
 
-            <input class="d-none" name="bot-field">
+            <input class="hidden" name="bot-field">
             <div class="mb-4">
                 <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full">
                 <label for="first-name">First Name:</label>
