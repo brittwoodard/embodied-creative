@@ -1,6 +1,6 @@
 <section class="p-10p">
     <h2 class="heading-md text-right border-b border-dark">FAQ's</h2>
-    <ul class="list-none">
+    <ul class="list-none ml-0">
         {% for item in site.data.faq-settings.faq %}
         <li x-data="{ open: false }" class="border-b border-dark my-8">
             <button @click="open = ! open" class="flex justify-between w-full">
