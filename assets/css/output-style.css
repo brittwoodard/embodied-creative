@@ -1130,6 +1130,9 @@ footer .child {
 .pr-2 {
   padding-right: 0.5rem;
 }
+.pr-5p {
+  padding-right: 5%;
+}
 .pt-5p {
   padding-top: 5%;
 }
