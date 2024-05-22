@@ -37,11 +37,11 @@
 @layer base {}
 
 html {
-    @apply max-w-[100vw] overflow-x-hidden
+    @apply max-w-[100vw] overflow-x-hidden scroll-smooth
 }
 
 body {
-    @apply font-sans font-light tracking-wide text-[1rem] max-w-[100vw] overflow-x-hidden
+    @apply font-sans font-light tracking-wide text-[1rem] max-w-[100vw] overflow-x-hidden antialiased
 }
 
 h1,
@@ -92,7 +92,7 @@ p:last-child {
     }
 
     .link {
-        @apply border-b font-heading pb-2 lowercase tracking-wide text-[1.3rem];
+        @apply border-b font-heading pb-2 lowercase tracking-wide ;
         border-color: currentColor;
     }
 
