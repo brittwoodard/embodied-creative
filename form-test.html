@@ -5,9 +5,10 @@ layout: default
 <section class="py-10p px-5p">
     <h1 class="text-lg-serif text-feature">Liberation Through Movement Mentorship Application</h1>
 
-    <form name="form-test" method="POST" data-netlify="true" netlify-honeypot="bot-field">
-        <!-- Honeypot field to prevent spam -->
-        <input type="hidden" name="form-test" value="form-test">
+    <form id="mentorship-application" name="mentorship-application"
+            method="post" data-netlify="true" action="/index.html" onSubmit="submit" data-netlify-honeypot=“bot-field”>
+
+            <input class="hidden" name="bot-field">
 
         <p class="text-lg mb-4">Do you want to feel more free in your body and empowered in your life?</p>
         <div class="mb-4">
