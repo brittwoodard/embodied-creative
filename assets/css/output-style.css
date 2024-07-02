@@ -802,6 +802,9 @@ footer .child {
 .-mt-\[1rem\] {
   margin-top: -1rem;
 }
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
 .mb-12 {
   margin-bottom: 3rem;
 }
@@ -841,8 +844,14 @@ footer .child {
 .ml-\[80\%\] {
   margin-left: 80%;
 }
+.mr-2 {
+  margin-right: 0.5rem;
+}
 .mr-8 {
   margin-right: 2rem;
+}
+.mt-2 {
+  margin-top: 0.5rem;
 }
 .mt-4 {
   margin-top: 1rem;
@@ -882,6 +891,9 @@ footer .child {
 }
 .aspect-portrait {
   aspect-ratio: 3 / 4;
+}
+.h-32 {
+  height: 8rem;
 }
 .h-\[30vh\] {
   height: 30vh;
@@ -998,6 +1010,9 @@ footer .child {
 .whitespace-nowrap {
   white-space: nowrap;
 }
+.rounded {
+  border-radius: 0.25rem;
+}
 .border {
   border-width: 1px;
 }
@@ -1087,6 +1102,10 @@ footer .child {
 .px-2 {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
+}
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
 }
 .px-5p {
   padding-left: 5%;
@@ -1191,6 +1210,9 @@ footer .child {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.font-semibold {
+  font-weight: 600;
 }
 .uppercase {
   text-transform: uppercase;
