@@ -12,7 +12,7 @@ layout: default-dark
 
 <!-- Objective -->
 <section class="py-10p">
-    <div class="grid grid-cols-12 justify-items-end px-5p mb-16">
+    <div class="grid grid-cols-12 justify-items-end px-10p mb-16">
         <div class="col-span-1 -mr-8">
             <h2 class="heading-md vertical-text mt-[75%] ml-[80%]">Objective.</h2>
         </div>
@@ -23,7 +23,7 @@ layout: default-dark
 </section>
 
 
-<!-- About -->
+<!-- Process -->
 <section class="bg-medium pt-5p pb-10p hidden md:block">
     <h2 class="overflow-heading text-[13.5vw] -mb-[8%]">Website Process</h2>
     <div class="border border-feature p-5p mx-10p bg-light relative opacity-90 mb-12">
@@ -50,14 +50,48 @@ layout: default-dark
     </div>
 </section>
 
-<!-- FAQ Section -->
-{% include faq.html %}
+<!-- Budget -->
+<section>
+    <h2>Budget</h2>
 
-<!-- Anatomy Of A Website Opt-In -->
-{% include lead-magnet-anatomy-of-a-website.html %}
+    <!-- Includes -->
+    <h3>What's Included</h3>
+    <ul>
+        <li>Strategic review of website needs & goals</li>
+        <li>Custom design to suit the brand and target audience</li>
+        <li>Build in the latest technologies, HTML5, CSS3, jQuery and Jekyll</li>
+        <li>Page animations and transitions for visual impact</li>
+        <li>Custom integration to CloudCannon content management system</li>
+        <li>Full access to the codebase through Github</li>
+        <li>Responsive across all devices (including mobile and tablet)</li>
+        <li>Integration of live instagram widget to view latest instagram posts</li>
+        <li>Optimized for speed and performance</li>
+        <li>Optimized for search engine ranking with the ability to custom edit SEO meta-data for each page</li>
+        <li>Video tutorial of how to use your new content management system</li>
+    </ul>
 
-<!-- Instagram Feed -->
-{% include instagram.html %}
+    <!-- Pricing Options -->
+     <div class="grid grid-cols-4">
+
+        {% for item in page.options %}
+        <!-- Options -->
+        <div>
+            <div class="flex justify-between border-b-[0.5px] border-black">
+                <h4>{{item.title}}</h4>
+                <p>{{item.price}}</p>
+            </div>
+            <div>
+                <p>Bespoke {{item.page_number}}-page website design</p>
+                <p>Cookie consent banner to ensure compliance with privacy regulations</p>
+                <p>Privacy policy page to build trust with your visitors</p>
+                <p>Custom 404 error page to maintain a seamless user experience</p>
+                <p>Setup and integration of Google Analytics</p>
+                <p>Custom email setup using Google Apps</p>
+            </div>
+        </div>
+        {% endfor %}
+     </div>
+</section>
 
 <!-- Pricing Form -->
 {% include form-pricing.html %}

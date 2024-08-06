@@ -974,8 +974,14 @@ footer .child {
 .grid-cols-7 {
   grid-template-columns: repeat(7, minmax(0, 1fr));
 }
+.grid-cols-4 {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
 .flex-col {
   flex-direction: column;
+}
+.content-between {
+  align-content: space-between;
 }
 .items-center {
   align-items: center;
@@ -1031,6 +1037,9 @@ footer .child {
 }
 .border-t {
   border-top-width: 1px;
+}
+.border-b-\[0\.5px\] {
+  border-bottom-width: 0.5px;
 }
 .border-black {
   --tw-border-opacity: 1;
