@@ -11,8 +11,8 @@ layout: blank
 </section>
 
 <!-- Objective -->
-<section class="py-5p bg-light">
-    <div class="grid grid-cols-12 justify-items-end px-5p mb-16">
+<section class="py-12 lg:py-5p bg-light">
+    <div class="grid grid-cols-12 justify-items-end px-5p">
         <div class="col-span-1 -mr-8">
             <h2 class="heading-md vertical-text mt-[75%] ml-[80%]">Objective.</h2>
         </div>
@@ -24,7 +24,7 @@ layout: blank
 
 
 <!-- Process -->
-<section class="bg-medium pt-12 pb-5p hidden md:block">
+<section class="bg-medium pt-12 pb-5p">
     <h2 class="overflow-heading text-[13.5vw] -mb-[8%]">Website Process</h2>
     <div class="border border-feature p-5p mx-5p bg-light relative opacity-90 mb-12">
         <strong>Step 1 - Strategy</strong>
@@ -54,64 +54,81 @@ layout: blank
 
 <!-- Budget -->
 <section class="bg-light">
-    <div class="p-5p">
-        <h2 class="heading-md">Budget</h2>
+    <div class="py-12 px-5p">
+        <h2 class="font-heading text-[6rem]">Budget</h2>
 
         <!-- Includes -->
-        <h3 class="mb-4">What's Included:</h3>
-        <ul>
-            <li>Strategic review of website needs & goals</li>
-            <li>Custom design to suit the brand and target audience</li>
-            <li>Build in the latest technologies, HTML5, CSS3, jQuery and Jekyll</li>
-            <li>Page animations and transitions for visual impact</li>
-            <li>Custom integration to CloudCannon content management system</li>
-            <li>Full access to the codebase through Github</li>
-            <li>Responsive across all devices (including mobile and tablet)</li>
-            <li>Integration of live instagram widget to view latest instagram posts</li>
-            <li>Optimized for speed and performance</li>
-            <li>Optimized for search engine ranking with the ability to custom edit SEO meta-data for each page</li>
-            <li>Video tutorial of how to use your new content management system</li>
-        </ul>
+        <div>
+            <h3 class="mb-4 uppercase">What's Included:</h3>
+            <div class="md:flex gap-4">
+                <ul class="flex-1 list-disc space-y-2">
+                    <li>Strategic review of website needs & goals</li>
+                    <li>Custom design to suit the brand and target audience</li>
+                    <li>Build in the latest technologies, HTML5, CSS3, jQuery and Jekyll</li>
+                    <li>Page animations and transitions for visual impact</li>
+                    <li>Custom integration to CloudCannon content management system</li>
+                    <li>Full access to the codebase through Github</li>
+                </ul>
+                <ul class="flex-1 list-disc space-y-2">
+                    <li>Responsive across all devices (including mobile and tablet)</li>
+                    <li>Integration of live Instagram widget to view latest Instagram posts</li>
+                    <li>Optimized for speed and performance</li>
+                    <li>Optimized for search engine ranking with the ability to custom edit SEO meta-data for each page</li>
+                    <li>Video tutorial of how to use your new content management system</li>
+                </ul>
+            </div>
+        </div>
+        
     </div>
 
     <!-- Pricing Options -->
-    <div class="overflow-x-auto">
-        <div class="flex">
+    <div class="mb-8 border-t-[0.5px] border-black mx-5p">
+        <h4 class="uppercase mt-12">Pricing Options</h4>
+        <p class="mb-8 text-dark"><em>Scroll left for more options</em></p>
+    </div>
+    <div class="flex gap-16 overflow-x-auto flex-nowrap w-full">
 
-            {% for item in page.options %}
-            <!-- Options -->
-            <div class="flex-none w-full sm:w-1/3 lg:w-1/4 first:ml-5p last:mr-5p m-8">
+        {% for item in page.options %}
+        <!-- Options -->
+        <div class="first:ml-5p last:mr-5p w-[65%] md:w-1/3 flex-shrink-0">
 
-                <!-- Title -->
-                <div class="flex justify-between border-b-[0.5px] border-black mb-4">
-                    <h4>{{item.title}}</h4>
-                    <p>{{item.price}} €</p>
-                </div>
-
-                <!-- Includes -->
-                <div>
-                    <p>Bespoke {{item.page_number}}-page website design</p>
-                    <ul>
-                        {% for feature in item.features %}
-                        <li>{{ feature }}</li>
-                        {% endfor %}
-                    </ul>
-                    <p>Cookie consent banner to ensure compliance with privacy regulations</p>
-                    <p>Privacy policy page to build trust with your visitors</p>
-                    <p>Custom 404 error page to maintain a seamless user experience</p>
-                    <p>Setup and integration of Google Analytics</p>
-                    <p>Custom email setup using Google Apps</p>
-                </div>
-
-                <!-- Pricing Stages -->
-                <div class="mt-8">
-                    <p class="border-b-[0.5px] border-black uppercase">Pricing Stages</p>
-                    <p>Design: {{item.pricing_stages.design}} €<br class="mb-2">Develop: {{item.pricing_stages.develop}}
-                        €<br class="mb-2">Launch: {{item.pricing_stages.launch}} €</p>
-                </div>
+            <!-- Title -->
+            <div class="flex justify-between border-b-[0.5px] border-black mb-4">
+                <h4>{{item.title}}</h4>
+                <p>{{item.price}} €</p>
             </div>
-            {% endfor %}
+
+            <!-- Includes -->
+            <div>
+                <p>Bespoke {{item.page_number}}-page website design</p>
+                <ul>
+                    {% for feature in item.features %}
+                    <li>{{ feature }}</li>
+                    {% endfor %}
+                </ul>
+                <p>Cookie consent banner to ensure compliance with privacy regulations</p>
+                <p>Privacy policy page to build trust with your visitors</p>
+                <p>Custom 404 error page to maintain a seamless user experience</p>
+                <p>Setup and integration of Google Analytics</p>
+                <p>Custom email setup using Google Apps</p>
+            </div>
+
+            <!-- Pricing Stages -->
+            <div class="mt-8">
+                <p class="border-b-[0.5px] border-black uppercase">Pricing Stages</p>
+                <p>Design: {{item.pricing_stages.design}} €<br class="mb-2">Develop: {{item.pricing_stages.develop}}
+                    €<br class="mb-2">Launch: {{item.pricing_stages.launch}} €</p>
+            </div>
         </div>
+        {% endfor %}
     </div>
 
+</section>
+
+<!-- Payment & Delivery Terms -->
+<section class="py-12 px-5p">
+    <h2 class="font-heading leading-[1em] text-[3rem]">Payment & Delivery Terms</h2>
+    <div class="border border-feature bg-light/90 p-5p relative z-20 -mt-[1.05rem]">
+        <p>To initiate our collaboration, we request a 40% deposit upfront. Upon your approval of the design phase, 50% of the total is due. The remaining 10% is payable upon project completion. Payments can be made via bank transfer using Transferwise or by credit card (a 3% transaction fee applies). Please ensure the final payment is made within 5 business days of project completion to allow us to launch your site live on your domain.</p>
+    </div>
 </section>
