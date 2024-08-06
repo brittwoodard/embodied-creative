@@ -796,6 +796,9 @@ footer .child {
 .-mb-\[14\.5\%\] {
   margin-bottom: -14.5%;
 }
+.-mb-\[8\%\] {
+  margin-bottom: -8%;
+}
 .-mr-8 {
   margin-right: -2rem;
 }
@@ -876,9 +879,6 @@ footer .child {
 }
 .mt-\[75\%\] {
   margin-top: 75%;
-}
-.-mb-\[8\%\] {
-  margin-bottom: -8%;
 }
 .block {
   display: block;
@@ -974,17 +974,14 @@ footer .child {
 .grid-cols-3 {
   grid-template-columns: repeat(3, minmax(0, 1fr));
 }
-.grid-cols-7 {
-  grid-template-columns: repeat(7, minmax(0, 1fr));
-}
 .grid-cols-4 {
   grid-template-columns: repeat(4, minmax(0, 1fr));
 }
+.grid-cols-7 {
+  grid-template-columns: repeat(7, minmax(0, 1fr));
+}
 .flex-col {
   flex-direction: column;
-}
-.content-between {
-  align-content: space-between;
 }
 .items-center {
   align-items: center;
@@ -1035,14 +1032,14 @@ footer .child {
 .border-b {
   border-bottom-width: 1px;
 }
+.border-b-\[0\.5px\] {
+  border-bottom-width: 0.5px;
+}
 .border-l {
   border-left-width: 1px;
 }
 .border-t {
   border-top-width: 1px;
-}
-.border-b-\[0\.5px\] {
-  border-bottom-width: 0.5px;
 }
 .border-black {
   --tw-border-opacity: 1;
@@ -1202,6 +1199,9 @@ footer .child {
   font-size: 2.25rem;
   line-height: 2.5rem;
 }
+.text-\[13\.5vw\] {
+  font-size: 13.5vw;
+}
 .text-\[16\.8vw\] {
   font-size: 16.8vw;
 }
@@ -1225,9 +1225,6 @@ footer .child {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
-}
-.text-\[13\.5vw\] {
-  font-size: 13.5vw;
 }
 .font-semibold {
   font-weight: 600;
