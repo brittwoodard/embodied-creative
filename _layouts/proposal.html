@@ -1,0 +1,63 @@
+---
+layout: default-dark
+---
+
+<!-- Hero Banner -->
+<section class="min-h-[80vh] bg-dark flex justify-center items-center">
+    <div class="px-5p">
+        <h1 class="page-title fade-in-1">Proposal: {{page.title}}</h1>
+        <p class="page-subtitle fade-in-2">Web Strategy, Design & Development by Embodied Creative</p>
+    </div>
+</section>
+
+<!-- Objective -->
+<section class="py-10p">
+    <div class="grid grid-cols-12 justify-items-end px-5p mb-16">
+        <div class="col-span-1 -mr-8">
+            <h2 class="heading-md vertical-text mt-[75%] ml-[80%]">Objective.</h2>
+        </div>
+        <div class="col-span-11 border border-feature bg-light opacity-70 p-5p flex-auto">
+            <p>{{page.objective_html}}</p>
+        </div>
+    </div>
+</section>
+
+
+<!-- About -->
+<section class="bg-medium pt-5p pb-10p hidden md:block">
+    <h2 class="overflow-heading text-[13.5vw] -mb-[8%]">Website Process</h2>
+    <div class="border border-feature p-5p mx-10p bg-light relative opacity-90 mb-12">
+        <strong>Step 1 - Strategy</strong>
+        <br>We engaged in a strategic meeting with relevant key parties to discuss goals, the brand, important features
+        and functionality, etc. We'll then go away and come away with a comprehensive website strategy, and design
+        inspiration.
+        <br><em>(40% of the payment is required to initiate this step)</em></p>
+        <p><strong>Step 2 - Design</strong>
+            <br>Based on the strategic brief, we'll come up with a custom design for the website. This design will be
+            optimized not just to be visually stunning, but to load fast, be easy to update and maintain and planned
+            with an understanding of the psychology of the user.
+        </p>
+        <p><strong>Step 3 - Development</strong><br>After you have reviewed and approved the design we'll get to work
+            building it. We'll be building from scratch using HTML, CSS and Javascript (no clunky pre-built templates
+            here). We'll conduct comprehensive browser testing, speed testing and website optimisation.<br><em>(50% of
+                the payment is required to initiate this step)</em></p>
+        <p><strong>Step 4 - Review & Upload Content</strong>Now it's time to review the live site (on a hidden domain),
+            upload all of your content (photos, images etc) and teach you how to use the content management system so
+            that it's easy for you to manage ongoing.<br><em>(10% of the payment is required to initiate this step)</em></p>
+        <p><strong>Step 5 - Site Live</strong><br>When all has been signed off, we'll push the site live on the client
+            name
+            domain and conduct one final round of testing.</p>
+    </div>
+</section>
+
+<!-- FAQ Section -->
+{% include faq.html %}
+
+<!-- Anatomy Of A Website Opt-In -->
+{% include lead-magnet-anatomy-of-a-website.html %}
+
+<!-- Instagram Feed -->
+{% include instagram.html %}
+
+<!-- Pricing Form -->
+{% include form-pricing.html %}

@@ -874,6 +874,9 @@ footer .child {
 .mt-\[75\%\] {
   margin-top: 75%;
 }
+.-mb-\[8\%\] {
+  margin-bottom: -8%;
+}
 .block {
   display: block;
 }
@@ -1210,6 +1213,9 @@ footer .child {
 .text-xl {
   font-size: 1.25rem;
   line-height: 1.75rem;
+}
+.text-\[13\.5vw\] {
+  font-size: 13.5vw;
 }
 .font-semibold {
   font-weight: 600;
