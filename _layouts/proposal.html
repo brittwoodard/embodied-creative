@@ -41,7 +41,7 @@ layout: default-dark
             building it. We'll be building from scratch using HTML, CSS and Javascript (no clunky pre-built templates
             here). We'll conduct comprehensive browser testing, speed testing and website optimisation.<br><em>(50% of
                 the payment is required to initiate this step)</em></p>
-        <p><strong>Step 4 - Review & Upload Content</strong>Now it's time to review the live site (on a hidden domain),
+        <p><strong>Step 4 - Review & Upload Content</strong><br>Now it's time to review the live site (on a hidden domain),
             upload all of your content (photos, images etc) and teach you how to use the content management system so
             that it's easy for you to manage ongoing.<br><em>(10% of the payment is required to initiate this step)</em></p>
         <p><strong>Step 5 - Site Live</strong><br>When all has been signed off, we'll push the site live on the client
@@ -75,18 +75,35 @@ layout: default-dark
 
         {% for item in page.options %}
         <!-- Options -->
-        <div>
+        <div class="m-4">
+
+            <!-- Title -->
             <div class="flex justify-between border-b-[0.5px] border-black">
                 <h4>{{item.title}}</h4>
-                <p>{{item.price}}</p>
+                <p>{{item.price}} €</p>
             </div>
+
+            <!-- Includes -->
             <div>
                 <p>Bespoke {{item.page_number}}-page website design</p>
+                <ul>
+                    {% for feature in item.features %}
+                    <li>{{ feature }}</li>
+                    {% endfor %}
+                </ul>
                 <p>Cookie consent banner to ensure compliance with privacy regulations</p>
                 <p>Privacy policy page to build trust with your visitors</p>
                 <p>Custom 404 error page to maintain a seamless user experience</p>
                 <p>Setup and integration of Google Analytics</p>
                 <p>Custom email setup using Google Apps</p>
+            </div>
+
+            <!-- Pricing Stages -->
+            <div>
+                <p class="border-b-[0.5px] border-black uppercase">Pricing Stages</p>
+                <p>Design: {{item.pricing_stages.design}} €</p>
+                <p>Develop: {{item.pricing_stages.develop}} €</p>
+                <p>Launch: {{item.pricing_stages.launch}} €</p>
             </div>
         </div>
         {% endfor %}

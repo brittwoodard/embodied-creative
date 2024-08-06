@@ -756,6 +756,9 @@ footer .child {
 .col-span-6 {
   grid-column: span 6 / span 6;
 }
+.m-4 {
+  margin: 1rem;
+}
 .mx-10p {
   margin-left: 10%;
   margin-right: 10%;
