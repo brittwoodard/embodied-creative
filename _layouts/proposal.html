@@ -1,5 +1,5 @@
 ---
-layout: default-dark
+layout: blank
 ---
 
 <!-- Hero Banner -->
@@ -11,8 +11,8 @@ layout: default-dark
 </section>
 
 <!-- Objective -->
-<section class="py-10p">
-    <div class="grid grid-cols-12 justify-items-end px-10p mb-16">
+<section class="py-5p bg-light">
+    <div class="grid grid-cols-12 justify-items-end px-5p mb-16">
         <div class="col-span-1 -mr-8">
             <h2 class="heading-md vertical-text mt-[75%] ml-[80%]">Objective.</h2>
         </div>
@@ -24,9 +24,9 @@ layout: default-dark
 
 
 <!-- Process -->
-<section class="bg-medium pt-5p pb-10p hidden md:block">
+<section class="bg-medium pt-12 pb-5p hidden md:block">
     <h2 class="overflow-heading text-[13.5vw] -mb-[8%]">Website Process</h2>
-    <div class="border border-feature p-5p mx-10p bg-light relative opacity-90 mb-12">
+    <div class="border border-feature p-5p mx-5p bg-light relative opacity-90 mb-12">
         <strong>Step 1 - Strategy</strong>
         <br>We engaged in a strategic meeting with relevant key parties to discuss goals, the brand, important features
         and functionality, etc. We'll then go away and come away with a comprehensive website strategy, and design
@@ -41,9 +41,11 @@ layout: default-dark
             building it. We'll be building from scratch using HTML, CSS and Javascript (no clunky pre-built templates
             here). We'll conduct comprehensive browser testing, speed testing and website optimisation.<br><em>(50% of
                 the payment is required to initiate this step)</em></p>
-        <p><strong>Step 4 - Review & Upload Content</strong><br>Now it's time to review the live site (on a hidden domain),
+        <p><strong>Step 4 - Review & Upload Content</strong><br>Now it's time to review the live site (on a hidden
+            domain),
             upload all of your content (photos, images etc) and teach you how to use the content management system so
-            that it's easy for you to manage ongoing.<br><em>(10% of the payment is required to initiate this step)</em></p>
+            that it's easy for you to manage ongoing.<br><em>(10% of the payment is required to initiate this step)</em>
+        </p>
         <p><strong>Step 5 - Site Live</strong><br>When all has been signed off, we'll push the site live on the client
             name
             domain and conduct one final round of testing.</p>
@@ -51,64 +53,65 @@ layout: default-dark
 </section>
 
 <!-- Budget -->
-<section>
-    <h2>Budget</h2>
+<section class="bg-light">
+    <div class="p-5p">
+        <h2 class="heading-md">Budget</h2>
 
-    <!-- Includes -->
-    <h3>What's Included</h3>
-    <ul>
-        <li>Strategic review of website needs & goals</li>
-        <li>Custom design to suit the brand and target audience</li>
-        <li>Build in the latest technologies, HTML5, CSS3, jQuery and Jekyll</li>
-        <li>Page animations and transitions for visual impact</li>
-        <li>Custom integration to CloudCannon content management system</li>
-        <li>Full access to the codebase through Github</li>
-        <li>Responsive across all devices (including mobile and tablet)</li>
-        <li>Integration of live instagram widget to view latest instagram posts</li>
-        <li>Optimized for speed and performance</li>
-        <li>Optimized for search engine ranking with the ability to custom edit SEO meta-data for each page</li>
-        <li>Video tutorial of how to use your new content management system</li>
-    </ul>
+        <!-- Includes -->
+        <h3 class="mb-4">What's Included:</h3>
+        <ul>
+            <li>Strategic review of website needs & goals</li>
+            <li>Custom design to suit the brand and target audience</li>
+            <li>Build in the latest technologies, HTML5, CSS3, jQuery and Jekyll</li>
+            <li>Page animations and transitions for visual impact</li>
+            <li>Custom integration to CloudCannon content management system</li>
+            <li>Full access to the codebase through Github</li>
+            <li>Responsive across all devices (including mobile and tablet)</li>
+            <li>Integration of live instagram widget to view latest instagram posts</li>
+            <li>Optimized for speed and performance</li>
+            <li>Optimized for search engine ranking with the ability to custom edit SEO meta-data for each page</li>
+            <li>Video tutorial of how to use your new content management system</li>
+        </ul>
+    </div>
 
     <!-- Pricing Options -->
-     <div class="grid grid-cols-4">
+    <div class="overflow-x-auto">
+        <div class="flex">
 
-        {% for item in page.options %}
-        <!-- Options -->
-        <div class="m-4">
+            {% for item in page.options %}
+            <!-- Options -->
+            <div class="flex-none w-full sm:w-1/3 lg:w-1/4 first:ml-5p last:mr-5p m-8">
 
-            <!-- Title -->
-            <div class="flex justify-between border-b-[0.5px] border-black">
-                <h4>{{item.title}}</h4>
-                <p>{{item.price}} €</p>
+                <!-- Title -->
+                <div class="flex justify-between border-b-[0.5px] border-black mb-4">
+                    <h4>{{item.title}}</h4>
+                    <p>{{item.price}} €</p>
+                </div>
+
+                <!-- Includes -->
+                <div>
+                    <p>Bespoke {{item.page_number}}-page website design</p>
+                    <ul>
+                        {% for feature in item.features %}
+                        <li>{{ feature }}</li>
+                        {% endfor %}
+                    </ul>
+                    <p>Cookie consent banner to ensure compliance with privacy regulations</p>
+                    <p>Privacy policy page to build trust with your visitors</p>
+                    <p>Custom 404 error page to maintain a seamless user experience</p>
+                    <p>Setup and integration of Google Analytics</p>
+                    <p>Custom email setup using Google Apps</p>
+                </div>
+
+                <!-- Pricing Stages -->
+                <div class="mt-8">
+                    <p class="border-b-[0.5px] border-black uppercase">Pricing Stages</p>
+                    <p>Design: {{item.pricing_stages.design}} €<br class="mb-2">Develop: {{item.pricing_stages.develop}}
+                        €<br class="mb-2">Launch: {{item.pricing_stages.launch}} €</p>
+                </div>
             </div>
-
-            <!-- Includes -->
-            <div>
-                <p>Bespoke {{item.page_number}}-page website design</p>
-                <ul>
-                    {% for feature in item.features %}
-                    <li>{{ feature }}</li>
-                    {% endfor %}
-                </ul>
-                <p>Cookie consent banner to ensure compliance with privacy regulations</p>
-                <p>Privacy policy page to build trust with your visitors</p>
-                <p>Custom 404 error page to maintain a seamless user experience</p>
-                <p>Setup and integration of Google Analytics</p>
-                <p>Custom email setup using Google Apps</p>
-            </div>
-
-            <!-- Pricing Stages -->
-            <div>
-                <p class="border-b-[0.5px] border-black uppercase">Pricing Stages</p>
-                <p>Design: {{item.pricing_stages.design}} €</p>
-                <p>Develop: {{item.pricing_stages.develop}} €</p>
-                <p>Launch: {{item.pricing_stages.launch}} €</p>
-            </div>
+            {% endfor %}
         </div>
-        {% endfor %}
-     </div>
-</section>
+    </div>
 
-<!-- Pricing Form -->
-{% include form-pricing.html %}
+</section>
