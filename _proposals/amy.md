@@ -52,7 +52,7 @@ options:
      develop: 800
      launch: 160
 seo: 
-  title: Proposal
-  social_image: /images/portfolio-projects/manamei/manamei-laptop-alt.jpg
+  title: Website Proposal
+  social_image: /images/samkalpa-portfolio-5.jpg
   hide-from-google: true
 ---
