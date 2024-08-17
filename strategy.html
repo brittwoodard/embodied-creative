@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<section class="bg-medium py-10p">
+    <h1 class="text-[4rem] sm:text-7xl md:text-8xl -rotate-90 -left-[5rem] top-[20rem] md:-left-[6rem] lg:-left-[2rem] text-dark fixed lowercase">Strategy.</h1>
+    <div class="border border-feature p-5p mx-10p z-10 bg-light/75 relative">
+        <form name="contact" method="post" data-netlify="true" action="/contact-thank-you.html" onSubmit="submit"
+            data-netlify-honeypot="pot-field" class="min-w-[25%] p-10p leading-6">
+
+            <input class="d-none" name="bot-field">
+
+            <!-- Name -->
+            <div class="mb-4">
+                <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full">
+                <label for="first-name">First & Last Name:</label>
+            </div>
+
+            <!-- Business Name -->
+            <div class="mt-8">
+                <input type="business_name" id="business_name" name="business_name" class="block border-b border-black w-full">
+                <label for="business_name">Business Name:</label>
+            </div>
+
+            <!-- Business Description -->
+            <div class="mt-8">
+                <label for="business_description" class="block mb-2">Tell me about your business. What is it that you offer? What are your products and services?</label>
+                <textarea id="business_description" name="business_description" rows="4"
+                    class="w-full border border-black bg-transparent box"></textarea>
+            </div>
+
+            <!-- Target Audience -->
+            <div class="mt-8">
+                <label for="audience" class="block mb-2">Who are your target clients? Describe them as if the person is sitting right there. What are their values, their habits, etc.? Below is an example:<br class="mb-2"><em>Rachel is a 35-year old busy female professional who values yoga and wellness. She manages to integrate yoga into her weekly routine, but she struggles to maintain a healthy lifestyle and work/life balance outside of her yoga practice. She is happy to pay a premium for organic and eco-friendly products and food. She is very curious about developing a spiritual practice but she doesn't know where to start.</em></label>
+                <textarea id="audience" name="audience" rows="4"
+                    class="w-full border border-black bg-transparent box"></textarea>
+            </div>
+
+            <button type="submit" class="button">Send</button>
+        </form>
+    </div>
+</section>
