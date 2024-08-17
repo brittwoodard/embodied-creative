@@ -738,6 +738,9 @@ footer .child {
 .top-\[20rem\] {
   top: 20rem;
 }
+.top-\[6rem\] {
+  top: 6rem;
+}
 .z-10 {
   z-index: 10;
 }
@@ -922,6 +925,9 @@ footer .child {
 .min-h-\[80vh\] {
   min-height: 80vh;
 }
+.min-h-screen {
+  min-height: 100vh;
+}
 .w-\[65\%\] {
   width: 65%;
 }
@@ -939,6 +945,9 @@ footer .child {
 }
 .w-full {
   width: 100%;
+}
+.w-2\/3 {
+  width: 66.666667%;
 }
 .min-w-\[25\%\] {
   min-width: 25%;
@@ -1608,6 +1617,9 @@ input[type="checkbox"]:checked::before {
   .md\:-left-\[6rem\] {
     left: -6rem;
   }
+  .md\:top-\[12rem\] {
+    top: 12rem;
+  }
   .md\:col-span-4 {
     grid-column: span 4 / span 4;
   }
@@ -1642,6 +1654,9 @@ input[type="checkbox"]:checked::before {
   .md\:w-\[58\%\] {
     width: 58%;
   }
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
   .md\:grid-cols-3 {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
@@ -1664,6 +1679,9 @@ input[type="checkbox"]:checked::before {
 @media (min-width: 1024px) {
   .lg\:-left-\[2rem\] {
     left: -2rem;
+  }
+  .lg\:top-\[20rem\] {
+    top: 20rem;
   }
   .lg\:col-span-1 {
     grid-column: span 1 / span 1;
