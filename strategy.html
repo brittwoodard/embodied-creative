@@ -1,11 +1,16 @@
 ---
-layout: default
+layout: blank
 ---
 <section class="bg-medium py-10p">
     <h1 class="text-[4rem] sm:text-7xl md:text-8xl -rotate-90 -left-[5rem] top-[20rem] md:-left-[6rem] lg:-left-[2rem] text-dark fixed lowercase">Strategy.</h1>
     <div class="border border-feature p-5p mx-10p z-10 bg-light/75 relative">
+        <div>
+            <p>Before we dive into crafting your unique digital presence, it's important that we take a moment to align our visions. This form is designed to help us both prepare for our upcoming strategy call, ensuring that we make the most of our time together. Your responses will give me a deeper understanding of your business, your goals, and the essence of your brand, allowing us to create a website that truly embodies your values and resonates with your audience.</p>
+            <p>Please complete and submit this form prior to our call. This will help us focus our discussion and move forward with clear intentions.</p>
+            <p>When you're ready, you can schedule your strategy call with me <a href="https://calendly.com/embodied-creative/30min?back=1&" target="_blank" class="border-b border-black hover:text-dark hover:border-dark hover:transition hover:duration-500">here</a>.</p>
+        </div>
         <form name="contact" method="post" data-netlify="true" action="/contact-thank-you.html" onSubmit="submit"
-            data-netlify-honeypot="pot-field" class="min-w-[25%] p-10p leading-6">
+            data-netlify-honeypot="pot-field" class="min-w-[25%] leading-6">
 
             <input class="d-none" name="bot-field">
 
@@ -69,8 +74,21 @@ layout: default
                 <textarea id="brand_vibe" name="brand_vibe" rows="2"
                     class="w-full border border-black bg-transparent box"></textarea>
             </div>
+            
+            <!-- Pinterest -->
+            <div class="mt-8">
+                <input type="pinterest" id="pinterest" name="pinterest" class="block border-b border-black w-full">
+                <label for="pinterest">Do you have a Pinterest account where you’ve curated inspiration, websites, or brand aesthetics you like? If so, please provide the link above.</label>
+            </div>
 
-            <button type="submit" class="button">Send</button>
+            <!-- Inspiration URLS -->
+            <div class="mt-8">
+                <label for="inspiration_urls" class="block mb-2">If you do not have a Pinterest account, please provide URLs to websites or specific examples that capture the style and tone you are aiming for.</label>
+                <textarea id="inspiration_urls" name="inspiration_urls" rows="2"
+                    class="w-full border border-black bg-transparent box"></textarea>
+            </div>
+
+            <button type="submit" class="button">Submit</button>
         </form>
     </div>
 </section>
