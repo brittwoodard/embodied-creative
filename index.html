@@ -1,38 +1,58 @@
 ---
-layout: default-dark 
-title: Embodied Creative | Web Development for Conscious Brands in Biarritz, France
-about-section:
-  heading: What we do.
-  description_html: <p>At Embodied Creative, we create websites that resonate with your audience on a profound level. Our approach goes beyond mere design – we create authentic digital experiences. We deeply connect with your brand, understand your unique needs, and then design a website strategy that's as unique as you are.</p><p>We offer a range of services, including website design, web development, conversion rate optimization, and workflow automation and integration. Consider our approach as creating a website that works tirelessly behind the scenes, enhancing your audience's experience and automating your workflow. Our aim is to make your online presence effortless, allowing you to focus on what you do best.</p><p>Let’s build your unique website with purpose, embodying your authentic brand, so that you can connect with your audience.</p>
-seo: 
-  title: Embodied Creative - Web Development for Conscious Brands in Biarritz, France
-  description: Discover Embodied Creative's custom websites, designed with intention and tailored to your unique needs. We offer a range of services, including website design, web development, conversion rate optimization, and workflow automation and integration. Consider our approach as creating a website that works tirelessly behind the scenes, enhancing your audience's experience and automating your workflow. Our aim is to make your online presence effortless, allowing you to focus on what you do best, all while creating meaningful connections with your audience.
-  keywords: Web Development for Conscious Brands, Website Design for Yoga Teachers, Website Design for Yoga Studios, Website Design for Health Coaches, Website Design for Sustainable Brands, Custom Website, Tailored Website Strategy, Website Design, Website Development, Workflow Automation and Integration, Conversion Rate Optimization, Responsive Design
-  social_image: 
-  hide-from-google: false
+layout: blank
+seo:
+  hide-from-google: true
 ---
 
-<!-- Hero Banner -->
-{% include hero-banner.html %}
-
 <!-- Mobile -->
-<!-- About -->
-{% include about-mobile.html %}
+<!-- Hide for medium and larger screens -->
+<section class="bg-sand h-screen md:hidden py-10p">    
+    <h1 class="text-2xl text-dark lowercase tracking-wide pb-5p text-center">embodied.creative</h1>
+    <div class="grid grid-cols-2">
+        <div class="bg-image-style h-[30vh] w-[66vw] z-10 border border-black"
+            style="background-image: url('/images/samkalpa-portfolio-5.jpg'); background-position: center;"></div>
+        <div class="bg-image-style h-[30vh] mt-[5rem] border border-black"
+            style="background-image: url('/images/portfolio-projects/whole-body-wellness/wbw-mobile.jpg'); background-position: 50% 50%;"></div>
+    </div>
+    <div class="mx-5p -mt-[1rem]">
+        <div class="capitalize text-xl text-black mb-8">
+            <p>Stay tuned</p>
+            <p>Our new website is<br class="mb-4"><span class="uppercase font-heading text-3xl">coming soon</span>
+            </p>
+        </div>
+        <div class="mb-8">
+            <h2 class="font-sans capitalize text-black">Web Development for Conscious Brands
+                <br>Built to Stand Out in an Over Saturated Market
+            </h2>
+        </div>
+        <div>
+            <a href="https://www.instagram.com/samkalpacreative/"><i class="fa-brands fa-instagram pr-2 icon"></i></a>
+            <a href="mailto:samkalpacreative@gmail.com"><i class="fa-regular fa-envelope pl-2 icon"></i></a>
+        </div>
+    </div>
+</section>
 
-<!-- Portfolio -->
-{% include portfolio.html %}
-
-<!-- About -->
-{% include about.html %}
-
-<!-- FAQ Section -->
-{% include faq.html %}
-
-<!-- Anatomy Of A Website Opt-In -->
-{% include lead-magnet-anatomy-of-a-website.html %}
-
-<!-- Instagram Feed -->
-{% include instagram.html %}
-
-<!-- Pricing Form -->
-{% include form-pricing.html %}
+<!-- Desktop -->
+<!-- Show only for medium and larger screens -->    
+<section class="grid grid-cols-2 h-screen bg-medium hidden md:grid"> 
+    <div class="flex items-center justify-center text-center p-5">
+        <div>
+            <h1 class="text-2xl text-dark lowercase tracking-wide mb-8 text-center">embodied.creative</h1>
+            <div class="capitalize text-xl text-black mb-8">
+                <p>Stay tuned</p>
+                <p class="mb-2">Our new website is<br class="mb-2"><span class="uppercase font-heading text-3xl">coming soon</span>
+                </p>
+            </div>
+            <div class="mb-8">
+                <h2 class="font-sans capitalize text-black">Web Development for Conscious Brands
+                    <br>Built to Stand Out in an Over Saturated Market
+                </h2>
+            </div>
+            <div>
+                <a href="https://www.instagram.com/samkalpacreative/"><i class="fa-brands fa-instagram px-2 icon"></i></a>
+                <a href="mailto:samkalpacreative@gmail.com"><i class="fa-regular fa-envelope px-2 icon"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="bg-image-style h-screen border-l border-black" style="background-image: url('/images/samkalpa-portfolio-5.jpg'); background-position: center;"></div>
+</section>
