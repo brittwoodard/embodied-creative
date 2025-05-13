@@ -1,17 +1,16 @@
 <section class="lead-section fixed top-10p left-10p z-30 hidden justify-center align-center">
     <div class="bg-light border border-feature w-[80vw]">
         <span class="x lead-button">X</span>
-        <form 
-            name="lead" 
-            method="post" 
-            data-netlify="true" 
-            action="/thank-you.html" 
-            onSubmit="submit" 
-            data-netlify-honeypot="bot-field" class="min-w-[25%] p-10p leading-6">
+        <form name="lead" method="post" data-netlify="true" action="/thank-you.html" onSubmit="submit"
+            data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" class="min-w-[25%] p-10p leading-6">
 
-            <input class="hidden" name="bot-field" aria-hidden="true">
+            <!-- Netlify required hidden field -->
+            <input type="hidden" name="lead" value="lead" />
+            <input type="hidden" name="bot-field" />
+
             <div class="mb-4">
-                <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full" required>
+                <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full"
+                    required>
                 <label for="first-name">First Name:</label>
             </div>
 
@@ -26,11 +25,14 @@
             </div>
 
             <div class="mb-4">
-                <label for="current-struggles" class="block">What’s your biggest challenge when it comes to creating a clear and impactful brand strategy?</label>
+                <label for="current-struggles" class="block">What’s your biggest challenge when it comes to creating a
+                    clear and impactful brand strategy?</label>
                 <textarea id="current-struggles" name="current-struggles" rows="4"
-                    placeholder="Share your challenges here..."
-                    class="w-full border border-black bg-transparent box" required></textarea>
+                    placeholder="Share your challenges here..." class="w-full border border-black bg-transparent box"
+                    required></textarea>
             </div>
+
+            {% include recaptcha.html %}
 
             <button type="submit" class="button">Enroll.</button>
         </form>

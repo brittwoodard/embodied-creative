@@ -2,17 +2,29 @@
 layout: blank
 ---
 <section class="bg-medium py-10p">
-    <h1 class="text-[4rem] sm:text-7xl md:text-8xl -rotate-90 -left-[5rem] top-[6rem] md:top-[12rem] lg:top-[20rem] md:-left-[6rem] lg:-left-[2rem] text-dark fixed lowercase">Strategy.</h1>
+    <h1
+        class="text-[4rem] sm:text-7xl md:text-8xl -rotate-90 -left-[5rem] top-[6rem] md:top-[12rem] lg:top-[20rem] md:-left-[6rem] lg:-left-[2rem] text-dark fixed lowercase">
+        Strategy.</h1>
     <div class="border border-feature p-5p mx-10p z-10 bg-light/75 relative">
         <div>
-            <p>Before we dive into crafting your unique digital presence, it's important that we take a moment to align our visions. This form is designed to help us both prepare for our upcoming strategy call, ensuring that we make the most of our time together. Your responses will give me a deeper understanding of your business, your goals, and the essence of your brand, allowing us to create a website that truly embodies your values and resonates with your audience.</p>
-            <p>Please complete and submit this form prior to our call. This will help us focus our discussion and move forward with clear intentions.</p>
-            <p>When you're ready, you can schedule your strategy call with me <a href="https://calendly.com/embodied-creative/30min?back=1&" target="_blank" class="border-b border-black hover:text-dark hover:border-dark hover:transition hover:duration-500">here</a>.</p>
+            <p>Before we dive into crafting your unique digital presence, it's important that we take a moment to align
+                our visions. This form is designed to help us both prepare for our upcoming strategy call, ensuring that
+                we make the most of our time together. Your responses will give me a deeper understanding of your
+                business, your goals, and the essence of your brand, allowing us to create a website that truly embodies
+                your values and resonates with your audience.</p>
+            <p>Please complete and submit this form prior to our call. This will help us focus our discussion and move
+                forward with clear intentions.</p>
+            <p>When you're ready, you can schedule your strategy call with me <a
+                    href="https://calendly.com/embodied-creative/30min?back=1&" target="_blank"
+                    class="border-b border-black hover:text-dark hover:border-dark hover:transition hover:duration-500">here</a>.
+            </p>
         </div>
-        <form name="strategy" method="post" data-netlify="true" action="/strategy-thank-you.html" onSubmit="submit"
-            data-netlify-honeypot="bot-field" class="min-w-[25%] leading-6">
+        <form name="strategy" method="post" data-netlify-honeypot="bot-field" data-netlify-recaptcha="true"
+            action="/strategy-thank-you.html" onSubmit="submit" class="min-w-[25%] leading-6">
 
-            <input class="d-none" name="bot-field">
+            <!-- Netlify required hidden field -->
+            <input type="hidden" name="lead" value="lead" />
+            <input type="hidden" name="bot-field" />
 
             <!-- Name -->
             <div class="mb-4">
@@ -28,72 +40,91 @@ layout: blank
 
             <!-- Business Name -->
             <div class="mt-8">
-                <input type="business_name" id="business_name" name="business_name" class="block border-b border-black w-full">
+                <input type="business_name" id="business_name" name="business_name"
+                    class="block border-b border-black w-full">
                 <label for="business_name">Business Name:</label>
             </div>
 
             <!-- Business Description -->
             <div class="mt-8">
-                <label for="business_description" class="block mb-2">Tell me about your business. What is it that you offer? What are your products and services?</label>
+                <label for="business_description" class="block mb-2">Tell me about your business. What is it that you
+                    offer? What are your products and services?</label>
                 <textarea id="business_description" name="business_description" rows="4"
                     class="w-full border border-black bg-transparent box"></textarea>
             </div>
 
             <!-- Target Audience -->
             <div class="mt-8">
-                <label for="audience" class="block mb-2">Who are your target clients? Describe them as if the person is sitting right there. What are their values, their habits, etc.? Below is an example:<br class="mb-2"><em>Rachel is a 35-year old busy female professional who values yoga and wellness. She manages to integrate yoga into her weekly routine, but she struggles to maintain a healthy lifestyle and work/life balance outside of her yoga practice. She is happy to pay a premium for organic and eco-friendly products, and she is very curious about developing a spiritual practice but she doesn't know where to start.</em></label>
-                <textarea id="audience" name="audience" rows="4"
-                    class="w-full border border-black bg-transparent box" required></textarea>
+                <label for="audience" class="block mb-2">Who are your target clients? Describe them as if the person is
+                    sitting right there. What are their values, their habits, etc.? Below is an example:<br
+                        class="mb-2"><em>Rachel is a 35-year old busy female professional who values yoga and wellness.
+                        She manages to integrate yoga into her weekly routine, but she struggles to maintain a healthy
+                        lifestyle and work/life balance outside of her yoga practice. She is happy to pay a premium for
+                        organic and eco-friendly products, and she is very curious about developing a spiritual practice
+                        but she doesn't know where to start.</em></label>
+                <textarea id="audience" name="audience" rows="4" class="w-full border border-black bg-transparent box"
+                    required></textarea>
             </div>
 
             <!-- Goals -->
             <div class="mt-8">
-                <label for="goals" class="block mb-2">What are your goals as a business? Is there a specific product or service you want to focus on?</label>
-                <textarea id="goals" name="goals" rows="4"
-                    class="w-full border border-black bg-transparent box" required></textarea>
+                <label for="goals" class="block mb-2">What are your goals as a business? Is there a specific product or
+                    service you want to focus on?</label>
+                <textarea id="goals" name="goals" rows="4" class="w-full border border-black bg-transparent box"
+                    required></textarea>
             </div>
 
             <!-- Brand Strategy -->
             <div class="mt-8">
-                <label for="brand_strategy" class="block mb-2">What do people need to know, think, feel or believe about you and/or your business? What would you want people to say about your business when you aren't around?<br class="mb-2"><em>If you're having trouble answering this, try writing a testimonial from a client. What would they say about working with you? What would their experience be like?</em></label>
+                <label for="brand_strategy" class="block mb-2">What do people need to know, think, feel or believe about
+                    you and/or your business? What would you want people to say about your business when you aren't
+                    around?<br class="mb-2"><em>If you're having trouble answering this, try writing a testimonial from
+                        a client. What would they say about working with you? What would their experience be
+                        like?</em></label>
                 <textarea id="brand_strategy" name="brand_strategy" rows="4"
                     class="w-full border border-black bg-transparent box" required></textarea>
             </div>
 
             <!-- Brand Identity -->
             <div class="mt-8">
-                <label for="brand_identity" class="block mb-2">What's your brand personality? Is it playful and cheeky or serious and traditional?</label>
+                <label for="brand_identity" class="block mb-2">What's your brand personality? Is it playful and cheeky
+                    or serious and traditional?</label>
                 <textarea id="brand_identity" name="brand_identity" rows="4"
                     class="w-full border border-black bg-transparent box" required></textarea>
             </div>
 
             <!-- Brand Aesthetics -->
             <div class="mt-8">
-                <label for="brand_aesthetics" class="block mb-2">Do you already have brand fonts, colors, etc that you want to incorporate?</label>
+                <label for="brand_aesthetics" class="block mb-2">Do you already have brand fonts, colors, etc that you
+                    want to incorporate?</label>
                 <textarea id="brand_aesthetics" name="brand_aesthetics" rows="2"
                     class="w-full border border-black bg-transparent box" required></textarea>
             </div>
 
             <!-- Brand Vibe -->
             <div class="mt-8">
-                <label for="brand_vibe" class="block mb-2">What's the overall vibe that you want someone to have when they come to the website?</label>
+                <label for="brand_vibe" class="block mb-2">What's the overall vibe that you want someone to have when
+                    they come to the website?</label>
                 <textarea id="brand_vibe" name="brand_vibe" rows="2"
                     class="w-full border border-black bg-transparent box" required></textarea>
             </div>
-            
+
             <!-- Pinterest -->
             <div class="mt-8">
                 <input type="pinterest" id="pinterest" name="pinterest" class="block border-b border-black w-full">
-                <label for="pinterest">Do you have a Pinterest account where you’ve curated inspiration, websites, or brand aesthetics you like? If so, please provide the link above.</label>
+                <label for="pinterest">Do you have a Pinterest account where you’ve curated inspiration, websites, or
+                    brand aesthetics you like? If so, please provide the link above.</label>
             </div>
 
             <!-- Inspiration URLS -->
             <div class="mt-8">
-                <label for="inspiration_urls" class="block mb-2">If you do not have a Pinterest account, please provide URLs to websites or specific examples that capture the style and tone you are aiming for.</label>
+                <label for="inspiration_urls" class="block mb-2">If you do not have a Pinterest account, please provide
+                    URLs to websites or specific examples that capture the style and tone you are aiming for.</label>
                 <textarea id="inspiration_urls" name="inspiration_urls" rows="2"
                     class="w-full border border-black bg-transparent box"></textarea>
             </div>
 
+            {% include recaptcha.html %}
             <button type="submit" class="button">Submit</button>
         </form>
     </div>
