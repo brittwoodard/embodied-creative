@@ -2,14 +2,20 @@
 layout: default
 ---
 <section class="bg-medium py-10p">
-    <h1 class="text-[4rem] sm:text-7xl md:text-8xl -rotate-90 -left-[5rem] top-[20rem] md:-left-[6rem] lg:-left-[2rem] text-dark fixed lowercase">Contact.</h1>
+    <h1
+        class="text-[4rem] sm:text-7xl md:text-8xl -rotate-90 -left-[5rem] top-[20rem] md:-left-[6rem] lg:-left-[2rem] text-dark fixed lowercase">
+        Contact.</h1>
     <div class="border border-feature p-5p mx-10p z-10 bg-light/75 relative">
         <form name="contact" method="post" data-netlify="true" action="/contact-thank-you.html" onSubmit="submit"
-            data-netlify-honeypot="pot-field" class="min-w-[25%] p-10p leading-6">
+            data-netlify-honeypot="bot-field" data-netlify-recaptcha="true" class="min-w-[25%] p-10p leading-6">
 
-            <input class="d-none" name="bot-field">
+            <!-- Netlify required hidden field -->
+            <input type="hidden" name="lead" value="lead" />
+            <input type="hidden" name="bot-field" />
+
             <div class="mb-4">
-                <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full" required>
+                <input type="text" id="first-name" name="first-name" class="block border-b border-black w-full"
+                    required>
                 <label for="first-name">First Name:</label>
             </div>
 
@@ -28,6 +34,8 @@ layout: default
                 <textarea id="message" name="message" rows="4" placeholder="Type your message here..."
                     class="w-full border border-black bg-transparent box" required></textarea>
             </div>
+
+            {% include recaptcha.html %}
 
             <button type="submit" class="button">Send</button>
         </form>
