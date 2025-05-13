@@ -12,7 +12,7 @@ gallery:
     alt-text: Laptop View of the Bali's Ayurvedic Internship Website
   - image: /images/portfolio-projects/ayurvedic-internship/ayurvedic-internship-tablet.jpg
     alt-text: Tablet View of the Bali's Ayurvedic Internship Website
-domain: https://ayurvedainternshipbali.com
+domain: https://ayurvedainternshipbali.embodiedcreativeagency.com/
 seo: 
   title: Ayurvedic Internship in Ubud, Bali
   description: Our recent client project - a bespoke website designed, developed, and copywritten for an Ayurvedic internship retreat in Bali. Merging the enchanting cultures of India and Bali, this site is a professional, practical resource for students in Ayurveda wellness. It's expertly crafted to answer all queries, reduce email communication, and guide users to join the waitlist. Emphasizing SEO, we've created a user-friendly, informative platform for a seamless educational journey in Ayurveda.
